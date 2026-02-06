@@ -1,0 +1,68 @@
+LLM
+| Token | Description |
+|--------|-------------|
+| token_1 | A right-pointing triangle with a doubled lower edge line. |
+| token_2 | An upright triangle divided by a vertical center line with a horizontal bar across the top. |
+| token_3 | A right-pointing triangle attached to a vertical bar with an inner curved arc. |
+| token_4 | An inverted triangle with a small circle attached at the bottom vertex. |
+| token_5 | A right-pointing triangle containing an inner curved arc. |
+| token_6 | An open triangular frame with an internal diamond shape. |
+| token_7 | Three diagonal lines converging into a circle marked with an “X”. |
+| token_8 | A simple inverted triangle. |
+| token_9 | An inverted triangle with a small circle containing a horizontal line at the bottom vertex. |
+| token_10 | A right-pointing triangle with a vertical bar inside. |
+| token_11 | A simple right-pointing triangle. |
+| token_12 | An inverted triangle divided by a vertical line and bounded by horizontal bars at top and bottom. |
+| token_13 | An upright triangle with a horizontal bar extending from the top. |
+| token_14 | An upright triangle containing a smaller inner triangle near the base. |
+| token_15 | An inverted triangle containing two horizontal interior bars and a double outer edge on one side. |
+| token_16 | An upright triangle with a doubled left edge line. |
+| token_17 | A right-pointing triangle attached to a vertical bar and ending with a circle. |
+| token_18 | An inverted triangle containing a small inner inverted triangle near the top. |
+| token_19 | Two diverging diagonal lines forming an open angle ending at a circle. |
+| token_20 | An inverted triangle divided into three internal triangular segments. |
+| token_21 | Two diverging diagonal lines forming an open right-facing angle. |
+| token_22 | A simple upright triangle. |
+| token_23 | A right-pointing triangular shape attached to a vertical line at its open side. |
+| token_24 | An inverted triangle with two horizontal interior bars and a curved arc near the bottom. |
+| token_25 | An open upright triangular frame without a base line. |
+| token_26 | A right-pointing triangle with a doubled top edge and a vertical support line inside. |
+| token_27 | A left-pointing triangle with a vertical bar inside and a double outer edge on one side. |
+| token_28 | An upright triangle divided by vertical and horizontal lines forming a grid-like interior. |
+| token_29 | A large right-pointing angle containing a smaller inner angle. |
+| token_30 | Two diverging diagonal lines forming an open angle ending at a circle containing a vertical line. |
+
+VLM
+| Token | Description |
+|--------|-------------|
+| token_1 | The symbol is a right-pointing triangular outline with two parallel horizontal lines extending leftward beneath the base, forming a layered geometric structure. |
+| token_2 | The symbol is a symmetrical triangle made of thick straight lines with an additional horizontal line positioned midway below the top edge. |
+| token_3 | The symbol is a right-oriented triangular structure combining solid vertical and diagonal lines with dashed arc elements partially enclosing the interior. |
+| token_4 | The symbol is a V-shaped triangular frame containing a centered circle at the base formed by two parallel converging lines. |
+| token_5 | The symbol is an asymmetrical triangular outline intersected by an internal semicircle whose curved edge aligns with one side of the triangle. |
+| token_6 | The symbol is a diamond formed by intersecting straight lines with an additional diagonal line dividing the shape into triangular sections. |
+| token_7 | The symbol features a circle containing a cross pattern connected to three parallel outward lines forming a triangular extension. |
+| token_8 | The symbol is a bold equilateral triangle outlined with thick uniform lines and no internal markings. |
+| token_9 | The symbol is a downward-based triangle connected to a circular loop below, which contains a horizontal dividing line. |
+| token_10 | The symbol is a downward-pointing triangular frame formed by two parallel vertical lines joined by a horizontal base line. |
+| token_11 | The symbol is a left-pointing triangular outline with slightly jagged thick edges and an empty interior. |
+| token_12 | The symbol is a V-shaped pair of vertical lines attached to a horizontal rectangular base forming a stylized triangular figure. |
+| token_13 | The symbol is a triangle formed by a top horizontal line and two vertical lines converging downward at a single intersection point. |
+| token_14 | The symbol consists of two upward-pointing triangles of different sizes, with the smaller triangle nested centrally within the larger one. |
+| token_15 | The symbol is an open triangular shape created by intersecting a horizontal and diagonal line with a slight three-dimensional shadow effect. |
+| token_16 | The symbol is an equilateral triangle formed by two dashed zigzag side lines and a solid base line. |
+| token_17 | The symbol is a right triangle connected to a circle via perpendicular parallel lines extending from the triangle’s vertex. |
+| token_18 | The symbol is composed of two connected triangles forming a central V-shape with thick slightly jagged outlines. |
+| token_19 | The symbol is an intersection of horizontal and diagonal lines connected to a circular loop on the right side. |
+| token_20 | The symbol is a symmetrical arrangement of three stacked triangular shapes with alternating upward and downward orientations. |
+| token_21 | The symbol is a right-angle structure formed by two diagonal dotted lines intersecting at a central corner point. |
+| token_22 | The symbol is an equilateral triangle outlined by thick dashed wavy lines without internal elements. |
+| token_23 | The symbol is an inverted L-shaped structure with an added diagonal dotted line intersecting at the corner. |
+| token_24 | The symbol is a triangular frame containing a central horizontal line and a curved serrated line forming an enclosed lower section. |
+| token_25 | The symbol is a simple triangular outline composed of two dotted diagonal lines converging at a narrow apex. |
+| token_26 | The symbol is a right triangle formed by vertical and diagonal lines accompanied by two additional parallel horizontal lines above. |
+| token_27 | The symbol is a dashed triangular outline containing a central vertical dividing line. |
+| token_28 | The symbol is an equilateral triangle with a 2×2 internal grid and dotted outer edges. |
+| token_29 | The symbol consists of two intersecting zigzag diagonal lines of different thicknesses forming an inverted V-like structure. |
+| token_30 | The symbol is a circular element with three internal vertical bars connected to a dotted diagonal line extending outward. |
+

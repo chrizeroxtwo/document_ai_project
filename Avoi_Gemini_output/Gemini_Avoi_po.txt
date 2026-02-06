@@ -1,0 +1,899 @@
+[run 0]
+This problem is a cryptogram. To solve it, we must first establish a key by matching characters to tokens. We can do this by identifying "Rosetta Stone" words – words with unique features that allow us to decode them.
+
+### **Decoding Process**
+
+1.  **Finding the First Key Word:** We are asked to find `filosofi`. In Bislama, this is spelled the same way: F-I-L-O-S-O-F-I. This 8-letter word has a distinctive pattern of repeated letters: the 1st and 7th letters are 'f', the 2nd and 8th are 'i', and the 4th and 6th are 'o'.
+    We look for an 8-token word in the list with this pattern (A-B-C-D-E-D-A-B).
+    Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`
+    This pattern matches perfectly.
+    *   `<token_17>` = f
+    *   `<token_15>` = i
+    *   `<token_7>` = l
+    *   `<token_8>` = o
+    *   `<token_1>` = s
+    This gives us our first set of decoded tokens.
+
+2.  **Finding a Grammatical Word:** We are asked to find `blong` (meaning "of" or "for"). This is a very common Bislama word. The list has two identical 4-token words: Word 3 and Word 6 (`<token_3><token_7><token_8><token_9>`). This repetition suggests it's a common grammatical word.
+    Using our key from `filosofi`, we know `<token_7>`=l and `<token_8>`=o.
+    Substituting these into Word 3/6 gives us: `<token_3> l o <token_9>`.
+    This perfectly matches the structure of `b-l-o-ng`.
+    *   `<token_3>` = b
+    *   `<token_9>` = ng
+
+3.  **Expanding the Key:** Now we use this expanding key to identify more words.
+    *   **village:** The Bislama word is `vilij`. Let's look for a 5-token word that fits the pattern v-i-l-i-j.
+        Word 14 is `<token_20><token_15><token_7><token_15><token_16>`.
+        Using our key: `<token_20> i l i <token_16>`. This is a perfect match.
+        *   `<token_20>` = v
+        *   `<token_16>` = j
+    *   **teach:** The Bislama word is `tijim` ("to teach"). Let's look for a 5-token word fitting t-i-j-i-m.
+        Word 7 is `<token_6><token_15><token_16><token_15><token_14>`.
+        Using our key: `<token_6> i j i <token_14>`. This is a perfect match.
+        *   `<token_6>` = t
+        *   `<token_14>` = m
+    *   **centre:** The Bislama word is `senta`. Let's look for a 5-token word for s-e-n-t-a.
+        Word 2 is `<token_1><token_4><token_5><token_6><token_2>`.
+        Using our key, this starts with `<token_1>`=s and has `<token_6>`=t as the fourth token. This fits perfectly.
+        *   `<token_4>` = e
+        *   `<token_5>` = n
+        *   `<token_2>` = a
+
+With a substantial and internally consistent key, we can now answer the questions.
+
+---
+
+### **Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+**(a) filosofi**
+Based on the unique pattern of repeated letters, this corresponds to Word **9**.
+
+**(b) institiut**
+The Bislama word `institiut` (institute) has 9 letters. We look for a 9-token word (Word 4, 10, or 12). Given the context of a college sign, a plausible structure is "Centre of Technology (and) Institute...". This would place "Institute" at position 5 or later. Of the remaining long words, none provides a clear cryptographic match with our key. However, based on elimination and common terms on a college sign, the most likely candidate among the unsolved words is **12**.
+*Note: The cryptographic evidence for this specific match is weak compared to others, but it is the most logical placement among the available options.*
+
+**(c) blong**
+This common grammatical word corresponds to the repeated 4-token word. The answer is **3** (or 6).
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+**(a) village**
+The Bislama word `vilij` is a perfect match for Word **14**.
+
+**(b) centre**
+The Bislama word `senta` is a perfect match for Word **2**.
+
+**(c) teach**
+The Bislama word `tijim` is a perfect match for Word **7**.
+
+**(d) technology**
+The Bislama word `teknoloji` begins with 't'. Word 4 begins with `<token_6>`, which we have decoded as 't'. While the rest of the word does not perfectly align with our key (suggesting a possible alternate spelling or flaw in the puzzle's transcription), it is the only plausible candidate for `teknoloji`. The answer is **4**.
+
+**(e) humanity**
+The Bislama word is likely `humaniti`, an 8-letter word. The only remaining 8-token word is Word 15. The answer is **15**.
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+The prompt states the Avoiuli script is part of a movement to revitalize Melanesian culture. A college dedicated to this would certainly mention this region. The word for this region, `Melanesia`, has 9 letters. After assigning the other words, the most plausible remaining 9-token word is Word 10. Therefore, the geographical area mentioned is **Melanesia**.[run 1]
+
+
+
+——
+
+
+This is a fascinating cryptographic puzzle based on a substitution cipher. The key to solving it is to find anchor words, identify patterns like repeated letters and words, and use the context (a college sign in Bislama) to make logical deductions.
+
+Here is a step-by-step breakdown of the solution:
+
+1.  **Identify Patterns:** The most obvious pattern is that Word 3 and Word 6 are identical: `<token_3><token_7><token_8><token_9>`. In a text like this, a short, repeated word is likely a common preposition or conjunction. In Bislama, `blong` ("of" or "for") is extremely common and fits this role perfectly.
+
+2.  **Find an Anchor Word:** Let's look for a word with a unique letter repetition pattern. `filosofi` from Q 6.1(a) is an excellent candidate.
+    *   Word: `f i l o s o f i`
+    *   Pattern: A B C D E D A B
+    *   Now we look for an 8-token word with this pattern. Word 9 is `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`.
+    *   Token Pattern: A' B' C' D' E' D' A' B'
+    *   This is a perfect match! This confirms Word 9 is `filosofi` and gives us our first set of key-value pairs: `<token_17>`=f, `<token_15>`=i, `<token_7>`=l, `<token_8>`=o, `<token_1>`=s.
+
+3.  **Confirm and Expand:** Our hypothesis for Word 3/6 was `blong`. This is `<token_3><token_7><token_8><token_9>`. Using our new keys, this reads `<b> l o <ng>`. This confirms that `<token_3>`=b and `<token_9>`=ng.
+
+4.  **Solve by Letter Repetition Counts:** The most powerful technique for the longer words is to match the number of repeated letters in a Bislama word with the number of repeated tokens in a token-word.
+
+    *   **institiut:** 9 letters. Repetitions: `i` (3 times), `t` (3 times), `n, s, u` (1 time each). Pattern: (3, 3, 1, 1, 1).
+    *   **teknoloji:** 9 letters. Repetitions: `o` (2 times), all others (1 time). Pattern: (2, 1, 1, 1, 1, 1, 1, 1).
+    *   **Melanesian:** (The likely form of "Melanesia" to fit the context "Melanesian Institute"). 10 letters. Repetitions: `e` (2 times), `n` (2 times), `a` (2 times), all others (1 time). Pattern: (2, 2, 2, 1, 1, 1, 1).
+
+    Now we match these patterns to the token-words:
+    *   **Word 4:** 9 tokens. `<token_6>`(x3), `<token_11>`(x3), `<token_10>`(x1), `<token_1>`(x1), `<token_5>`(x1). Pattern: (3, 3, 1, 1, 1). This is a unique and perfect match for **institiut**.
+    *   **Word 10:** 9 tokens. `<token_8>`(x2), all others (x1). Pattern: (2, 1, ...). This is a unique and perfect match for **teknoloji**.
+    *   **Word 5:** 10 tokens. `<token_5>`(x2), `<token_11>`(x2), `<token_12>`(x2), all others (x1). Pattern: (2, 2, 2, ...). This is a unique and perfect match for **Melanesian**.
+
+5.  **Solve the Shorter Words:** Using the same logic and cross-referencing with our growing list of decoded tokens.
+
+    *   **`vilij` (village):** 5 letters. Pattern `v-i-l-i-j`. The `i` is repeated.
+    *   **Word 14:** 5 tokens. `<token_20><token_15><token_7><token_15><token_16>`. The token `<token_15>` is repeated. Since we know `<token_15>`=i and `<token_7>`=l, this gives us `? i l i ?`. This is a perfect match for `vilij`.
+    *   **`tijim` (teach):** 5 letters. Pattern `t-i-j-i-m`. The `i` is repeated.
+    *   **Word 7:** 5 tokens. `<token_6><token_15><token_16><token_15><token_14>`. `<token_15>` is repeated (`i`). This fits `tijim`.
+    *   **`senta` (centre):** 5 letters, no repetitions.
+    *   **Word 2:** 5 tokens `<token_1><token_4><token_5><token_6><token_2>`. We know `<token_1>`=s, so it starts with 's', a perfect match for `senta`.
+    *   **`yumaniti` (humanity):** 8 letters. `i` is repeated.
+    *   **Word 15:** 8 tokens. `<t7><t8><t7><t8><t20><t15><t5><t15>`. This word has multiple repeated tokens. While the pattern doesn't perfectly align with the standard spelling of `yumaniti`, it is the only 8-token word and the only remaining concept from the list, making it the answer by elimination.
+
+---
+
+### **Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+**(a) filosofi**
+The word is **9**.
+
+**(b) institiut**
+The word is **4**.
+
+**(c) blong**
+The word is **3** (or 6).
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+**(a) village**
+The word is **14** (`vilij`).
+
+**(b) centre**
+The word is **2** (`senta`).
+
+**(c) teach**
+The word is **7** (`tijim`).
+
+**(d) technology**
+The word is **10** (`teknoloji`).
+
+**(e) humanity**
+The word is **15**.
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+The geographical area is **Melanesia**. (Found in Word 5, "Melanesian").[run 2]
+
+
+
+——
+
+
+This is a classic cryptanalysis problem, where we need to decipher a message written in a substitution cipher. The key is to find "cribs" – known or likely words – to break the code. The context of a college sign and the Bislama language (an English-based creole) are our main clues.
+
+Let's break down the words by length and identify any patterns of repeated tokens:
+
+*   **2 letters:** 11
+*   **3 letters:** 1
+*   **4 letters:** 3, 6, 8, 13 (Note: 3 and 6 are identical)
+*   **5 letters:** 2, 7, 14
+*   **8 letters:** 9, 15
+*   **9 letters:** 4, 10, 12
+*   **10 letters:** 5
+
+Our strategy will be to identify the most distinctive words first to establish a key, then use that key to solve for the others.
+
+1.  **Finding "Filosofi" (Philosophy):**
+    The Bislama word `filosofi` has 8 letters. Let's look at the 8-token words, 9 and 15.
+    The word `filosofi` has a distinct pattern of repeated letters: f-i-l-o-s-o-f-i.
+    The pattern is: **A-B-C-D-E-D-A-B** (1st/7th letters are the same, 2nd/8th are the same, 4th/6th are the same).
+
+    Let's check the token patterns of the 8-token words:
+    *   Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`
+        This has the pattern **A-B-C-D-E-D-A-B**. It is a perfect match for `filosofi`.
+    *   Word 15: `<token_7><token_8><token_7><token_8><token_20><token_15><token_5><token_15>`
+        This has the pattern A-B-A-B-C-D-E-D. It does not match.
+
+    Therefore, Word 9 must be `filosofi`. This gives us our initial key:
+    `<token_17>`=f, `<token_15>`=i, `<token_7>`=l, `<token_8>`=o, `<token_1>`=s.
+
+2.  **Finding "Senta" (Centre):**
+    The Bislama word for 'centre' is `senta`. It has 5 letters with no repeats. Let's look at the 5-token words:
+    *   Word 2: `<token_1><token_4><token_5><token_6><token_2>`. This has 5 unique tokens.
+    *   Word 7: `<token_6><token_15><token_16><token_15><token_14>`. `<token_15>` is repeated.
+    *   Word 14: `<token_20><token_15><token_7><token_15><token_16>`. `<token_15>` is repeated.
+
+    Only Word 2 could be `senta`. From our key, we know `<token_1>`=s, so Word 2 starts with 's'. This makes the match highly probable. Thus, Word 2 is `senta`.
+
+3.  **Finding "Blong" (Of/Belonging to):**
+    The word `blong` is a very common Bislama preposition, similar to "of". Looking at the list, words 3 and 6 are identical: `<token_3><token_7><token_8><token_9>`. A repeated short word is likely a common preposition or conjunction.
+    Using our key (`<token_7>`=l, `<token_8>`=o), this word decrypts to `?lo?`. The Bislama word `blong` fits this perfectly, sometimes spelled `blog` or `blon`. Assuming it is `blong`: `<token_3>`=b, `<token_9>`=g.
+
+Based on these key findings, we can answer the questions.
+
+***
+
+### **Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+**(a) filosofi**
+As established by the unique token pattern, `filosofi` is:
+> **9**
+
+**(b) institiut**
+This is a 9-letter word for 'institute'. The 9-token words are 4, 10, and 12. A logical sentence structure for a college sign would be "Senta blong Instityut..." ("Centre of Institute..."). Since Word 2 is `Senta` and Word 3 is `blong`, it is highly likely that Word 4 is `instityut`.
+> **4**
+
+**(c) blong**
+As established by its repetition and partial decryption (`?lo?`), `blong` corresponds to the identical words 3 and 6.
+> **3** (or 6)
+
+***
+
+### **Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+**(a) village**
+The Bislama word for 'village' is `vilij`. It has 5 letters. Let's examine the 5-token words we haven't identified (7 and 14).
+*   Word 14 is `<token_20><token_15><token_7><token_15><token_16>`.
+*   Using our key (`<token_15>`=i, `<token_7>`=l), this decrypts to `?ili?`. This is a strong match for `vilij`.
+> **14**
+
+**(b) centre**
+As established in our initial analysis, the Bislama word `senta` means 'centre' and corresponds to:
+> **2**
+
+**(c) teach**
+The Bislama word for 'teach' or 'teaching' is `tij` or `tijim`. Let's look at the remaining 5-token word, Word 7:
+*   Word 7 is `<token_6><token_15><token_16><token_15><token_14>`.
+*   To get more letters for our key, let's assume Word 2 (`senta`) = `<t1><s><t4><e><t5><n><t6><t><t2><a>`. So `<t6>`=t.
+*   Now, let's decrypt Word 7: `<t6><t><t15><i><t16><?><t15><i><t14><?>`. This gives us `ti?i?`. This is a strong match for `tijim`.
+> **7**
+
+**(d) technology**
+The Bislama word is `teknoloji` (9 letters). The remaining 9-token words are 10 and 12. A common phrase is "Philosophy and Technology". Word 9 is `filosofi`. Word 10 follows it. This makes Word 10 a prime candidate for `teknoloji`.
+> **10**
+
+**(e) humanity**
+The Bislama word is `humaniti` (8 letters). The 8-token words are 9 and 15. We've identified 9 as `filosofi`, so `humaniti` must be:
+> **15**
+
+***
+
+### **Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+The Avoiuli script and Bislama language are from Vanuatu, which is in **Melanesia**. The Bislama word is `Melanisia` (9 letters). We have one remaining 9-token word not yet assigned: Word 12. Therefore, Word 12 must be `Melanisia`.
+> **Melanesia**[run 3]
+
+
+
+——
+
+
+This is a cryptogram problem that can be solved by identifying patterns in the token sequences and matching them to the patterns of letters in the given Bislama words.
+
+### **Analysis and Decryption**
+
+1.  **Finding an Anchor Word:** The most effective starting point is to find a word with a unique and repeating pattern of letters. The word **filosofi** (f-i-l-o-s-o-f-i) is an excellent candidate.
+    *   It is 8 letters long. Word 9 and Word 15 have 8 tokens.
+    *   The letter pattern is: A-B-C-D-E-D-A-B. The 1st and 7th letters are the same (f), the 2nd and 8th are the same (i), and the 4th and 6th are the same (o).
+    *   Let's examine the 8-token words:
+        *   Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`
+        *   Word 15: `<token_7><token_8><token_7><token_8><token_20><token_15><token_5><token_15>`
+    *   The token pattern for Word 9 is: `<17>`-`<15>`-`<7>`-`<8>`-`<1>`-`<8>`-`<17>`-`<15>`. This can be represented as A-B-C-D-E-D-A-B. This is a perfect structural match for "filosofi".
+    *   Therefore, **Word 9 is `filosofi`**.
+
+2.  **Building the Key:** From this match, we can establish our first set of token-to-letter mappings:
+    *   `<token_17>` = f
+    *   `<token_15>` = i
+    *   `<token_7>` = l
+    *   `<token_8>` = o
+    *   `<token_1>` = s
+
+3.  **Identifying a Repeated Word:** Word 3 and Word 6 are identical (`<token_3><token_7><token_8><token_9>`). In a formal sign for an institution, a common repeated word is "of" (**blong**) or "for"/"in" (**long**).
+    *   Let's substitute our known letters into the sequence: `<token_3><token_7><token_8><token_9>` becomes `<token_3>`-l-o-`<token_9>`.
+    *   The Bislama word `blong` has 5 letters. However, in some Pacific languages and scripts, the "ng" sound is treated as a single character. If we assume `<token_9>` represents "ng", then `b-l-o-ng` fits the 4-token structure.
+    *   This gives us: `<token_3>` = b and `<token_9>` = ng.
+    *   So, **Word 3 and 6 are `blong`**.
+
+4.  **Finding More Words:** Now we can use our expanded key to find the other words.
+    *   **institiut**: This word for "institute" is 9 letters long (i-n-s-t-i-t-i-u-t) and has a distinct pattern (3 'i's, 3 't's). Let's examine the 9-token words (4, 10, 12).
+        *   Word 4: `<token_6><token_10><token_11><token_6><token_11><token_6><token_1><token_5><token_11>`
+        *   This sequence has `<token_6>` appearing 3 times and `<token_11>` appearing 3 times. This is a perfect structural match for the three 't's and three 'i's in `institiut`.
+        *   Therefore, **Word 4 is `institiut`**.
+    *   **technology**: The Bislama is `teknoloji` (t-e-k-n-o-l-o-j-i), a 9-letter word. By elimination (since Word 4 is `institiut`), this could be Word 10 or 12. The phrase is likely "...Filosofi mo Teknoloji..." (...Philosophy and Technology...). The sequence in the text is `<word 9> <word 10> <word 11>...`, which suggests Word 10 is the next subject.
+        *   Therefore, **Word 10 is `teknoloji`**.
+    *   **teach**: The Bislama is `tijim` (t-i-j-i-m). It is 5 letters with a pattern of `t-i-j-i-m`.
+        *   Word 7 is `<token_6><token_15><token_16><token_15><token_14>`. We know `<token_15>` is 'i'. The pattern of Word 7 is `<token_6>`-i-`<token_16>`-i-`<token_14>`. This matches the pattern of `tijim`.
+        *   Therefore, **Word 7 is `tijim`**.
+    *   **humanity**: The Bislama is `humaniti` (h-u-m-a-n-i-t-i). It is 8 letters long. The only remaining 8-letter word is Word 15.
+        *   Word 15: `<token_7><token_8><token_7><token_8><token_20><token_15><token_5><token_15>`. We can see `<token_15>` ('i') appears twice, which matches the two 'i's at the end of `humaniti`.
+        *   Therefore, **Word 15 is `humaniti`**.
+    *   **centre**: The Bislama is `senta` (s-e-n-t-a). It is 5 letters long and starts with 's'.
+        *   We know `<token_1>` = s. Word 2 is `<token_1><token_4><token_5><token_6><token_2>`, which starts with 's' and has 5 tokens.
+        *   Therefore, **Word 2 is `senta`**.
+    *   **village**: The Bislama is `vilij` (v-i-l-i-j). It is 5 letters long with a `v-i-l-i-j` pattern.
+        *   Word 14 is `<token_20><token_15><token_7><token_15><token_16>`. We know `<token_15>` is 'i' and `<token_7>` is 'l'. This gives the pattern `<20>`-i-l-i-`<16>`, which is a clear match for `vilij`.
+        *   Therefore, **Word 14 is `vilij`**.
+    *   **Geographical Area**: The prompt mentions the Avoiuli revitalization movement for Melanesian culture. The geographical area is almost certainly **Melanesia**.
+        *   `melanesia` is 9 letters long. The only 9-token word not yet assigned is Word 12.
+        *   Therefore, **Word 12 is `melanesia`**.
+
+---
+
+### **Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+**(a) filosofi**
+The corresponding word number is **9**.
+
+**(b) institiut**
+The corresponding word number is **4**.
+
+**(c) blong**
+The corresponding word number is **3** (or 6).
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+**(a) village**
+The corresponding word number is **14**.
+
+**(b) centre**
+The corresponding word number is **2**.
+
+**(c) teach**
+The corresponding word number is **7**.
+
+**(d) technology**
+The corresponding word number is **10**.
+
+**(e) humanity**
+The corresponding word number is **15**.
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+Based on the 9-token Word 12 and the cultural context provided, the geographical area mentioned is **Melanesia**.[run 4]
+
+
+
+——
+
+
+This is a fascinating cryptographic puzzle! Let's break it down step-by-step using pattern recognition and contextual clues.
+
+The core of the problem is to create a key that maps the tokens (`<token_N>`) to letters. We can do this by looking for patterns (like repeated letters in a word corresponding to repeated tokens) and using the context that the sign is for a college.
+
+### Step 1: Finding Anchor Words
+
+The easiest words to identify are those with unique and clear repetition patterns.
+
+*   **`blong`**: This is a very common Bislama word meaning 'of' or 'for'. We see that words **3** and **6** are identical: `<token_3><token_7><token_8><token_9>`. It's highly probable that this repeated 4-token word is a common grammatical word. If we assume the spelling is `b-l-o-n` (a common simplification for `blong`), we have a 4-letter word. This is our first hypothesis.
+    *   `<token_3>`=b, `<token_7>`=l, `<token_8>`=o, `<token_9>`=n.
+
+*   **`filosofi`**: This word is 8 letters long: f-i-l-o-s-o-f-i.
+    *   The letter repetition pattern is: `f` (x2), `i` (x2), `o` (x2). Three pairs.
+    *   Let's look for an 8-token word with three pairs of repeated tokens.
+    *   Word **9** is `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`.
+    *   Its token repetition pattern is: `<token_17>` (x2), `<token_15>` (x2), `<token_8>` (x2).
+    *   This is a perfect match. We can map the letters to the tokens:
+        *   f = `<token_17>`
+        *   i = `<token_15>`
+        *   l = `<token_7>`
+        *   o = `<token_8>`
+        *   s = `<token_1>`
+    *   This confirms our hypothesis for `blong` (`<token_7>`=l, `<token_8>`=o). This gives us high confidence in our key so far.
+
+---
+### **Q 6.1: Matching Bislama Words**
+
+**(a) filosofi**
+As determined above, the word with the matching length and letter repetition pattern is **9**.
+
+**(b) institiut**
+The word `institiut` has 9 letters: i-n-s-t-i-t-i-u-t.
+*   The letter repetition pattern is: `i` (x3) and `t` (x2).
+*   We need to find a 9-token word. The candidates are words 4, 10, and 12.
+*   Word 4: `<token_6>(x3), <token_11>(x3)`. Doesn't match.
+*   Word 10: `<token_8>(x2)`. Doesn't match.
+*   Word **12**: `<token_11><token_6><token_11><token_5><token_2><token_14><token_10><token_11><token_19>`. This word has one token, `<token_11>`, repeated three times. This perfectly matches the most distinct feature of `institiut` (the three 'i's). While it doesn't have a second repeated token for the two 't's, it's the best fit among the options.
+Therefore, the word is **12**.
+
+**(c) blong**
+As determined in our initial analysis, the repeated word is almost certainly `blong`.
+The word is **3** (or **6**).
+
+---
+### **Q 6.2: Matching English Meanings**
+
+Now we use our established key (`<1>`=s, `<3>`=b, `<7>`=l, `<8>`=o, `<9>`=n, `<15>`=i, `<17>`=f) and the new findings to identify the other words.
+
+**(a) village**
+The Bislama word for 'village' is `vilij`. It has 5 letters: v-i-l-i-j.
+*   The letter `i` is repeated.
+*   Let's look for a 5-token word with a repeated token that we know is `i` (`<token_15>`).
+*   Word **14** is `<token_20><token_15><token_7><token_15><token_16>`.
+*   We can see `<token_15>` is repeated. Let's substitute our known letters: `<token_20>` **i l i** `<token_16>`. This is a perfect match for `vilij`.
+The word is **14**.
+
+**(b) centre**
+The Bislama for 'centre' is `senta`. It has 5 letters: s-e-n-t-a.
+*   Word **2** is `<token_1><token_4><token_5><token_6><token_2>`.
+*   It has 5 tokens and starts with `<token_1>`, which we know is 's'. This is a very strong match.
+The word is **2**.
+
+**(c) teach**
+The Bislama for 'to teach' is `tijim`. It has 5 letters: t-i-j-i-m.
+*   The letter `i` is repeated.
+*   Let's look at the remaining 5-token word, which is word **7**: `<token_6><token_15><token_16><token_15><token_14>`.
+*   Substituting our known letter for `i` (`<token_15>`), we get: `<token_6>` **i** `<token_16>` **i** `<token_14>`.
+*   This pattern fits `tijim` perfectly.
+The word is **7**.
+
+**(d) technology**
+The Bislama for 'technology' is `teknoloji`. It has 9 letters: t-e-k-n-o-l-o-j-i.
+*   The letter `o` is repeated twice.
+*   Let's look at the 9-token words again (4, 10, 12). We've already assigned 12 to `institiut`.
+*   Word 10 is `<token_11><token_16><token_8><token_13><token_8><token_5><token_18><token_12><token_6>`.
+*   It has `<token_8>` repeated twice. We know `<token_8>` is 'o'. This is the only 9-token word with a single pair of repeated letters, making it the best fit for `teknoloji`.
+The word is **10**.
+
+**(e) humanity**
+By process of elimination, the major remaining concept word from a college sign is `humanity` (or 'humanities'). The longest unassigned word is word **5**. The Bislama word is likely `yumanitis` ('humanities'), which is 10 letters long, matching the 10 tokens of word 5.
+The word is **5**.
+
+---
+### **Q 6.3: Geographical Area**
+
+The introductory text explicitly states that the Avoiuli script is part of a movement to revitalize **Melanesian** culture. It is highly probable that this key geographical term is mentioned on the sign for a college dedicated to this purpose.
+
+We have assigned all the major words except for word **4**. By elimination, word 4 must represent "Melanesia".
+The word is **4**.[run 5]
+
+
+
+——
+
+
+This is a cryptogram problem that can be solved by identifying patterns in the token sequences and matching them to the known patterns of letters in Bislama words. Bislama's similarity to English is a key advantage.
+
+The strategy is to:
+1.  Identify a "Rosetta Stone" word with a unique and clear pattern.
+2.  Use the letters deciphered from that word to decode others.
+3.  Cross-reference and build a consistent key mapping tokens to letters.
+4.  For words that don't fit perfectly, use secondary clues like character frequency and process of elimination.
+
+Let's begin the decryption.
+
+**Step 1: Finding an Anchor Word**
+
+*   **`filosofi` (philosophy):** This 8-letter word has a distinct pattern: f-i-l-o-s-o-f-i. The 1st and 7th letters are the same (f), the 2nd and 8th are the same (i), and the 4th and 6th are the same (o). Let's represent this pattern as A-B-C-D-E-D-A-B.
+*   Now, we look for an 8-token word in the list with this pattern.
+    *   Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`
+    *   The pattern is: A-B-C-D-E-D-A-B. This is a perfect match.
+
+This gives us our initial key:
+*   `<token_17>` = f
+*   `<token_15>` = i
+*   `<token_7>` = l
+*   `<token_8>` = o
+*   `<token_1>` = s
+
+*   **`blong` (of/belonging to):** This is a very common preposition, so it's likely to appear more than once. Words 3 and 6 are identical: `<token_3><token_7><token_8><token_9>`. They are 4 tokens long. In Bislama, the 'g' in `blong` is often unstressed or dropped, making `blon` a very common pronunciation and spelling.
+*   Let's test `blon` against Word 3/6:
+    *   `<token_3>` = b
+    *   `<token_7>` = l (This matches our key!)
+    *   `<token_8>` = o (This also matches our key!)
+    *   `<token_9>` = n
+This is a perfect fit and confirms our previous deductions.
+
+We can now confidently answer two parts of Q 6.1.
+
+---
+
+### **Q 6.1 Answers**
+
+(a) **filosofi** corresponds to word **9**.
+(c) **blong** corresponds to word **3** (or 6).
+
+---
+
+**Step 2: Expanding the Key and Solving Q 6.2**
+
+Our current key is:
+`<1>=s, <3>=b, <7>=l, <8>=o, <9>=n, <15>=i, <17>=f`
+
+Let's use this to find the words in Q 6.2.
+
+*   **(a) village:** The Bislama word for village is `vilij`. It has 5 letters with the pattern v-i-l-i-j (A-B-C-B-D). We need to find a 5-token word with a matching pattern.
+    *   Word 14: `<token_20><token_15><token_7><token_15><token_16>`
+    *   Using our key: `<20> i l i <16>`.
+    *   This is a perfect pattern match for `vilij`. We can deduce: `<20>`=v, `<16>`=j.
+    *   Therefore, **village** is word **14**.
+
+*   **(c) teach:** The Bislama word for teach is `tijim`. It has 5 letters with the pattern t-i-j-i-m (A-B-C-B-D).
+    *   Word 7: `<token_6><token_15><token_16><token_15><token_14>`
+    *   Using our expanded key: `<6> i j i <14>`.
+    *   This is a perfect pattern match for `tijim`. We can deduce: `<6>`=t, `<14>`=m.
+    *   Therefore, **teach** is word **7**.
+
+Now we can solve the rest of the puzzle. Our key is now much larger:
+`<1>=s, <3>=b, <6>=t, <7>=l, <8>=o, <9>=n, <14>=m, <15>=i, <16>=j, <17>=f, <20>=v`
+
+---
+
+**Step 3: Solving the Remaining Words using Character Frequency and Elimination**
+
+Some words have a jumbled order of tokens, likely due to a transcription error in the puzzle. In these cases, we rely on the frequency of characters, which is a very strong clue.
+
+*   **Q 6.1 (b) institiut:** This 9-letter word contains three 'i's and three 't's. We need to find a 9-token word with a similar frequency profile.
+    *   Word 4: `<token_6><token_10><token_11><token_6><token_11><token_6><token_1><token_5><token_11>`
+    *   This word contains `<token_6>` three times and `<token_11>` three times.
+    *   From our key, we know `<token_6>` = t. This matches the three 't's in `institiut`. The three `<token_11>`s must therefore correspond to the three 'i's.
+    *   The identical character frequency is too strong a coincidence to ignore.
+    *   Therefore, **institiut** is word **4**.
+
+*   **Q 6.2 (d) technology:** The Bislama is `teknoloji`. This 9-letter word has one repeated letter: 'o'.
+    *   Word 10: `<token_11><token_16><token_8><token_13><token_8><token_5><token_18><token_12><token_6>`
+    *   This word has one repeated token: `<token_8>`. From our key, `<token_8>` = o.
+    *   This is a perfect frequency match.
+    *   Therefore, **technology** is word **10**.
+
+*   **Q 6.3 Geographical area:** The introduction mentions Melanesia. The Bislama word is `Melanesia`, a 9-letter word. By elimination, the only 9-letter word left is Word 12.
+    *   Therefore, the geographical area mentioned is **Melanesia**, which is word **12**.
+
+*   **Q 6.2 (e) humanity:** The Bislama is `yumaniti`. This is an 8-letter word. The only 8-letter words are 9 (`filosofi`) and 15. By elimination, `yumaniti` must be Word 15.
+    *   Therefore, **humanity** is word **15**.
+
+*   **Q 6.2 (b) centre:** The Bislama is `senta`. This is a 5-letter word. The remaining 5-letter word is Word 2.
+    *   Word 2: `<token_1><token_4><token_5><token_6><token_2>`.
+    *   Using our key: `s <4> <5> t <2>`. This is a plausible structure for `s-e-n-t-a`.
+    *   Therefore, **centre** is word **2**.
+
+---
+
+### **Final Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+(a) filosofi: **9**
+(b) institiut: **4**
+(c) blong: **3** (or 6)
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+(a) village: **14**
+(b) centre: **2**
+(c) teach: **7**
+(d) technology: **10**
+(e) humanity: **15**
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+**Melanesia** (which corresponds to word 12).[run 6]
+
+
+
+——
+
+
+This problem is a cryptogram that can be solved by analyzing the structure of the words—specifically, the number of tokens (characters) in each word and the pattern of repeated tokens. We don't need to decipher the entire alphabet; we just need to match the patterns of the known Bislama words to the patterns of the token sequences.
+
+The method is to count the total number of characters in a Bislama word and note which characters are repeated and how many times. Then, we find a token sequence from the list with the same total number of tokens and the same pattern of token repetition.
+
+### **Q 6.1**
+
+**(a) filosofi**
+*   The word `filosofi` has 8 characters.
+*   The pattern of repetition is:
+    *   'f' appears twice.
+    *   'i' appears twice.
+    *   'o' appears twice.
+    *   'l' and 's' each appear once.
+*   So, we are looking for an 8-token word with three sets of repeated tokens.
+*   Let's examine the 8-token words in the list:
+    *   Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`. It has `<token_17>` twice, `<token_15>` twice, and `<token_8>` twice. This pattern matches `filosofi`.
+    *   Word 15: `<token_7><token_8><token_7><token_8><token_20><token_15><token_5><token_15>`. It also has three sets of repeated tokens (`<token_7>`, `<token_8>`, `<token_15>`).
+*   Since the question asks for any one correct number, both 9 and 15 are valid candidates based on this analysis. We will select the first one we found.
+
+**Answer: 9**
+
+**(b) institiut**
+*   The word `institiut` has 9 characters.
+*   The pattern of repetition is:
+    *   'i' appears three times.
+    *   't' appears three times.
+    *   'n', 's', and 'u' each appear once.
+*   So, we are looking for a 9-token word with two tokens that each repeat three times.
+*   Let's examine the 9-token words:
+    *   Word 4: `<token_6><token_10><token_11><token_6><token_11><token_6><token_1><token_5><token_11>`. It has `<token_6>` three times and `<token_11>` three times. This pattern is a perfect match.
+
+**Answer: 4**
+
+**(c) blong**
+*   The word `blong` has 5 characters: b-l-o-n-g.
+*   There are no repeated characters.
+*   So, we are looking for a 5-token word with no repeated tokens.
+*   Let's examine the 5-token words:
+    *   Word 2: `<token_1><token_4><token_5><token_6><token_2>`. It has 5 unique tokens. This is a match.
+    *   Word 7: `<token_6><token_15><token_16><token_15><token_14>`. `<token_15>` is repeated. Not a match.
+    *   Word 14: `<token_20><token_15><token_7><token_15><token_16>`. `<token_15>` is repeated. Not a match.
+
+**Answer: 2**
+
+---
+
+### **Q 6.2**
+
+For this question, we first translate the English words into Bislama and then apply the same pattern-matching method.
+
+**(a) village**
+*   The Bislama word for 'village' is `vilej`.
+*   It has 5 characters (v-i-l-e-j) with no repeats.
+*   This pattern (5 unique tokens) matches Word 2.
+
+**Answer: 2**
+
+**(b) centre**
+*   The Bislama word for 'centre' is `senta`.
+*   It has 5 characters (s-e-n-t-a) with no repeats.
+*   This pattern (5 unique tokens) also matches Word 2.
+
+**Answer: 2**
+
+**(c) teach**
+*   The Bislama word for 'teach' is `tij`.
+*   It has 3 characters (t-i-j) with no repeats.
+*   This pattern (3 unique tokens) matches Word 1: `<token_1><token_2><token_3>`.
+
+**Answer: 1**
+
+**(d) technology**
+*   The Bislama word for 'technology' is `teknoloji`.
+*   It has 9 characters.
+*   The pattern of repetition is: 'o' appears twice. The other 7 characters are unique.
+*   We are looking for a 9-token word with one token repeated twice.
+*   Let's examine the 9-token words not yet identified:
+    *   Word 10: `<token_11><token_16><token_8><token_13><token_8><token_5><token_18><token_12><token_6>`. The token `<token_8>` appears twice. This is a match.
+
+**Answer: 10**
+
+**(e) humanity**
+*   Given the context of revitalizing Melanesian culture, a good Bislama equivalent for 'humanity' or 'the humanities' would be `kalsa` (from 'culture').
+*   `Kalsa` has 5 characters.
+*   The pattern of repetition is: 'a' appears twice ('k', 'l', 's' are unique).
+*   We are looking for a 5-token word with one token repeated twice.
+*   Let's examine the 5-token words:
+    *   Word 7: `<token_6><token_15><token_16><token_15><token_14>`. `<token_15>` is repeated twice. This is a match.
+    *   Word 14: `<token_20><token_15><token_7><token_15><token_16>`. `<token_15>` is repeated twice. This is also a match.
+*   Since the question asks for any one, we can choose either.
+
+**Answer: 7** (or 14)
+
+---
+
+### **Q 6.3**
+
+The introductory text provides the answer to this question. It states: "The Avoiuli writing system is used on Pentecost Island in Vanuatu, a Pacific Island Country in the Pacific region of **Melanesia**."
+
+**Answer: Melanesia** (Vanuatu, Pentecost Island, or Pacific region are also acceptable answers based on the text).[run 7]
+
+
+
+——
+
+
+This problem is a cryptogram where we need to deduce the mapping between tokens and letters to decipher a Bislama text. We can solve this by identifying words with unique properties, such as repeated letters or matching known word lengths.
+
+### **Step-by-Step Deciphering**
+
+1.  **Identify a unique pattern:** The word `filosofi` has 8 letters with a distinct repetition pattern: `f-i-l-o-s-o-f-i`. Let's represent this pattern as `A-B-C-D-E-D-A-B`.
+    Now, let's examine the 8-letter words in the script (words 9 and 15):
+    *   Word 9: `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`
+    *   This word's pattern is `A-B-C-D-E-D-A-B`, which is a perfect match for `filosofi`.
+    *   This gives us our first set of key mappings:
+        *   `<token_17>` = f
+        *   `<token_15>` = i
+        *   `<token_7>` = l
+        *   `<token_8>` = o
+        *   `<token_1>` = s
+
+2.  **Identify a common function word:** Words 3 and 6 are identical: `<token_3><token_7><token_8><token_9>`. In Bislama, a very common function word is `blong` ("of" or "belonging to"). While `blong` has 5 letters, this token word has 4. It's common for `blong` to be written or pronounced as a shorter "blon". Let's test this hypothesis.
+    *   If Word 3 is `blon`, then: `<token_3>`=b, `<token_7>`=l, `<token_8>`=o, `<token_9>`=n.
+    *   This is consistent with our key from `filosofi`, which already established that `<token_7>`=l and `<token_8>`=o. This strengthens our confidence in the key.
+    *   Our key is now: `<t1>`=s, `<t3>`=b, `<t7>`=l, `<t8>`=o, `<t9>`=n, `<t15>`=i, `<t17>`=f.
+
+3.  **Find other words using the key:**
+    *   **"teach" (`tijim`):** The Bislama word for "teach" is `tijim`. It is 5 letters long with the pattern `t-i-j-i-m`. Let's check the 5-letter words (2, 7, 14).
+        *   Word 7: `<token_6><token_15><token_16><token_15><token_14>`. Using our key, this becomes `<t6>-i-<t16>-i-<t14>`. The pattern `X-i-Y-i-Z` is a perfect match for `tijim`.
+        *   This confirms Word 7 is `tijim` and gives us new mappings: `<t6>`=t, `<t16>`=j, `<t14>`=m.
+
+    *   **"centre" (`senta`):** The Bislama word for "centre" is `senta` (from English). It is 5 letters long and starts with `s`.
+        *   Word 2: `<token_1><token_4><token_5><token_6><token_2>`. Using our key, this starts with `<t1>`=s and contains `<t6>`=t as the fourth letter: `s-<t4>-<t5>-t-<t2>`.
+        *   This perfectly matches `s-e-n-t-a`. So, Word 2 is `senta`.
+        *   New mappings: `<t4>`=e, `<t5>`=n, `<t2>`=a.
+
+    *   **"village" (`vilij`):** The Bislama word for "village" is `vilij`. It is 5 letters long.
+        *   The last remaining 5-letter word is Word 14: `<token_20><token_15><token_7><token_15><token_16>`.
+        *   Using our key, this decodes to: `<t20>-i-l-i-j`.
+        *   This is a perfect match for `v-i-l-i-j`. So, Word 14 is `vilij`.
+        *   New mapping: `<t20>`=v.
+
+4.  **Solve the remaining words by elimination:**
+    *   **"institiut" and "technology" (`teknoloji`):** Both are 9-letter words. The candidates are words 4, 10, and 12. By applying the key and looking for plausible letter combinations, Word 4 corresponds to `institiut` and Word 10 corresponds to `teknoloji`.
+    *   **"humanity":** The Bislama word is `humaniti` (8 letters). The only remaining 8-letter word is Word 15.
+
+---
+
+### **Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+**(a) filosofi**
+Based on the unique pattern match, this is word **9**.
+
+**(b) institiut**
+By elimination of 9-letter words, this is word **4**.
+
+**(c) blong**
+Based on the identical words 3 and 6 and its role as a function word, this is word **3** (or 6).
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+**(a) village**
+The Bislama word `vilij` matches the pattern of word **14**.
+
+**(b) centre**
+The Bislama word `senta` matches the pattern of word **2**.
+
+**(c) teach**
+The Bislama word `tijim` matches the pattern of word **7**.
+
+**(d) technology**
+The Bislama word `teknoloji` is a 9-letter word. By elimination, this corresponds to word **10**.
+
+**(e) humanity**
+The Bislama word `humaniti` is an 8-letter word. The only remaining 8-letter word is **15**.
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+The background text states that Avoiuli was developed as part of a movement to "revitalize Melanesian culture and language." Given the context of the college and its purpose, it is highly likely that the sign mentions this cultural region.
+
+The geographical area mentioned is **Melanesia**.[run 8]
+
+
+
+——
+
+
+This is a classic cryptogram puzzle that can be solved by identifying patterns, making logical deductions, and using the contextual clues provided. Here is a step-by-step solution.
+
+**Initial Analysis & Finding the Key**
+
+1.  **Repeated Words:** Word 3 and Word 6 are identical: `<token_3><token_7><token_8><token_9>`. In Bislama, a very common function word is **`blong`**, which means "of" or "for". It is used frequently to show possession or purpose, making it a prime candidate for a repeated word in a sign describing a college. The word `blong` has 5 letters (b-l-o-n-g), while the token sequence has 4 tokens. This suggests that the digraph "ng" is represented by a single token, `<token_9>`.
+    *   This gives us our initial key: `<token_3>`=b, `<token_7>`=l, `<token_8>`=o, `<token_9>`=ng.
+
+2.  **Solving for `filosofi`:** The Bislama word for philosophy is `filosofi`. It has 8 letters. Let's use our key to examine the 8-letter words in the list (Word 9 and Word 15).
+    *   Word 9 is `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`.
+    *   Substituting our known tokens (`<t7>`=l, `<t8>`=o): `<t17><t15> l o <t1> o <t17><t15>`.
+    *   This pattern perfectly matches `f i l o s o f i`, where `f i` is at the beginning and end, and `s` is between the two `o`'s.
+    *   This confirms that Word 9 is `filosofi` and gives us more letters for our key: `<token_17>`=f, `<token_15>`=i, `<token_1>`=s.
+
+3.  **Solving for other words:** With this expanded key, we can solve for more words.
+    *   **teach (`tijim`):** This is a likely word for a college sign. Let's look for a word that fits t-i-j-i-m. Word 7 is `<token_6><token_15><token_16><token_15><token_14>`. Substituting `<t15>`=i gives us `<t6> i <t16> i <t14>`. This is a perfect match for `tijim`.
+        *   This confirms Word 7 is `tijim` and gives us: `<token_6>`=t, `<token_16>`=j, `<token_14>`=m.
+    *   **village (`vilij`):** Word 14 is `<token_20><token_15><token_7><token_15><token_16>`. Substituting our key gives `<t20> i l i j`. This is a perfect match for `vilij`.
+        *   This confirms Word 14 is `vilij` and gives us: `<token_20>`=v.
+    *   **centre (`senta`):** Word 2 is `<token_1><token_4><token_5><token_6><token_2>`. Substituting our key gives `s <t4><t5> t <t2>`. This fits the pattern for `senta` (s-e-n-t-a).
+        *   This confirms Word 2 is `senta` and gives us: `<token_4>`=e, `<token_5>`=n, `<token_2>`=a.
+
+With this robust and consistent set of decoded letters, we can now answer the questions.
+
+***
+
+### **Q 6.1**
+
+On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:
+
+**(a) filosofi**
+Based on the analysis above, the word that matches the pattern for `filosofi` is:
+*   **9**
+
+**(b) institiut**
+The Bislama word for "institute", `institiut`, is a 9-letter word. Word 4 has the exact same letter frequency (two letters repeated 3 times each, and three unique letters). This is a strong clue, even if it contradicts the specific letter assignations from the key (a common feature of such puzzles to test analytical paths). The other 9-letter words do not fit. Therefore, the intended answer is:
+*   **4**
+
+**(c) blong**
+The repeated word that means "of/for" is:
+*   **3** (or 6)
+
+### **Q 6.2**
+
+Give the numbers of a word (any one, if there are multiple) which means:
+
+**(a) village**
+The Bislama word for "village" is `vilij`. As decoded above, this corresponds to:
+*   **14**
+
+**(b) centre**
+The Bislama word for "centre" is `senta`. As decoded above, this corresponds to:
+*   **2**
+
+**(c) teach**
+The Bislama word for "teach" is `tijim`. As decoded above, this corresponds to:
+*   **7**
+
+**(d) technology**
+The Bislama word `teknoloji` is a 9-letter word. Following the likely sentence structure of subjects being taught (`...filosofi [10] mo (and) [12]...`), Word 12 is a subject. As a 9-letter word, it is the most plausible candidate for `teknoloji`.
+*   **12**
+
+**(e) humanity**
+The word for "humanity" in Bislama is `yumaniti`, an 8-letter word. Following the likely sentence structure, Word 10 is another subject being taught. It is not an 8-letter word. Word 15 is an 8-letter word and decodes to `lolovini`, which is a place name (see 6.3). This suggests a different Bislama word for "humanity" or a related concept is used. Given the context of a cultural college, Word 10, in the list of subjects, is the most logical choice for a subject related to humanity or culture (e.g., `kastom`, meaning custom/culture, or a related study).
+*   **10**
+
+### **Q 6.3**
+
+Which geographical area of the Pacific is mentioned in the text?
+
+Word 15 is `<token_7><token_8><token_7><token_8><token_20><token_15><token_5><token_15>`. Using our key, this decodes to `l-o-l-o-v-i-n-i`. **Lolovini** is a known location on Pentecost Island. Although Melanesia is the broader region, this is the specific geographical area explicitly named in the text.
+*   **Melanesia** (The introduction states the college is part of a movement to revitalize Melanesian culture, making it highly probable the word for Melanesia or Melanesian is present. Word 5 has the exact letter frequency for "Melanesian" and is the most plausible answer for the broader geographical area context of the sign).
+
+*Final Clarification: While Word 15 decodes to "Lolovini", a specific place, the movement's goal mentioned in the problem description is to revitalize **Melanesian** culture, making "Melanesia" the most relevant geographical area to the sign's overall purpose.*[run 9]
+
+
+
+——
+
+
+This is a cryptogram puzzle. The goal is to deduce the mapping between the `<token_N>` symbols and the letters of the Latin alphabet used to write Bislama. The key is to use pattern recognition (repeated letters, word length) and the provided "crib" words to establish a key.
+
+### **Step-by-Step Decryption**
+
+1.  **Finding `filosofi` and `vilij`:**
+    *   The Bislama word `filosofi` has 8 letters: f-i-l-o-s-o-f-i. It has a distinct pattern of three pairs of repeating letters (f, i, o) and two single letters (l, s).
+    *   Word 9 in the list is `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>`. It is 8 tokens long and has the same pattern: `<token_17>`(x2), `<token_15>`(x2), `<token_8>`(x2), `<token_7>`(x1), `<token_1>`(x1).
+    *   This is a perfect match. By aligning them (`f-i-l-o-s-o-f-i`), we can deduce:
+        *   `<token_17>` = f
+        *   `<token_15>` = i
+        *   `<token_7>` = l
+        *   `<token_8>` = o
+        *   `<token_1>` = s
+    *   The Bislama word `vilij` (village) is 5 letters: v-i-l-i-j. It has a repeating `i`.
+    *   Word 14 is `<token_20><token_15><token_7><token_15><token_16>`. Using our key, this decodes to `<token_20>`-i-l-i-`<token_16>`. This perfectly matches the structure of `vilij`.
+    *   This confirms our key (`<token_15>`=i, `<token_7>`=l) and gives us new letters:
+        *   `<token_20>` = v
+        *   `<token_16>` = j
+
+2.  **Finding `tijim` (teach) and `blong`:**
+    *   The Bislama word for 'teach' is `tijim` (t-i-j-i-m). It is 5 letters long.
+    *   Word 7 is `<token_6><token_15><token_16><token_15><token_14>`. Using our key, this becomes `<token_6>`-i-j-i-`<token_14>`. This structure perfectly matches `tijim`.
+    *   This gives us two more letters:
+        *   `<token_6>` = t
+        *   `<token_14>` = m
+    *   The Bislama word `blong` (of/for) is very common. Words 3 and 6 are identical and have 4 tokens: `<token_3><token_7><token_8><token_9>`. In creole languages, final consonants are sometimes dropped or altered in spelling. If we assume this represents `b-l-o-g` or `b-l-o-n`, it fits our key for `l` and `o`. Let's test this by decoding it as `b-l-o-g`.
+        *   `<token_3>` = b
+        *   `<token_9>` = g
+
+3.  **Finding `senta` (centre):**
+    *   The Bislama word for 'centre' is `senta` (s-e-n-t-a). It is 5 letters long.
+    *   Word 2 is `<token_1><token_4><token_5><token_6><token_2>`. Using our key, this decodes as `s`-`<token_4>`-`<token_5>`-`t`-`<token_2>`.
+    *   This matches the first and fourth letters of `senta`. Mapping the rest gives:
+        *   `<token_4>` = e
+        *   `<token_5>` = n
+        *   `<token_2>` = a
+
+4.  **Identifying the remaining words through best-fit:**
+    *   **institiut**: This word has 9 letters (i-n-s-t-i-t-i-u-t) with a unique frequency pattern: `i` appears 3 times, and `t` appears 3 times. Word 4 (`<token_6><token_10><token_11><token_6><token_11><token_6><token_1><token_5><token_11>`) is the only 9-token word that matches this pattern (`<token_6>` appears 3 times, `<token_11>` appears 3 times). Therefore, Word 4 must be `institiut`.
+    *   **teknoloji**: This word has 9 letters (t-e-k-n-o-l-o-j-i) with one pair of repeating letters (`o`). Word 10 is the only remaining 9-token word with this pattern (the token for `o`, `<token_8>`, appears twice). Therefore, Word 10 corresponds to `teknoloji`.
+    *   **humaniti**: This word in Bislama is `humaniti` (h-u-m-a-n-i-t-i), which is 8 letters long. By elimination and context (the sign is for a college, and humanity is a common field of study alongside philosophy and technology), the most likely candidate is Word 5. Although Word 5 has 10 tokens, it's the most plausible fit for a major subject area in the text's structure.
+
+---
+
+### **Answers**
+
+**Q 6.1 On your answer sheet, give the number of a word (any one, if there are multiple) which corresponds to these Bislama words:**
+
+(a) **filosofi**: **9**
+(b) **institiut**: **4**
+(c) **blong**: **3** (or 6)
+
+**Q 6.2 Give the numbers of a word (any one, if there are multiple) which means:**
+
+(a) **village**: **14** (corresponds to `vilij`)
+(b) **centre**: **2** (corresponds to `senta`)
+(c) **teach**: **7** (corresponds to `tijim`)
+(d) **technology**: **10** (corresponds to `teknoloji`)
+(e) **humanity**: **5** (corresponds to `humaniti` by elimination and context)
+
+**Q 6.3 Which geographical area of the Pacific is mentioned in the text?**
+
+**Melanesia**. The introductory text states the Avoiuli script and its founder are part of a movement to revitalize Melanesian culture. A college dedicated to this purpose would logically be named after the region.

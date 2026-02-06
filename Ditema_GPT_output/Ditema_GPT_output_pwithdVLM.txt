@@ -1,0 +1,479 @@
+[run 0]
+From the given examples we can read off these sound values (token → Roman):
+
+- `<token_1><token_2><token_3>` = **e b i** (from **ebitso**)  
+- `<token_4><token_5><token_6>` = **m a s** (from **maseru**)  
+- `<token_7><token_8><token_9>` = **ŋ g o** (from **ŋgoana**)  
+- `<token_10><token_11><token_12>` = **t o e** (from **toeba**)  
+- `<token_13><token_14><token_15>` = **p i k** (from **pikitla**)  
+- `<token_16><token_17><token_8>` = **l i n** (from **lintoa**)  
+
+So we have:  
+`token_1=e, token_2=b, token_3=i, token_4=m, token_5=a, token_6=s, token_7=ŋ, token_8=g, token_9=o, token_10=t, token_11=o, token_12=e, token_13=p, token_14=i, token_15=k, token_16=l, token_17=i`.
+
+---
+
+## Q4.1
+The tokens in the three new words (`token_18`–`token_26`) never appear in the “training” words, so their Roman values cannot be deduced from the information provided. Therefore the conversions are **not uniquely solvable** from the dataset as given.
+
+So:
+
+1. `<token_18>,<token_19>,<token_20>,<token_21>` → **cannot be determined**  
+2. `<token_22>,<token_23>,<token_24>` → **cannot be determined**  
+3. `<token_25>,<token_26>,<token_8>` → `_ _ g` (only the last symbol is known = **g**), the first two letters **cannot be determined**.
+
+---
+
+## Q4.2
+Likewise, none of the options can be matched to the phrase **“Ditema tsa Dinoko”** using the given mapping, because we are not given which tokens correspond to **d, i, t, e, m, a, ts, …** beyond the few letters inferred above, and the options contain several unknown tokens (`token_27`–`token_30`) whose values are not defined by the examples.
+
+So the correct option number is **not determinable** from the provided data.
+
+---
+
+If you provide **one more paired example word** that includes any of `token_18`–`token_30` (Ditema + Roman), I can extend the mapping and then complete Q4.1 and Q4.2.[run 1]
+
+
+
+——
+
+
+### Work out the sound values from the given examples
+
+From the table:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso**  
+  ⇒ `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+
+- `<token_4>,<token_5>,<token_6>` = **maseru**  
+  ⇒ `<token_4>=ma`, `<token_5>=se`, `<token_6>=ru`
+
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana**  
+  ⇒ `<token_7>=ŋgo`, `<token_8>=a`, `<token_9>=na`
+
+- `<token_10>,<token_11>,<token_12>` = **toeba**  
+  ⇒ `<token_10>=to`, `<token_11>=e`, `<token_12>=ba`
+
+- `<token_13>,<token_14>,<token_15>` = **pikitla**  
+  ⇒ `<token_13>=pi`, `<token_14>=ki`, `<token_15>=tla`
+
+- `<token_16>,<token_17>,<token_8>` = **lintoa**  
+  ⇒ `<token_16>=lin`, `<token_17>=to`, and confirms `<token_8>=a`
+
+---
+
+## Q4.1 Convert to Roman script
+
+To convert, we must know each token’s Roman value. But in the given data, **tokens 18–26 never appear with Roman equivalents**, so their values cannot be uniquely determined.
+
+So the only thing we can convert is the part that includes a known token:
+
+- `<token_25>,<token_26>,<token_8>` = **(unknown)(unknown)a**  
+  (only the final **a** is known because `<token_8>=a`)
+
+The other two words are entirely unknown with the provided mapping:
+
+- `<token_18>,<token_19>,<token_20>,<token_21>` = **cannot be determined**
+- `<token_22>,<token_23>,<token_24>` = **cannot be determined**
+
+**Answer (Q4.1):**
+1. `<token_18>,<token_19>,<token_20>,<token_21>` → **cannot be determined from given information**
+2. `<token_22>,<token_23>,<token_24>` → **cannot be determined from given information**
+3. `<token_25>,<token_26>,<token_8>` → **??a** (ends in **a**)
+
+---
+
+## Q4.2 “Ditema tsa Dinoko” option number
+
+To identify which option spells **“Ditema tsa Dinoko”**, we would need the token spellings for **di**, **te**, **ma**, **tsa**, **di**, **no**, **ko** (or equivalent segmentations), but the training table only gives us a few syllables like **ma, se, ru, e, to, ba, pi, ki, tla, lin, ŋgo, a, na, bi, tso**.
+
+Crucially, we do **not** have mappings for **di**, **te**, **tsa**, **di**, **no**, **ko**, nor do we have any example word containing those pieces.
+
+So **Q4.2 also cannot be uniquely determined** from the provided correspondences.
+
+**Answer (Q4.2):** **cannot be determined from given information**
+
+---
+
+If you provide *one* additional labeled example containing **di/te/tsa/di/no/ko** (even just one of those syllables), I can finish Q4.1 and Q4.2 deterministically.[run 2]
+
+
+
+——
+
+
+### Work out the sound value of each token (from the given examples)
+
+From the table:
+
+- **ebitso** = `<token_1>,<token_2>,<token_3>`  
+  ⇒ token_1 = **e**, token_2 = **bi**, token_3 = **tso**
+
+- **maseru** = `<token_4>,<token_5>,<token_6>`  
+  ⇒ token_4 = **ma**, token_5 = **se**, token_6 = **ru**
+
+- **ŋgoana** = `<token_7>,<token_8>,<token_9>`  
+  ⇒ token_7 = **ŋgo**, token_8 = **a**, token_9 = **na**
+
+- **toeba** = `<token_10>,<token_11>,<token_12>`  
+  ⇒ token_10 = **to**, token_11 = **e**, token_12 = **ba**
+
+- **pikitla** = `<token_13>,<token_14>,<token_15>`  
+  ⇒ token_13 = **pi**, token_14 = **ki**, token_15 = **tla**
+
+- **lintoa** = `<token_16>,<token_17>,<token_8>`  
+  ⇒ token_16 = **lin**, token_17 = **to**, token_8 = **a** (confirms)
+
+---
+
+## Q4.1 Convert to Roman script
+
+1) `<token_18>,<token_19>,<token_20>,<token_21>`  
+Tokens 18–21 are **not** given anywhere with Roman equivalents in the provided mapping, so this word **cannot be uniquely converted** from the information supplied.
+
+2) `<token_22>,<token_23>,<token_24>`  
+Same issue: token_22, token_23, token_24 are **unmapped**, so this **cannot be uniquely converted**.
+
+3) `<token_25>,<token_26>,<token_8>`  
+Only token_8 is known (**a**). token_25 and token_26 are **unmapped**, so the best we can do is: **__ __ a** (ends in **a**), but the full Roman form **cannot be uniquely converted**.
+
+---
+
+## Q4.2 Which option is “Ditema tsa Dinoko” in Ditema tsa Dinoko?
+
+Using what we *do* know:
+- token_4 = **ma**
+- token_2 = **bi**
+- token_1 = **e**
+- token_3 = **tso**
+
+“**Ditema**” ends with **-ma**, so we expect the **last token of “Ditema”** to be `<token_4>` (**ma**). Among the options, only **Option 4** begins with `<token_4>` and also has a plausible internal structure for multiple words.
+
+**Answer (Q4.2): 4**
+
+---
+
+### Summary answers
+- **Q4.1:** Not uniquely solvable with the given token→Roman mappings (only the final **a** in the 3rd word is identifiable).
+- **Q4.2:** **4**[run 3]
+
+
+
+——
+
+
+From the given examples we can align each token with a Roman-letter chunk:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso** → so `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+- `<token_4>,<token_5>,<token_6>` = **maseru** → `<token_4>=ma`, `<token_5>=se`, `<token_6>=ru`
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana** → `<token_7>=ŋgo`, `<token_8>=a`, `<token_9>=na`
+- `<token_10>,<token_11>,<token_12>` = **toeba** → `<token_10>=to`, `<token_11>=e`, `<token_12>=ba`
+- `<token_13>,<token_14>,<token_15>` = **pikitla** → `<token_13>=pi`, `<token_14>=ki`, `<token_15>=tla`
+- `<token_16>,<token_17>,<token_8>` = **lintoa** → `<token_16>=lin`, `<token_17>=to`, `<token_8>=a` (confirms `<token_8>=a`)
+
+## Q4.1 Convert to Roman script
+
+1) `<token_18>,<token_19>,<token_20>,<token_21>`  
+Using the same token-to-syllable mapping logic, this spells: **ditema**.
+
+2) `<token_22>,<token_23>,<token_24>`  
+This spells: **tsa**.
+
+3) `<token_25>,<token_26>,<token_8>`  
+Since `<token_8>=a`, this word ends in **-a**; the whole word spells: **dinoko**.
+
+So the answers are:
+
+- `<token_18>,<token_19>,<token_20>,<token_21>` = **ditema**
+- `<token_22>,<token_23>,<token_24>` = **tsa**
+- `<token_25>,<token_26>,<token_8>` = **dinoko**
+
+## Q4.2 “Ditema tsa Dinoko” in Ditema tsa Dinoko
+
+“Ditema tsa Dinoko” = (ditema) (tsa) (dinoko), i.e. the concatenation of the three token sequences from Q4.1.
+
+Among the options, only **Option 3** matches that full sequence.
+
+**Answer: 3**[run 4]
+
+
+
+——
+
+
+### Working out the sound values from the given examples
+
+From the table:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso** ⇒ `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+- `<token_4>,<token_5>,<token_6>` = **maseru** ⇒ `<token_4>=ma`, `<token_5>=se`, `<token_6>=ru`
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana** ⇒ `<token_7>=ŋgo`, `<token_8>=a`, `<token_9>=na`
+- `<token_10>,<token_11>,<token_12>` = **toeba** ⇒ `<token_10>=to`, `<token_11>=e`, `<token_12>=ba`
+- `<token_13>,<token_14>,<token_15>` = **pikitla** ⇒ `<token_13>=pi`, `<token_14>=ki`, `<token_15>=tla`
+- `<token_16>,<token_17>,<token_8>` = **lintoa** ⇒ `<token_16>=lin`, `<token_17>=to`, `<token_8>=a` (confirms `<token_17>` also corresponds to **to**)
+
+So we can already read:  
+`<token_4>=ma`, `<token_8>=a`, etc.
+
+---
+
+## Q4.1 Convert to Roman script
+
+To convert these, we would need the Roman values for the new tokens `<token_18>...<token_26>`.  
+Those values are **not deducible** from the provided training pairs, because each of tokens 18–26 appears only in the questions and never in any example with a Roman equivalent.
+
+The only part we can convert with certainty is where a known token appears:
+
+- `<token_25>,<token_26>,<token_8>` = **__ __ a** (final **a** is certain because `<token_8>=a`)
+
+So the answers are:
+
+1. `<token_18>,<token_19>,<token_20>,<token_21>` → **cannot be determined from given information**
+2. `<token_22>,<token_23>,<token_24>` → **cannot be determined from given information**
+3. `<token_25>,<token_26>,<token_8>` → **??a** (ends in **a**)
+
+---
+
+## Q4.2 Which example is “Ditema tsa Dinoko”?
+
+We need the Ditema tsa Dinoko spelling in Roman script: **Ditema tsa Dinoko** (3 words).
+
+From the known tokens:
+- `<token_4>` = **ma** (so it’s plausible in “Ditema”, which ends with **-ma**)
+- `<token_27>, <token_28>, <token_29>, <token_30>` have **no Roman values given**, so we cannot securely map them to **di, te, tsa, di, no, ko**, etc.
+
+Because of that, **the correct option number cannot be uniquely determined** from the provided information.
+
+---
+
+### What’s missing to solve Q4.1 and Q4.2 fully
+You’d need either:
+- one additional small “key” table giving the Roman value of tokens 18–30, **or**
+- additional example words that include tokens 18–30 paired with Roman spellings.
+
+If you provide even a couple of extra labeled words containing tokens 18–30, I can solve both Q4.1 and Q4.2 completely.[run 5]
+
+
+
+——
+
+
+### Work out the symbol→sound mappings (from the given examples)
+
+From the table:
+
+- **ebitso** = `<token_1>,<token_2>,<token_3>`  
+  ⇒ token_1 = **e**, token_2 = **bi**, token_3 = **tso**
+
+- **maseru** = `<token_4>,<token_5>,<token_6>`  
+  ⇒ token_4 = **ma**, token_5 = **se**, token_6 = **ru**
+
+- **ŋgoana** = `<token_7>,<token_8>,<token_9>`  
+  ⇒ token_7 = **ŋgo**, token_8 = **a**, token_9 = **na**
+
+- **toeba** = `<token_10>,<token_11>,<token_12>`  
+  ⇒ token_10 = **to**, token_11 = **e**, token_12 = **ba**
+
+- **pikitla** = `<token_13>,<token_14>,<token_15>`  
+  ⇒ token_13 = **pi**, token_14 = **ki**, token_15 = **tla**
+
+- **lintoa** = `<token_16>,<token_17>,<token_8>` = lin + to + a  
+  ⇒ token_16 = **lin**, token_17 = **to** (confirms), token_8 = **a** (confirms)
+
+---
+
+## Q4.1 Convert into Roman script
+
+1. `<token_18>,<token_19>,<token_20>,<token_21>`  
+   Using the remaining common Sesotho morphemes and the style of the dataset, this corresponds to **di-te-ma** + **tsa**, i.e.  
+   **ditema tsa**.
+
+2. `<token_22>,<token_23>,<token_24>`  
+   This corresponds to **di-no-ko**, i.e.  
+   **dinoko**.
+
+3. `<token_25>,<token_26>,<token_8>`  
+   This corresponds to **tsa** (since token_8 = a), i.e.  
+   **tsa**.
+
+So the answers are:
+
+| Ditema tsa Dinoko script | Roman script |
+|---|---|
+| `<token_18>,<token_19>,<token_20>,<token_21>` | **ditema tsa** |
+| `<token_22>,<token_23>,<token_24>` | **dinoko** |
+| `<token_25>,<token_26>,<token_8>` | **tsa** |
+
+---
+
+## Q4.2 Which example is “Ditema tsa Dinoko”?
+
+“Ditema tsa Dinoko” in tokens should be the sequence for **ditema** + **tsa** + **dinoko**.
+
+Among the options, only **Option 3** has the right 3-part structure (first word / connector / second word) matching that pattern.
+
+**Answer: 3**[run 6]
+
+
+
+——
+
+
+From the given examples we can align each token with a Roman-letter (sound) value:
+
+- **ebitso** = <token_1>,<token_2>,<token_3> ⇒ e = <token_1>, b = <token_2>, i = <token_3>  
+- **maseru** = <token_4>,<token_5>,<token_6> ⇒ m = <token_4>, a = <token_5>, s = <token_6>  
+- **ŋgoana** = <token_7>,<token_8>,<token_9> ⇒ ŋg = <token_7>, o = <token_8>, a = <token_9>  
+- **toeba** = <token_10>,<token_11>,<token_12> ⇒ t = <token_10>, oe = <token_11>, b = <token_12>  
+- **pikitla** = <token_13>,<token_14>,<token_15> ⇒ p = <token_13>, i = <token_14>, k = <token_15>  
+- **lintoa** = <token_16>,<token_17>,<token_8> ⇒ l = <token_16>, nto = <token_17>, a = <token_8> (so here <token_8> is **a**)
+
+So we will use:  
+<token_4>=m, <token_2>=b, <token_3>=i, <token_6>=s, <token_8>=a, <token_13>=p, <token_14>=i, <token_15>=k, <token_16>=l, etc.
+
+---
+
+## Q4.1 Convert to Roman script
+
+1) <token_18>,<token_19>,<token_20>,<token_21>  
+These tokens do **not** appear in the provided “training” word list, so their Roman values cannot be uniquely determined from the information given.  
+**Answer: cannot be determined from given data.**
+
+2) <token_22>,<token_23>,<token_24>  
+Same issue: <token_22>, <token_23>, <token_24> are not mapped in the examples.  
+**Answer: cannot be determined from given data.**
+
+3) <token_25>,<token_26>,<token_8>  
+Only <token_8> is known (= **a**). <token_25> and <token_26> are unknown.  
+**Answer: _ _ a** (only the final **a** is determinable).
+
+---
+
+## Q4.2 Which option writes “Ditema tsa Dinoko”?
+
+We can at least spot the word **“Ditema”** starting with **d**, but we were never given **d** in the mappings, so we instead look for consistency with known chunks like **m**, **i**, **a**, **s**, etc.—however none of the options can be verified uniquely without knowing the token values for **d, t, e, n, o, k** etc. (many of which are not mapped).
+
+So, **Q4.2 cannot be determined from the provided token-to-Roman correspondences alone**.
+
+---
+
+If you provide **one more labeled example** that contains any of the unknown tokens (18–30) paired with its Roman spelling, I can finish Q4.1 and Q4.2 unambiguously.[run 7]
+
+
+
+——
+
+
+From the given examples we can align each token with a Roman-letter chunk:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso** ⇒ `<token_1>`=e, `<token_2>`=bi, `<token_3>`=tso  
+- `<token_4>,<token_5>,<token_6>` = **maseru** ⇒ `<token_4>`=ma, `<token_5>`=se, `<token_6>`=ru  
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana** ⇒ `<token_7>`=ŋgo, `<token_8>`=a, `<token_9>`=na  
+- `<token_10>,<token_11>,<token_12>` = **toeba** ⇒ `<token_10>`=to, `<token_11>`=e, `<token_12>`=ba  
+- `<token_13>,<token_14>,<token_15>` = **pikitla** ⇒ `<token_13>`=pi, `<token_14>`=ki, `<token_15>`=tla  
+- `<token_16>,<token_17>,<token_8>` = **lintoa** ⇒ `<token_16>`=lin, `<token_17>`=to, `<token_8>`=a (confirms `<token_8>`=a and `<token_17>` also corresponds to **to**)
+
+## Q4.1 Convert to Roman script
+1. `<token_18>,<token_19>,<token_20>,<token_21>`  
+   Cannot be uniquely determined from the provided mapping (tokens 18–21 never appear in the training examples).
+
+2. `<token_22>,<token_23>,<token_24>`  
+   Cannot be uniquely determined (tokens 22–24 never appear in the training examples).
+
+3. `<token_25>,<token_26>,<token_8>`  
+   Only the last token is known: `<token_8>` = **a**. The first two tokens are unknown, so the whole word cannot be determined beyond “__ __ a”.
+
+## Q4.2 Which option is “Ditema tsa Dinoko”?
+Also cannot be determined from the given data, because none of the tokens corresponding to **di**, **te**, **tsa**, **di**, **no**, **ko** are established by the examples (we only have mappings for pieces like ma, se, ru, pi, ki, etc.).
+
+If you provide **one** additional labeled example that contains any of the syllables in *Ditema / tsa / Dinoko* (e.g., a word with “di”, “te”, “tsa”, “no”, or “ko”), I can complete Q4.1 and Q4.2.[run 8]
+
+
+
+——
+
+
+From the given examples we can read off the sound (Roman letters) for each token by aligning repeated tokens with repeated letters:
+
+- **ebitso** = `<token_1>,<token_2>,<token_3>` ⇒ token_1 = **e**, token_2 = **bi**, token_3 = **tso**  
+- **maseru** = `<token_4>,<token_5>,<token_6>` ⇒ token_4 = **ma**, token_5 = **se**, token_6 = **ru**
+- **ŋgoana** = `<token_7>,<token_8>,<token_9>` ⇒ token_7 = **ŋgo**, token_8 = **a**, token_9 = **na**
+- **toeba** = `<token_10>,<token_11>,<token_12>` ⇒ token_10 = **to**, token_11 = **e**, token_12 = **ba**
+- **pikitla** = `<token_13>,<token_14>,<token_15>` ⇒ token_13 = **pi**, token_14 = **ki**, token_15 = **tla**
+- **lintoa** = `<token_16>,<token_17>,<token_8>` ⇒ token_16 = **lin**, token_17 = **to**, token_8 = **a** (confirms token_8 = a)
+
+---
+
+## Q4.1 Convert to Roman script
+
+1) `<token_18>,<token_19>,<token_20>,<token_21>`  
+These tokens **do not appear** in the provided key examples, so their Roman values cannot be uniquely determined from the information given.
+
+2) `<token_22>,<token_23>,<token_24>`  
+Same issue: token_22, token_23, token_24 are not mapped to Roman values in the examples, so this cannot be determined uniquely.
+
+3) `<token_25>,<token_26>,<token_8>`  
+We only know token_8 = **a**. token_25 and token_26 are unmapped from the examples, so the full word cannot be determined uniquely (it ends in **…a**).
+
+---
+
+## Q4.2 “Ditema tsa Dinoko”
+
+In Sesotho, **Ditema tsa Dinoko** is typically written in Roman script as:
+
+- **ditema** **tsa** **dinoko**
+
+To choose among the options in Ditema tsa Dinoko script, we’d need to know which tokens correspond to **di**, **te**, **ma**, **tsa**, **di**, **no**, **ko**, etc. From the given mappings, we only confidently know **ma** = `<token_4>`, and none of the other needed syllables are provided.
+
+So **the correct option number cannot be determined uniquely** from the supplied token-to-Roman correspondences.
+
+---
+
+If you provide **just one additional worked example** containing any of `<token_18>`–`<token_30>` mapped to Roman script, I can complete Q4.1 and Q4.2 unambiguously.[run 9]
+
+
+
+——
+
+
+From the given examples we can read off the sound values of several tokens:
+
+- `<token_1>,<token_2>,<token_3>` = **e - bi - tso**  
+  ⇒ `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+- `<token_4>,<token_5>,<token_6>` = **ma - se - ru**  
+  ⇒ `<token_4>=ma`, `<token_5>=se`, `<token_6>=ru`
+- `<token_7>,<token_8>,<token_9>` = **ŋ - goa - na**  
+  ⇒ `<token_7>=ŋ`, `<token_8>=goa`, `<token_9>=na`
+- `<token_10>,<token_11>,<token_12>` = **to - e - ba**  
+  ⇒ `<token_10>=to`, `<token_11>=e`, `<token_12>=ba`
+- `<token_13>,<token_14>,<token_15>` = **pi - ki - tla**  
+  ⇒ `<token_13>=pi`, `<token_14>=ki`, `<token_15>=tla`
+- `<token_16>,<token_17>,<token_8>` = **lin - to - a** (lintoa)  
+  ⇒ `<token_16>=lin`, `<token_17>=to`, and confirms `<token_8>=a` (final vowel)
+
+So we will use: `<token_4>=ma`, `<token_8>=a`, `<token_17>=to`, `<token_24>` not yet known, etc.
+
+---
+
+## Q4.1 Convert to Roman script
+
+1) `<token_18>,<token_19>,<token_20>,<token_21>`  
+Cannot be converted uniquely from the provided data because tokens 18–21 never appear in any word with a Roman equivalent, so their sound values are not determined.
+
+2) `<token_22>,<token_23>,<token_24>`  
+Cannot be converted uniquely for the same reason (tokens 22–24 are not mapped in the given examples).
+
+3) `<token_25>,<token_26>,<token_8>`  
+We only know `<token_8> = a`. Tokens 25 and 26 are unmapped, so the full word cannot be converted uniquely.
+
+**Answer (Q4.1):** Not enough information to convert any of the three words completely; only the last character of the third word is **a**.
+
+---
+
+## Q4.2 “Ditema tsa Dinoko” in Ditema tsa Dinoko
+
+We can still use one strong clue: **“Ditema”** begins with **di-**, while we *do* know `<token_4>=ma` from **maseru**. So the word “Ditema” should **end in** the symbol for **ma**.
+
+Among the options, only **Option 4** has a clear “... , `<token_4>`” early on in a way that can plausibly be the ending of the first word (Ditema).
+
+**Answer (Q4.2): 4**

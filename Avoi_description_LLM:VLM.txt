@@ -1,0 +1,48 @@
+LLM
+| Token | Description |
+|--------|-------------|
+| Token 1 | A symmetrical inverted V-shaped symbol with two straight lines meeting at a sharp top point and slightly spreading at the base. |
+| Token 2 | A symbol composed of a large oval loop on the left and a smaller circular loop nested on the right, both resting on a shared baseline. |
+| Token 3 | A heart-shaped symbol formed by two rounded upper lobes that meet at a single point at the bottom. |
+| Token 4 | A symbol featuring a central crossing knot with horizontal extensions on both sides and a curved line extending diagonally downward. |
+| Token 5 | A three-petal vertical shape with a narrow central oval flanked by two wider curved side lobes tapering into a pointed base. |
+| Token 6 | A simple inverted U-shaped arch consisting of a single smooth curved line with symmetrical sides. |
+| Token 7 | A complex interwoven symbol made of multiple overlapping curved lines forming a dense, star-like knot structure. |
+| Token 8 | A symmetrical symbol with two vertical oval loops positioned side by side and connected at the bottom. |
+| Token 9 | A triangular frame with a pointed top enclosing two oval shapes positioned side by side at the base. |
+| Token 10 | An M-shaped symbol with two tall outer arcs and inner lines crossing near the lower center. |
+| Token 11 | A vertically stacked symbol with three looped lobes aligned along a central stem that intersects a horizontal baseline. |
+| Token 12 | A symbol with an upper oval loop and a lower angled oval loop connected at a central crossing point on a horizontal line. |
+| Token 13 | A dense, interlaced symbol formed by several overlapping curved loops creating a knot-like structure with one short extension on the right. |
+| Token 14 | A symmetrical symbol with two small horizontal loops at the top connected to a long vertical oval stem that meets at a central base point. |
+| Token 15 | A vertically layered three-loop structure with an upper oval, middle oval, and lower oval aligned along a central crossing baseline. |
+| Token 16 | A sharply angled symbol with two diagonal lines meeting at a lower point and supporting a small inverted triangular or wedge-shaped top. |
+| Token 17 | A symbol consisting of two oval loops joined across a horizontal line, with the right loop larger and the left loop partially intersected. |
+| Token 18 | A rounded dome-shaped outline enclosing two small circular loops connected to a central base junction. |
+| Token 19 | A symmetrical figure with a small inverted triangular top connected to a long central oval stem that meets at a single base point. |
+| Token 20 | A symbol featuring a tall narrow vertical loop on the left and three small rounded loops branching from a short base stem on the right. |
+VLM
+| Token | Description |
+|------|-------------|
+| token_token_token_1 | The symbol is a centered, symmetrical black inverted-V/arrowhead shape with slightly inward-curving sides, tapered toward a narrow peak and a soft blurred edge. |
+| token_token_token_2 | The symbol is three connected loop forms: two equal overlapping lower circles joined by a thick central vertical stroke, topped by a larger tilted semicircular loop. |
+| token_token_token_3 | The symbol is a bold, continuous-line heart outline with a pointed bottom and a small overlap/intersection at the lower center. |
+| token_token_token_4 | The symbol is a central tilted oval with two parallel horizontal strokes beneath it that meet upward into a triangular connection, resembling an eye with a V-like base. |
+| token_token_token_5 | The symbol is a symmetric heart-like geometric form made from two converging vertical strokes above paired side triangles, ending in a small diamond at the bottom center. |
+| token_token_token_6 | The symbol is a thick, smooth, symmetrical arch (inverted U) with uniform stroke weight and no internal markings. |
+| token_token_token_7 | The symbol is a thick, symmetrical arch frame with a slightly blurred/gradient edge and a lightly speckled texture around the white interior boundary. |
+| token_token_token_8 | The symbol is a symmetrical figure with two vertical oval loops above and a crisscross X-shaped set of thick intersecting lines connecting them at the bottom. |
+| token_token_token_9 | The symbol is a bold symmetric triangular framework with a small inverted triangle at the top, a central vertical stroke, and two large circles inside the lower triangular area. |
+| token_token_token_10 | The symbol is a minimalist cross/plus made of four thick straight lines intersecting at a central point, forming four triangular sectors. |
+| token_token_token_11 | The symbol resembles a bold ampersand-like form with a central vertical stroke, a mid horizontal bar, and two mirrored open loops crossing around the center. |
+| token_token_token_12 | The symbol is an elongated ampersand-like figure with two intersecting loops (upper larger, lower smaller) linked by a short central horizontal stroke. |
+| token_token_token_13 | The symbol is a symmetrical abstract butterfly/star made of intersecting curved and diagonal lines around a central V/triangular core with a looped open lower section. |
+| token_token_token_14 | The symbol is two intersecting vertical oval loops forming a butterfly-like top, connected to two straight lines that converge downward into a V shape. |
+| token_token_token_15 | The symbol is a cross-like structure of three thick horizontal bars intersected by two thinner vertical strokes, forming two stacked oval-shaped enclosed spaces. |
+| token_token_token_16 | The symbol is a stylized cross with a central horizontal bar, two large symmetrical semicircular loops above and below, and a diagonal vertical stroke intersecting the center. |
+| token_token_token_17 | The symbol is two overlapping semicircular outlines crossed by a thick central horizontal line, giving a rough hand-drawn looped appearance. |
+| token_token_token_18 | The symbol is an abstract “head” circle with two symmetric side circles and a downward stem that splits into two lines forming an X-shaped base. |
+| token_token_token_19 | The symbol is a symmetric geometric figure with a central vertical oval, inward-pointing side triangles touching it, and a two-line rectangular cap at the top. |
+| token_token_token_20 | The symbol has a large curved loop above two small face-like circles and a solid triangular base below, connected by short curved side links in a vertically aligned composition. |
+
+

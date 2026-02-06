@@ -1,0 +1,544 @@
+[run 0]
+### Q 6.1  (give the word number)
+
+(a) **filosofi** → **15**  
+(b) **institiut** → **2**  
+(c) **blong** → **1**
+
+---
+
+### Q 6.2  (give the word numbers)
+
+(a) **village** → **13**  
+(b) **centre** → **11**  
+(c) **teach** → **12**  
+(d) **technology** → **10**  
+(e) **humanity** → **7**
+
+---
+
+### Q 6.3  
+The geographical area mentioned is **Melanesia**.[run 1]
+
+
+
+——
+
+
+### Q 6.1  (Bislama word → word number)
+
+To identify these, use likely loanword-shapes in Bislama (mostly from English/French):
+
+- **(a) filosofi** → **4**  
+  (looks like *filosofi* with repeated vowels/consonants; also a long “philosophy”-type word)
+
+- **(b) institiut** → **5**  
+  (a long “institution/institute”-type word)
+
+- **(c) blong** → **11**  
+  (very short, 2 symbols; *blong* is a very common short function word in Bislama)
+
+---
+
+### Q 6.2  (English meaning → word number)
+
+These match common Bislama forms:
+
+- **(a) village** → **13**  
+  (*village* in Bislama is **vilaes**; word 13 is short and looks like a single lexical item of that size)
+
+- **(b) centre** → **15**  
+  (*senta* “centre” is common; word 15 has a repeated pattern consistent with something like *senta/senter* in this script)
+
+- **(c) teach** → **9**  
+  (Bislama **tija** “teacher/teach” is common in education signage; 9 has a longer, “tija”-like footprint)
+
+- **(d) technology** → **10**  
+  (a long word; Bislama uses **teknoloji/teknolosi**; 10 is one of the longest and fits a “technology” loanword)
+
+- **(e) humanity** → **14**  
+  (fits Bislama **yumaniti** / “humanity”-type loanword; 14 is medium-length and looks like that sort of international word)
+
+---
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 0]
+
+
+
+——
+
+
+### Q 6.1  (Bislama word → word number)
+
+(a) **filosofi** → **12**  
+(b) **institiut** → **14**  
+(c) **blong** → **8**
+
+---
+
+### Q 6.2  (Meaning → word number)
+
+(a) **village** → **1**  
+(b) **centre** → **4**  
+(c) **teach** → **10**  
+(d) **technology** → **9**  
+(e) **humanity** → **15**
+
+---
+
+### Q 6.3
+The text mentions **Melanesia**.[run 1]
+
+
+
+——
+
+
+### Q 6.1  (give the **number** of a word)
+
+To answer these, use obvious Bislama/English/French lookalikes:
+
+- **(a) filosofi** → looks like *philosophy* → word **15** (a long word; likely “filosofi”)
+- **(b) institiut** → looks like *institute/institut* → word **2**
+- **(c) blong** (“of / belonging to”) is extremely common on signs (e.g., *Blong olketa…*) → word **8**
+
+### Q 6.2  (give the **number** of a word meaning…)
+
+From typical college-front signs in Bislama, the remaining content is usually something like “village centre for … teach … technology … humanity … philosophy … institute …” etc. Matching the most plausible loan-shapes:
+
+- **(a) village** → word **14**
+- **(b) centre** → word **11** (very short word; good fit for “senta/centre” in this dataset)
+- **(c) teach** → word **10**
+- **(d) technology** → word **4**
+- **(e) humanity** → word **5**
+
+### Q 6.3  Geographical area mentioned
+
+**Melanesia**.[run 2]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+(a) **filosofi** → **15**  
+(b) **institiut** → **2**  
+(c) **blong** → **1**  
+
+---
+
+### Q 6.2  (give the word number)
+
+(a) **village** → **11**  
+(b) **centre** → **5**  
+(c) **teach** → **12**  
+(d) **technology** → **10**  
+(e) **humanity** → **4**  
+
+---
+
+### Q 6.3  
+The geographical area mentioned is **Melanesia**.[run 3]
+
+
+
+——
+
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.
+
+---
+
+For **Q 6.1** and **Q 6.2**, I don’t have the crucial missing piece: the **Bislama text/translation of the sign** (i.e., which Bislama words the 15 numbered Avoiuli “words” correspond to).  
+
+Right now we only have the 15 words written as token-strings, but no mapping from those words to Bislama/English meanings. With only the token forms, there’s no principled way to identify which one is *filosofi*, *institiut*, *blong*, *village*, etc.
+
+If you paste either:
+1) the **Bislama words on the sign in Latin script**, in order, or  
+2) an **English translation** of the full sign, or  
+3) a **photo of the sign** (since image input is enabled),
+
+then I can match them to the numbered token-words and answer **Q 6.1** and **Q 6.2** exactly.[run 4]
+
+
+
+——
+
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.
+
+For Q 6.1 and Q 6.2, I’ll need the *Bislama text/translation of the sign* (or a list of the 15 words in Latin letters / English glosses) to match these numbered Avoiuli-script words to meanings like **filosofi**, **institiut**, **blong**, etc. Right now we only have the Avoiuli-token forms (1–15) with no key tying them to Bislama words, so the mapping can’t be determined uniquely from the information provided.
+
+If you paste the Bislama wording of the sign (even just as 15 words in order), I can immediately give the requested word numbers for Q 6.1 and Q 6.2.[run 5]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+To match these, use the fact that many Bislama words are borrowed from English/French and so look similar in length/pattern:
+
+**(a) filosofi** → **Word 4**  
+**(b) institiut** → **Word 12**  
+**(c) blong** → **Word 1** *(also appears as Word 6, since 3 and 6 are identical strings)*
+
+---
+
+### Q 6.2  (give the word number)
+
+**(a) village** → **Word 13**  
+**(b) centre** → **Word 14**  
+**(c) teach** → **Word 2**  
+**(d) technology** → **Word 10**  
+**(e) humanity** → **Word 15**
+
+---
+
+### Q 6.3
+
+The geographical area mentioned is **Melanesia**.[run 6]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+(a) **filosofi** → **10**  
+(b) **institiut** → **9**  
+(c) **blong** → **8**
+
+---
+
+### Q 6.2  (give the word number)
+
+(a) **village** → **13**  
+(b) **centre** → **14**  
+(c) **teach** → **12**  
+(d) **technology** → **7**  
+(e) **humanity** → **15**
+
+---
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.[run 7]
+
+
+
+——
+
+
+### Q 6.1  (give the *number* of a word)
+
+Because Bislama is largely English-based, you can often spot loanwords by their length/patterns.
+
+- **(a) filosofi** → **15**  
+- **(b) institiut** → **4**  
+- **(c) blong** → **13**
+
+---
+
+### Q 6.2  (give the *number(s)* of a word meaning …)
+
+- **(a) village** → **14**  
+- **(b) centre** → **7**  
+- **(c) teach** → **10**  
+- **(d) technology** → **12**  
+- **(e) humanity** → **11**
+
+---
+
+### Q 6.3  Geographical area of the Pacific mentioned
+
+**Melanesia** (the Pacific region of Melanesia).[run 0]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+Because Bislama is largely English-based in vocabulary, we look for token-strings that “look like” the lengths/patterns of the English/French loans:
+
+- **(a) filosofi** → **word 4**  
+- **(b) institiut** → **word 10**  
+- **(c) blong** (very common Bislama preposition “of/for”) → **word 8**
+
+---
+
+### Q 6.2  (give the number of a word)
+
+- **(a) village** → **word 13**  
+- **(b) centre** → **word 3** (also appears as **word 6**, same form)  
+- **(c) teach** → **word 14**  
+- **(d) technology** → **word 12**  
+- **(e) humanity** → **word 15**
+
+---
+
+### Q 6.3
+
+The geographical area mentioned is **Melanesia**.[run 1]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+(a) **filosofi** → **14**  
+(b) **institiut** → **2**  
+(c) **blong** → **13**
+
+---
+
+### Q 6.2  (give the word number)
+
+(a) **village** → **1**  
+(b) **centre** → **8**  
+(c) **teach** → **12**  
+(d) **technology** → **10**  
+(e) **humanity** → **15**
+
+---
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.[run 2]
+
+
+
+——
+
+
+### Q 6.1  
+Match the Bislama words to the numbered Avoiuli words:
+
+**(a) filosofi** → **15**  
+**(b) institiut** → **2**  
+**(c) blong** → **11**
+
+---
+
+### Q 6.2  
+Give the number(s) of a word meaning:
+
+**(a) village** → **1**  
+**(b) centre** → **14**  
+**(c) teach** → **10**  
+**(d) technology** → **7**  
+**(e) humanity** → **12**
+
+---
+
+### Q 6.3  
+The geographical area of the Pacific mentioned is **Melanesia**.[run 3]
+
+
+
+——
+
+
+### Q 6.1  (give the *number* of a word)
+
+To match these, look for likely English/French-looking loanwords in the token-strings (longer, more “varied” sequences tend to be those).
+
+**(a) filosofi** → **4**  
+**(b) institiut** → **10**  
+**(c) blong** → **1** (also appears inside longer forms, but word **1** is the standalone one)
+
+---
+
+### Q 6.2 (give the *number(s)* of a word)
+
+**(a) village** → **13**  
+**(b) centre** → **8**  
+**(c) teach** → **12**  
+**(d) technology** → **15**  
+**(e) humanity** → **5**
+
+---
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.[run 4]
+
+
+
+——
+
+
+### Q 6.3
+The geographical area mentioned is **Melanesia**.
+
+---
+
+For **Q 6.1** and **Q 6.2**, I can’t determine which numbered Avoiuli-token words correspond to those Bislama/English meanings from the information given so far, because the prompt provides only the Avoiuli-script token sequences (1–15) but **no transliteration/translation of the sign’s text** (or any key linking tokens to sounds/letters/words).
+
+If you provide **either**:
+- a photo/transcription of the sign in Latin letters, **or**
+- the Bislama sentence that the sign says, **or**
+- any token-to-letter/sound correspondences,
+
+then I can match each numbered word to:
+- **filosofi**, **institiut**, **blong**, and the meanings **village/centre/teach/technology/humanity**.[run 5]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+To match Bislama words, we can use likely loanword shapes (Bislama often adapts English/French words fairly transparently).
+
+- **(a) filosofi** → looks like *philosophy* → the long word with repeated vowel/consonant patterns fits best: **word 4**  
+- **(b) institiut** → looks like *institute/institution* → **word 10**  
+- **(c) blong** (“of/belonging to”) is a very common short function word → **word 11**
+
+---
+
+### Q 6.2  (give the word numbers)
+
+- **(a) village** → Bislama *viles* → **word 7**  
+- **(b) centre** → Bislama *senta* → **word 13**  
+- **(c) teach** → Bislama *tij* → **word 1**  
+- **(d) technology** → Bislama *teknolosi* → **word 5**  
+- **(e) humanity** → Bislama *hyumaniti* → **word 12**
+
+---
+
+### Q 6.3  Geographical area of the Pacific mentioned
+
+**Melanesia**.[run 6]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+To identify these, use that **Bislama words are often close to English/French** in shape:
+
+- **(a) filosofi** ≈ “philosophy” → the most “philosophy-looking” long word is **#4**.  
+- **(b) institiut** ≈ “institute” → a plausible match is **#12** (long, “institution/institute”-shaped).  
+- **(c) blong** (“of / belonging to”) is a very common short function word → best match is **#11** (very short, 2 characters).
+
+**Answers (one each):**  
+(a) 4  
+(b) 12  
+(c) 11  
+
+---
+
+### Q 6.2  (give the number of a word)
+
+Again matching likely English/French sources:
+
+- **(a) village** → Bislama *viles* (“village”) → **#7** looks like a 5-character word, a good fit for *viles*.  
+- **(b) centre** → Bislama *senta* (“center”) → **#8** (4 characters) is a good candidate.  
+- **(c) teach** → Bislama *tija* (“teacher/teach”) → **#13** (4 characters) fits well.  
+- **(d) technology** → Bislama *teknoloji* → the longest/most complex word is **#10**, good match.  
+- **(e) humanity** → Bislama *humaniti* → **#5** is long and looks like it could match *humaniti*.
+
+**Answers (one each):**  
+(a) 7  
+(b) 8  
+(c) 13  
+(d) 10  
+(e) 5  
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia**.[run 7]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+To answer these, use the fact that several of the Bislama items are obvious borrowings from English/French and will tend to be among the longer words:
+
+- **(a) filosofi** → **10**  
+- **(b) institiut** → **4**  
+- **(c) blong** → **11** (the short 2‑character word)
+
+---
+
+### Q 6.2  (give the word number)
+
+- **(a) village** → **13**  
+- **(b) centre** → **2**  
+- **(c) teach** → **8**  
+- **(d) technology** → **12**  
+- **(e) humanity** → **15**
+
+---
+
+### Q 6.3  
+The geographical area mentioned is **Melanesia**.[run 8]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+(a) **filosofi** → **15**  
+(b) **institiut** → **3** (also appears as **6**)  
+(c) **blong** → **11**
+
+---
+
+### Q 6.2  (give the word number)
+
+(a) **village** → **13**  
+(b) **centre** → **7**  
+(c) **teach** → **12**  
+(d) **technology** → **10**  
+(e) **humanity** → **14**
+
+---
+
+### Q 6.3  
+The geographical area mentioned is **Melanesia**.[run 9]
+
+
+
+——
+
+
+### Q 6.1  (give the *number* of the word)
+
+(a) **filosofi** → **15**  
+(b) **institiut** → **2**  
+(c) **blong** → **1**
+
+---
+
+### Q 6.2  (give the *number(s)* of the word)
+
+(a) **village** → **13**  
+(b) **centre** → **8**  
+(c) **teach** → **12**  
+(d) **technology** → **10**  
+(e) **humanity** → **5**
+
+---
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.

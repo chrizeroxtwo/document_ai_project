@@ -1,0 +1,946 @@
+[run 0]
+Here is the step-by-step solution to the questions.
+
+First, we need to understand the relationship between the Ditema tsa Dinoko tokens and the Roman script. The examples suggest that each token represents a syllable. Let's establish a mapping from the given examples:
+
+*   `<token_1>,<token_2>,<token_3>` = `ebitso` -> `<token_1>`=e, `<token_2>`=bi, `<token_3>`=tso
+*   `<token_4>,<token_5>,<token_6>` = `maseru` -> `<token_4>`=ma, `<token_5>`=se, `<token_6>`=ru
+*   `<token_7>,<token_8>,<token_9>` = `ŋgoana` -> `<token_7>`=ŋgo, `<token_8>`=a, `<token_9>`=na
+*   `<token_10>,<token_11>,<token_12>` = `toeba` -> `<token_10>`=to, `<token_11>`=e, `<token_12>`=ba
+*   `<token_13>,<token_14>,<token_15>` = `pikitla` -> `<token_13>`=pi, `<token_14>`=ki, `<token_15>`=tla
+*   `<token_16>,<token_17>,<token_8>` = `lintoa` -> `<token_16>`=li, `<token_17>`=nto, `<token_8>`=a (consistent with `ŋgoana`)
+
+### **Solving Q4.2**
+
+This question is the key to unlocking the rest of the problem. We need to identify the Ditema tsa Dinoko representation for “Ditema tsa Dinoko”.
+
+1.  **Syllabify the phrase:** "Ditema tsa Dinoko" can be broken down into syllables as `Di-te-ma tsa Di-no-ko`. This results in 7 syllables, and all the options have 7 tokens, which is consistent.
+2.  **Look for known syllables:** We know from the examples that `<token_4>` corresponds to the syllable `ma`. The syllable `ma` is the third syllable in "Dite**ma**". So, the correct option must have `<token_4>` as its third token.
+    *   Option 1: `<token_4>,<token_27>,<token_1>...` (Third token is `<token_1>` = `e`). Incorrect.
+    *   Option 2: `<token_28>,<token_29>,<token_30>...` (Third token is `<token_30>`). Incorrect.
+    *   Option 3: `<token_28>,<token_27>,<token_4>...` (Third token is `<token_4>` = `ma`). **Possible.**
+    *   Option 4: `<token_4>,<token_29>,<token_4>...` (Third token is `<token_4>` = `ma`). **Possible.**
+3.  **Look for repeated syllables:** The syllable `Di` appears twice in the phrase, as the first and fifth syllable (`**Di**-te-ma tsa **Di**-no-ko`). Therefore, the correct sequence of tokens must have the same token in the first and fifth positions.
+    *   Option 3: `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>...` The first token is `<token_28>` and the fifth token is `<token_28>`. This matches the pattern.
+    *   Option 4: `<token_4>,<token_29>,<token_4>,<token_28>,<token_30>...` The first token is `<token_4>` (`ma`) and the fifth token is `<token_30>`. They are different. This does not match the pattern.
+
+Therefore, Option 3 is the only one that fits the structure of the phrase "Ditema tsa Dinoko".
+
+**Answer to Q4.2:**
+The correct option is **3**.
+
+### **Solving Q4.1**
+
+By solving Q4.2, we have deciphered several new tokens:
+From `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>` = `Di-te-ma-tsa-Di-no-ko`:
+*   `<token_28>` = `Di`
+*   `<token_27>` = `te`
+*   `<token_24>` = `tsa`
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+Now we can use these new mappings, along with visual analysis of the token descriptions, to solve Q4.1.
+
+**Word 1: `<token_22>,<token_23>,<token_24>`**
+*   `<token_22>`: equilateral triangle outlined by thick dashed wavy lines. The base shape is an equilateral triangle, like `<token_8>` (`a`). The modification is "dashed wavy lines". Wavy or zigzag lines appear in `<token_16>` (`li`) and might be associated with liquid consonants like `l` or `r`. Let's assume the wavy lines represent `s`. The base vowel `a` remains. So, `<token_22>` = `sa`.
+*   `<token_23>`: inverted L-shaped structure with an added diagonal dotted line. The "L" shape suggests the consonant `l`. The dotted line is also a feature seen in tokens with coronal consonants (`l`, `t`, `d`, `n`). Let's assume the vowel is `e`. So, `<token_23>` = `le`.
+*   `<token_24>`: We already know this is `tsa`.
+Putting them together, we get `sa-le-tsa`, which is the word **saletsa**.
+
+**Word 2: `<token_25>,<token_26>,<token_8>`**
+*   `<token_25>`: simple triangular outline composed of two dotted diagonal lines. The "dotted" feature suggests a coronal consonant (`t`, `d`, `n`, `l`). Let's hypothesize this is `ne`.
+*   `<token_26>`: a right triangle ... accompanied by two additional parallel horizontal lines above. This is visually very similar to `<token_1>` (`e`), which has a "right-pointing triangular outline with two parallel horizontal lines". The common feature of "two parallel horizontal lines" likely indicates the vowel `e`. The "right triangle" part could represent the consonant `t` (similar to `<token_17>` `nto`, which is also a right triangle). Thus, `<token_26>` = `te`. (Note: The script can have multiple tokens for the same syllable, like `<token_1>` and `<token_11>` for `e`).
+*   `<token_8>`: We know this is `a`.
+Putting them together, we get `ne-te-a`, which is the word **netea**.
+
+**Word 3: `<token_18>,<token_19>,<token_20>,<token_21>`**
+*   `<token_18>`: two connected triangles... with thick slightly jagged outlines. The "jagged outlines" are a feature of `<token_11>` (`e`), suggesting the vowel `e`. The "two...triangles" feature is seen in `<token_14>` (`ki`), suggesting the consonant `k`. Therefore, `<token_18>` = `ke`.
+*   `<token_19>`: intersection of horizontal and diagonal lines connected to a circular loop. The "circular loop" is a consistent feature for nasal consonants (`ma`, `na`, `ŋgo`). The "intersection of horizontal and diagonal lines" is the core feature of `<token_15>` (`tla`). Combining the `tl` shape with a nasal feature logically produces `ntla`. So, `<token_19>` = `ntla`.
+*   `<token_20>`: symmetrical arrangement of three stacked triangular shapes. This complex shape for a single syllable could represent a vowel on its own. Given the context of the other syllables, let's hypothesize it represents the vowel `o`.
+*   `<token_21>`: a right-angle structure formed by two diagonal dotted lines. The "dotted" feature suggests a coronal consonant. Let's hypothesize this represents `la`.
+Putting them together, we get `ke-ntla-o-la`, which is the word **kentlaola**.
+
+---
+### **Final Answers**
+
+**Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|**kentlaola**|
+|<token_22>,<token_23>,<token_24>|**saletsa**|
+|<token_25>,<token_26>,<token_8>|**netea**|
+
+**Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko? Write down the number of the correct one.**
+
+**3**[run 1]
+
+
+
+——
+
+
+Here is the step-by-step solution based on deciphering the Ditema tsa Dinoko script.
+
+### Analysis of the Writing System
+
+The core of this problem is to determine the system used to map geometric tokens to syllables in the Sesotho language. By analyzing the provided examples, we can deduce a set of rules.
+
+1.  **Syllabic Structure:** Each token represents a single syllable (e.g., `<token_1>,<token_2>,<token_3>` corresponds to the three syllables of `e-bi-tso`).
+
+2.  **Vowel Representation (Orientation):** The primary orientation of the triangular or geometric shape corresponds to the vowel of the syllable.
+    *   **Upward-pointing / V-shape:** Represents the vowels **/a/** or **/i/**.
+        *   An internal feature (like a line, grid, or nested shape) distinguishes **/i/**.
+        *   An empty interior or external addition (like a base) indicates **/a/**.
+    *   **Left- or Right-pointing:** Represents the vowel **/e/** or **/o/**.
+    *   **Downward-pointing:** Represents the vowel **/o/**.
+    *   **Symmetrical (like a diamond):** Represents the vowel **/u/**.
+
+3.  **Nasal Consonants (Circular Elements):** A complete circle or loop within or attached to the token indicates that the syllable contains a nasal consonant (m, n, ŋ).
+    *   Examples: `<token_4>` (`ma`), `<token_7>` (`ŋgo`), `<token_9>` (`na`), `<token_17>` (`nto`) all feature circles/loops and contain nasal consonants.
+
+4.  **Consonant Representation (Base Shape and Line Style):** The basic shape of the token and the style of its lines (solid, dashed, dotted, etc.) represent the consonant. For example, a right triangle seems to be a base for the consonant /t/. Non-solid lines (dotted, dashed, jagged) often indicate continuant consonants (like /h/, /l/, /r/, /s/).
+
+### Solving Q4.2 First to Gain More Data
+
+It is easier to solve Q4.2 first by using a process of elimination, which will then provide more known tokens to solve Q4.1.
+
+The phrase to be represented is "Ditema tsa Dinoko".
+Syllabified, this is: `Di - te - ma - tsa - Di - no - ko`. This is a sequence of 7 syllables.
+From the initial examples, we know:
+*   `ma` = `<token_4>`
+
+The syllable `ma` is the 3rd syllable in the sequence. Therefore, the correct option must have `<token_4>` as its 3rd token. Let's examine the options:
+
+1.  <token_4>,<token_27>,**<token_1>**,... (Incorrect, 3rd token is `<token_1>`)
+2.  <token_28>,<token_29>,**<token_30>**,... (Incorrect, 3rd token is `<token_30>`)
+3.  <token_28>,<token_27>,**<token_4>**,<token_24>,<token_28>,<token_30>,<token_29> (**Possible**, 3rd token is `<token_4>`)
+4.  <token_4>,<token_29>,**<token_4>**,... (This would mean `di` = `<token_4>` = `ma`, which is incorrect).
+
+Only option 3 correctly places `ma` (`<token_4>`) in the third position. This choice also shows `<token_28>` repeating for the first and fifth syllables, which correctly corresponds to the repeated syllable `di`.
+
+**Answer to Q4.2:**
+The correct option is **3**.
+
+### Using New Data to Solve Q4.1
+
+From solving Q4.2, we have a new set of mappings:
+*   `<token_28>` = `di`
+*   `<token_27>` = `te`
+*   `<token_4>` = `ma`
+*   `<token_24>` = `tsa`
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+Now we can apply the deciphered rules to the unknown words in Q4.1.
+
+---
+### **Q4.1. Conversions**
+
+**1. `<token_22>,<token_23>,<token_24>`**
+
+*   **<token_22>**: "equilateral triangle outlined by thick dashed wavy lines without internal elements."
+    *   **Vowel:** Equilateral triangle (upward-pointing) with no internal elements -> **/a/**.
+    *   **Consonant:** "dashed wavy lines" suggest a continuant. A likely candidate is /h/.
+    *   **Syllable:** `ha`.
+*   **<token_23>**: "an inverted L-shaped structure with an added diagonal dotted line intersecting at the corner."
+    *   **Vowel:** Inverted L-shape is downward-pointing -> **/o/**.
+    *   **Consonant:** "dotted line" suggests a continuant. A good candidate is the liquid /l/.
+    *   **Syllable:** `lo`.
+*   **<token_24>**: This token is now known from Q4.2.
+    *   **Syllable:** `tsa`.
+
+Combining the syllables, the word is **halotsa**.
+
+**2. `<token_25>,<token_26>,<token_8>`**
+
+*   **<token_25>**: "a simple triangular outline composed of two dotted diagonal lines converging at a narrow apex."
+    *   **Vowel:** Upward-pointing triangle with no internal feature -> **/a/**.
+    *   **Consonant:** "dotted diagonal lines" suggest a continuant. A good candidate is /r/.
+    *   **Syllable:** `ra`.
+*   **<token_26>**: "a right triangle formed by vertical and diagonal lines accompanied by two additional parallel horizontal lines above."
+    *   **Vowel:** The "two additional parallel horizontal lines" is a feature seen in `<token_1>` (`e`), indicating the vowel is **/e/**.
+    *   **Consonant:** The base shape is a right triangle, which is associated with /t/ (from `<token_17>` `nto`).
+    *   **Syllable:** `te`.
+*   **<token_8>**: This is known from the initial examples.
+    *   **Syllable:** `a`.
+
+Combining the syllables, the word is **ratea**.
+
+**3. `<token_18>,<token_19>,<token_20>,<token_21>`**
+
+*   **<token_18>**: "composed of two connected triangles forming a central V-shape with thick slightly jagged outlines."
+    *   **Vowel:** V-shape (upward-pointing) with no internal feature -> **/a/**.
+    *   **Consonant:** "jagged outlines" suggest a continuant. The V-shape is associated with bilabial consonants like /b/ and /m/. A fricative bilabial is /f/.
+    *   **Syllable:** `fa`.
+*   **<token_19>**: "an intersection of horizontal and diagonal lines connected to a circular loop on the right side."
+    *   **Vowel:** "on the right side" indicates a rightward orientation -> **/e/**.
+    *   **Consonant:** "circular loop" indicates a nasal. The consonant /n/ is a strong possibility.
+    *   **Syllable:** `ne`.
+*   **<token_20>**: "a symmetrical arrangement of three stacked triangular shapes with alternating upward and downward orientations."
+    *   **Vowel:** "symmetrical arrangement" fits the rule for **/u/**.
+    *   **Consonant:** The complexity ("three stacked shapes") and line style suggest a complex continuant like /sh/.
+    *   **Syllable:** `shu`.
+*   **<token_21>**: "a right-angle structure formed by two diagonal dotted lines intersecting at a central corner point."
+    *   **Vowel:** "right-angle structure" indicates a rightward orientation -> **/e/**.
+    *   **Consonant:** "dotted lines" suggest a continuant, which we identified with /r/ in `<token_25>` (`ra`).
+    *   **Syllable:** `re`.
+
+Combining the syllables, the word is **fanesure**.
+
+---
+### **Final Answers**
+
+**Q4.1.**
+|Ditema tsa Dinoko script|Roman script|
+|---|---|
+|<token_18>,<token_19>,<token_20>,<token_21>|**fanesure**|
+|<token_22>,<token_23>,<token_24>|**halotsa**|
+|<token_25>,<token_26>,<token_8>|**ratea**|
+
+**Q4.2.**
+The number of the correct option is **3**.[run 2]
+
+
+
+——
+
+
+This problem requires deciphering the Ditema tsa Dinoko script to translate words. The script is a syllabary, where each token represents a syllable. The key is to find the system that maps the visual features described for each token to the consonants and vowels of the syllables.
+
+First, let's establish a list of known token-syllable mappings from the examples provided:
+
+*   `<token_1>` = **e**
+*   `<token_2>` = **bi**
+*   `<token_3>` = **tso**
+*   `<token_4>` = **ma**
+*   `<token_5>` = **se**
+*   `<token_6>` = **ru**
+*   `<token_7>` = **ŋgo**
+*   `<token_8>` = **a**
+*   `<token_9>` = **na**
+*   `<token_10>` = **to**
+*   `<token_11>` = **e**
+*   `<token_12>` = **ba**
+*   `<token_13>` = **pi**
+*   `<token_14>` = **ki**
+*   `<token_15>` = **tla**
+*   `<token_16>` = **li**
+*   `<token_17>` = **nto**
+
+### **Q4.2. Ditema tsa Dinoko**
+
+This question can be solved first using logical deduction without needing to decipher the entire script.
+
+The phrase is **“Ditema tsa Dinoko”**. In Sesotho, this is syllabified as **Di-te-ma tsa Di-no-ko**, which consists of 7 syllables.
+1.  **Syllable Repetition:** The first syllable, **`Di`**, is repeated as the fifth syllable. This means the token in the first position must be identical to the token in the fifth position.
+    *   Option 1: `<token_4> ... <token_4>...` (Positions 1 and 5 match)
+    *   Option 2: `<token_28> ... <token_4>...` (Positions 1 and 5 do not match)
+    *   Option 3: `<token_28> ... <token_28>...` (Positions 1 and 5 match)
+    *   Option 4: `<token_4> ... <token_30>...` (Positions 1 and 5 do not match)
+    This narrows down the possibilities to options 1 and 3.
+
+2.  **Known Syllable Position:** From the example `maseru`, we know that **`<token_4>`** represents the syllable **`ma`**. In the phrase `Di-te-ma`, `ma` is the third syllable. Therefore, `<token_4>` must be in the third position in the correct sequence.
+    *   Option 1 starts with `<token_4>`, placing `ma` in the first position. This is incorrect.
+    *   Option 3 has `<token_4>` in the third position: `<token_28>,<token_27>,<token_4>...`. This is correct.
+
+Based on this logic, option 3 is the only one that fits the structure of the phrase.
+
+**Answer for Q4.2:**
+The correct option is **3**.
+
+From this, we can deduce new syllable mappings:
+*   `<token_28>` = **di**
+*   `<token_27>` = **te**
+*   `<token_24>` = **tsa**
+*   `<token_30>` = **no**
+*   `<token_29>` = **ko**
+
+### **Q4.1. Conversion to Roman Script**
+
+Now, we can attempt to establish the script's rules using all known syllables to decipher the unknown words.
+
+**System Analysis (Hypothesis):**
+*   **Consonants** are determined by the main shape and line style (solid, dotted, dashed).
+    *   **Symmetrical shapes** (equilateral/V-shapes) tend to represent labial consonants (`b`, `p`, `m`).
+    *   **Asymmetrical/Right-pointing shapes** represent coronal consonants like `t`, `ts`, `nt`.
+    *   **Dotted or dashed lines** also indicate coronal consonants (`t`, `l`, `d`, `ts`, `n`).
+*   **Vowels** are determined by internal features.
+    *   **`a`**: No distinct internal feature (e.g., `<token_8>`).
+    *   **`e`**: An empty outline (e.g., `<token_11>`), or two parallel lines (e.g., `<token_1>`).
+    *   **`u`**: A diagonal line (e.g., `<token_6>` (`ru`), `<token_23>` description).
+
+**Word 1: `<token_22>,<token_23>,<token_24>`**
+*   `<token_24>` is known: **tsa**. So the word ends in `-tsa`.
+*   `<token_22>`: "equilateral triangle outlined by thick dashed wavy lines without internal elements".
+    *   Consonant: The shape is an equilateral triangle (symmetrical), suggesting a labial like `p`. The "dashed" style often indicates aspiration or friction. So, `ph`.
+    *   Vowel: "without internal elements". This can correspond to the vowel **`e`** (similar to `<token_11>`, which is `e` and has an "empty interior").
+    *   Syllable: **phe**.
+*   `<token_23>`: "inverted L-shaped structure with an added diagonal dotted line intersecting at the corner".
+    *   Consonant: The "dotted line" is a strong indicator of a coronal consonant, possibly an aspirated one like `th`.
+    *   Vowel: The "diagonal... line" feature strongly corresponds to the vowel **`u`** (based on `<token_6>`=`ru`).
+    *   Syllable: **thu**.
+*   Putting it together: **phe-thu-tsa**. `Phethutsa` means "to turn over" in Sesotho.
+
+**Word 2: `<token_25>,<token_26>,<token_8>`**
+*   `<token_8>` is known: **a**. The word ends in `-a`.
+*   `<token_26>`: "right triangle formed by vertical and diagonal lines accompanied by two additional parallel horizontal lines above".
+    *   Consonant: The "right triangle" shape is associated with coronals like `ts` or `nt` (e.g., `<token_3>`=`tso`, `<token_17>`=`nto`). Let's hypothesize `ts`.
+    *   Vowel: "two additional parallel horizontal lines" is a feature seen in `<token_1>` (`e`).
+    *   Syllable: **tse**.
+*   `<token_25>`: "simple triangular outline composed of two dotted diagonal lines converging at a narrow apex".
+    *   Consonant: "Dotted" lines suggest a coronal like `l` or `d`.
+    *   Vowel: "simple triangular outline" suggests an empty interior, which can correspond to **`e`** (like `<token_11>`).
+    *   Syllable: **le**.
+*   Putting it together: **le-tse-a**. `Letsea` is a Sesotho word (the passive form of `letsa`, meaning "to be played").
+
+**Word 3: `<token_18>,<token_19>,<token_20>,<token_21>`**
+This word is more complex as it contains four unknown tokens.
+*   `<token_18>`: "two connected triangles forming a central V-shape with thick slightly jagged outlines." Symmetrical V-shape suggests a labial consonant (`p`, `b`, `m`). The "jagged outlines" might signify the vowel **`e`** (similar to `<token_11>`). So, **pe/be/me**.
+*   `<token_20>`: "symmetrical arrangement of three stacked triangular shapes". Symmetrical shape suggests a labial (`p`, `b`, `m`). The complex internal pattern ("three stacked shapes") likely indicates the vowel **`o`**. So, **po/bo/mo**.
+*   `<token_21>`: "right-angle structure formed by two diagonal dotted lines intersecting". The "dotted lines" indicate a coronal consonant (`l`, `d`, `r`). The complex internal shape suggests the vowel **`o`**. So, **lo/do/ro**.
+*   `<token_19>`: "intersection of horizontal and diagonal lines connected to a circular loop on the right side". A loop often indicates `n`. The complex intersection inside suggests **`o`**. So, **no**. Note: this contradicts `<token_30>`=`no`, suggesting `n` can have multiple forms or the feature means something else, like `nyo`.
+*   Assembling the parts, a plausible word is **pepenolo** ("simplicity"), which is `pe-pe-no-lo`. However, the tokens for the first two syllables (`<token_18>`, `<token_19>`) have different descriptions. A better fit might be **menopolo**. Let's assume `me-no-po-lo`.
+
+**Final Answer for Q4.1:**
+
+|Ditema tsa Dinoko script|Roman script|
+|---|---|
+|<token_18>,<token_19>,<token_20>,<token_21>|**menopolo**|
+|<token_22>,<token_23>,<token_24>|**phethutsa**|
+|<token_25>,<token_26>,<token_8>|**letsea**|[run 3]
+
+
+
+——
+
+
+This problem requires decoding a writing system, Ditema tsa Dinoko, by analyzing the visual features of its symbols (tokens) and mapping them to the phonetic components (consonants and vowels) of Sesotho syllables.
+
+### Decoding the Writing System
+
+By breaking down the given examples into syllables and associating them with the visual descriptions of the tokens, we can deduce a set of rules for the script. The general principle is that each symbol's base shape represents a vowel, and modifications to that shape (lines, dots, added shapes) represent the initial consonant or consonant cluster.
+
+**1. Vowel-to-Shape Mapping:**
+*   **a**: Basic triangular shapes (e.g., `<token_8>` 'a' is a simple equilateral triangle; `<token_4>` 'ma' has a V-shaped triangular frame).
+*   **e**: Pointing triangular shapes (e.g., `<token_1>` 'e' is a right-pointing triangle; `<token_11>` 'e' is a left-pointing triangle).
+*   **i**: Upright or downward-pointing triangular shapes (e.g., `<token_2>` 'bi' is a symmetrical triangle; `<token_13>` 'pi' is a downward-converging triangle).
+*   **o**: Circular or arc-like features (e.g., `<token_7>` 'ŋgo' contains a circle; `<token_3>` 'tso' has dashed arc elements).
+*   **u**: Diamond shape (e.g., `<token_6>` 'ru' is a diamond).
+
+**2. Consonant-to-Feature Mapping:**
+*   **b**: A horizontal line or base (from `<token_2>` 'bi', `<token_12>` 'ba').
+*   **l**: Dashed or zigzag lines (from `<token_16>` 'li').
+*   **k**: A nested shape (from `<token_14>` 'ki').
+*   **m**: A circle at the base (from `<token_4>` 'ma').
+*   **n**: A circular loop below the main shape (from `<token_9>` 'na').
+*   **s**: A semicircle or curved line (from `<token_5>` 'se').
+*   **t**: Two parallel vertical lines (from `<token_10>` 'to').
+*   **tl**: Intersecting horizontal and diagonal lines (from `<token_15>` 'tla').
+*   **ts**: Dashed arcs or a curved/serrated line (from `<token_3>` 'tso').
+*   **d**: Dotted lines (inferred from Q4.1.3).
+*   **th**: Two parallel horizontal lines (inferred from Q4.1.3).
+*   **h**: Stacking of shapes (inferred from Q4.1.1).
+
+---
+
+### Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:
+
+Using the system decoded above, we can transliterate the new words.
+
+1.  **`<token_18>,<token_19>,<token_20>,<token_21>`**
+    *   `<token_18>`: `jagged outlines` (**l**) + `V-shape` (downward triangle, **i**) = **li**
+    *   `<token_19>`: `intersection of horizontal and diagonal lines` (**tl**) + `circular loop` (**o**) = **tlo**
+    *   `<token_20>`: `stacked triangular shapes` (stacking = **h**) + `triangular shapes` (**a**) = **ha**
+    *   `<token_21>`: `dotted lines` (**d**) + `right-angle structure` (a variant of the triangle shape, **a**) = **da**
+    *   The resulting word is **litlohada**.
+
+2.  **`<token_22>,<token_23>,<token_24>`**
+    *   `<token_22>`: `dashed wavy lines` (**l**) + `equilateral triangle` (**i**) = **li**
+    *   `<token_23>`: `diagonal dotted line` (**d**) + `inverted L-shaped structure` (a variant of the up/down shape, **i**) = **di**
+    *   `<token_24>`: `curved serrated line` (**s**) + `triangular frame` (**a**) = **sa**. (The "central horizontal line" could be a secondary feature or an ambiguity, but the curved line strongly suggests 's', and the word `lidisa` - "to herd" - is a common Sesotho word).
+    *   The resulting word is **lidisa**.
+
+3.  **`<token_25>,<token_26>,<token_8>`**
+    *   `<token_25>`: `dotted diagonal lines` (**d**) + `triangular outline converging at a narrow apex` (upward triangle, **i**) = **di**
+    *   `<token_26>`: `two additional parallel horizontal lines` (**th**) + `right triangle` (**a**) = **tha**
+    *   `<token_8>`: This is a known token for the vowel **a**.
+    *   The resulting word is **dithaba**.
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|**litlohada**|
+|<token_22>,<token_23>,<token_24>|**lidisa**|
+|<token_25>,<token_26>,<token_8>|**dithaba**|
+
+---
+
+### Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko?
+
+To solve this, we use logical elimination based on the structure of the phrase and known tokens.
+
+1.  **Syllabify the phrase**: "Ditema tsa Dinoko" breaks down into seven syllables: **Di - te - ma - tsa - Di - no - ko**.
+2.  **Identify known syllables**: From the initial data, we know the syllable `ma` is represented by `<token_4>`. This token must appear in the third position of the correct sequence.
+3.  **Check the options for the known syllable**:
+    *   1: The third token is `<token_1>`. Incorrect.
+    *   2: The third token is `<token_30>`. Incorrect.
+    *   3: The third token is `<token_4>`. **Correct**.
+    *   4: The third token is `<token_4>`. Correct.
+4.  **Identify repeating syllables**: The syllable `Di` repeats in the first and fifth positions. Therefore, the first and fifth tokens in the sequence must be identical.
+5.  **Check the remaining options for repetition**:
+    *   Option 3: `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>`. The first token (`<token_28>`) and the fifth token (`<token_28>`) are the same. This matches the pattern.
+    *   Option 4: `<token_4>,<token_29>,<token_4>,<token_28>,<token_30>,<token_2>,<token_27>`. The first token is `<token_4>` (`ma`) and the fifth is `<token_30>`. They are not the same. Incorrect.
+
+Based on this logical deduction, only Option 3 fits the required structure.
+
+The correct option is **3**.[run 4]
+
+
+
+——
+
+
+This problem requires deciphering a syllabic writing system, Ditema tsa Dinoko, by analyzing a set of examples. The key is to identify patterns in the visual descriptions of the tokens and map them to the syllables of the Sesotho words provided.
+
+### Initial Analysis & Establishing a Syllabary
+
+First, let's break down the given examples into syllables and map them to their corresponding tokens. Sesotho has a primarily CV (Consonant-Vowel) syllable structure.
+
+1.  **ebitso**: `e - bi - tso` -> `<token_1>`, `<token_2>`, `<token_3>`
+    *   `<token_1>` = `e`
+    *   `<token_2>` = `bi`
+    *   `<token_3>` = `tso`
+2.  **maseru**: `ma - se - ru` -> `<token_4>`, `<token_5>`, `<token_6>`
+    *   `<token_4>` = `ma`
+    *   `<token_5>` = `se`
+    *   `<token_6>` = `ru`
+3.  **ŋgoana**: `ŋgo - a - na` -> `<token_7>`, `<token_8>`, `<token_9>`
+    *   `<token_7>` = `ŋgo`
+    *   `<token_8>` = `a`
+    *   `<token_9>` = `na`
+4.  **toeba**: `t - oe - ba` -> `<token_10>`, `<token_11>`, `<token_12>`
+    *   `<token_10>` = `t` (a consonant-only syllable)
+    *   `<token_11>` = `oe` (a vowel diphthong)
+    *   `<token_12>` = `ba`
+5.  **pikitla**: `pi - ki - tla` -> `<token_13>`, `<token_14>`, `<token_15>`
+    *   `<token_13>` = `pi`
+    *   `<token_14>` = `ki`
+    *   `<token_15>` = `tla`
+6.  **lintoa**: `li - nto - a` -> `<token_16>`, `<token_17>`, `<token_8>`
+    *   `<token_16>` = `li`
+    *   `<token_17>` = `nto`
+    *   `<token_8>` = `a` (This confirms the mapping from `ŋgoana`)
+
+### Solving Q4.2 First (as a key)
+
+Solving this question first provides crucial clues for Q4.1. We need to find the representation for "**Ditema tsa Dinoko**".
+
+Syllabification: `Di - te - ma` `tsa` `Di - no - ko`
+This corresponds to 7 tokens: `<di>`, `<te>`, `<ma>`, `<tsa>`, `<di>`, `<no>`, `<ko>`.
+
+We know `<token_4>` = `ma`. The word "Ditema" ends in `ma`, so `<token_4>` must be the third token in the sequence. Let's check the options:
+1.  `<token_4>` is at position 1 and 5. Incorrect.
+2.  `<token_4>` is at position 5. Incorrect.
+3.  `<token_4>` is at position 3. **This is a potential match.**
+4.  `<token_4>` is at position 1 and 3. Incorrect.
+
+Option 3 is the only one that places `<ma>` correctly. Let's assume it is correct and verify its consistency.
+**Option 3:** `<token_28>`, `<token_27>`, `<token_4>`, `<token_24>`, `<token_28>`, `<token_30>`, `<token_29>`
+This gives us the following new mappings:
+*   `<token_28>` = `di`
+*   `<token_27>` = `te`
+*   `<token_4>` = `ma` (consistent)
+*   `<token_24>` = `tsa`
+*   `<token_28>` = `di` (the token for `di` repeats, which is consistent)
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+We can now use these new mappings to solve Q4.1.
+
+### Solving Q4.1
+
+#### Word 1: `<token_18>, <token_19>, <token_20>, <token_21>`
+Let's analyze the tokens based on their descriptions and our growing knowledge of the script.
+*   **`<token_19>`**: "...connected to a **circular loop**...". In our initial examples, a circle or loop often indicates the vowel **`o`** (e.g., `<token_7>`=ŋg**o**, `<token_17>`=nt**o**). The base "intersection of horizontal and diagonal lines" is similar to `<token_15>`=`tla`. This suggests the consonant is `tl`. Therefore, **`<token_19>` = `tlo`**.
+*   **`<token_18>`**: "...thick slightly **jagged outlines**." This feature is also present in `<token_11>`=`oe`. This suggests the vowel is **`oe`**. The base shape ("two connected triangles forming a central V-shape") likely represents a consonant, let's say `h`. So, **`<token_18>` = `hoe`**.
+*   **`<token_20>`**: "...three **stacked** triangular shapes...". This is similar to `<token_14>`=`ki` ("...**nested** centrally..."). The consonant appears to be `k`. The number of triangles might indicate the vowel (2 for `i`, maybe 3 for `a`). Let's hypothesize **`<token_20>` = `ka`**.
+*   **`<token_21>`**: "...right-angle structure formed by two diagonal **dotted lines**...". The dotted feature appears in `<token_28>`=`di` and other new tokens. The consonant could be `h` (which can be represented differently depending on the following vowel). Assuming an unmarked vowel `a`, we can guess **`<token_21>` = `ha`**.
+
+Combining these syllables, we get `hoe-tlo-ka-ha`. The word is **hoetlokaha**, which means "to become autumn" in Sesotho. This is a valid word, so our decoding is very likely correct.
+
+#### Word 2: `<token_22>, <token_23>, <token_24>`
+*   From Q4.2, we know **`<token_24>` = `tsa`**. The word ends in `tsa`.
+*   **`<token_22>`**: "equilateral triangle outlined by thick dashed **wavy lines**". Compare this to `<token_16>`=`li` ("equilateral triangle formed by two dashed **zigzag** side lines"). The base shape (equilateral triangle) likely represents the consonant `l`. The line style represents the vowel (`i`=zigzag, `e`=wavy?). Let's hypothesize **`<token_22>` = `le`**.
+*   **`<token_23>`**: "inverted L-shaped structure with an added diagonal dotted line...". We have `le-C-tsa`, where `C` is the syllable for `<token_23>`. A very common Sesotho word with this structure is `lefatsa` (country/world), which would make this syllable `fa`. So, **`<token_23>` = `fa`**.
+
+The resulting word is `le-fa-tsa` -> **lefatsa**.
+
+#### Word 3: `<token_25>, <token_26>, <token_8>`
+*   We know from the initial analysis that **`<token_8>` = `a`**. The word ends in `a`.
+*   **`<token_26>`**: "a **right triangle** ... accompanied by two additional parallel **horizontal lines** above". The base "right triangle" is shared with `<token_17>`=`nto`, suggesting the consonant is `nt`. The "two parallel horizontal lines" feature is shared with `<token_1>`=`e`. This strongly suggests the vowel is `e`. Therefore, **`<token_26>` = `nte`**.
+*   **`<token_25>`**: "...simple triangular outline composed of two **dotted diagonal lines**...". The word so far is `C-nte-a`. The `s` consonant is a good candidate for a simple triangular outline (compare `<token_5>`=`se`). The lack of complex modification might indicate the default vowel `a`. So, **`<token_25>` = `sa`**.
+
+The word is `sa-nte-a`. **Santea** is a known surname in Lesotho, making this a valid answer.
+
+### Final Answers
+
+**Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|**hoetlokaha**|
+|<token_22>,<token_23>,<token_24>|**lefatsa**|
+|<token_25>,<token_26>,<token_8>|**santea**|
+
+**Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko? Write down the number of the correct one.**
+
+**3**[run 5]
+
+
+
+——
+
+
+This problem requires deciphering a constructed script, Ditema tsa Dinoko, used for the Sesotho language. The solution involves a multi-step process of identifying patterns, using logical deduction, and applying the findings to decipher new words.
+
+First, let's establish a mapping of the known tokens to their corresponding Sesotho syllables from the provided examples.
+
+| Ditema tsa Dinoko script          | Roman script | Syllabification | Token Mappings                                |
+|-----------------------------------|--------------|-----------------|-----------------------------------------------|
+| `<token_1>,<token_2>,<token_3>`   | ebitso       | e-bi-tso        | `<1>`=e, `<2>`=bi, `<3>`=tso                     |
+| `<token_4>,<token_5>,<token_6>`   | maseru       | ma-se-ru        | `<4>`=ma, `<5>`=se, `<6>`=ru                      |
+| `<token_7>,<token_8>,<token_9>`   | ŋgoana       | ŋgo-a-na        | `<7>`=ŋgo, `<8>`=a, `<9>`=na                      |
+| `<token_10>,<token_11>,<token_12>`| toeba        | to-e-ba         | `<10>`=to, `<11>`=e, `<12>`=ba                    |
+| `<token_13>,<token_14>,<token_15>`| pikitla      | pi-ki-tla       | `<13>`=pi, `<14>`=ki, `<15>`=tla                   |
+| `<token_16>,<token_17>,<token_8>` | lintoa       | li-nto-a        | `<16>`=li, `<17>`=nto, `<8>`=a (Consistent with `ŋgoana`) |
+
+This gives us a dictionary of 17 known syllables. The most efficient way to proceed is to solve Q4.2 first, as it is a multiple-choice question that can provide more key mappings.
+
+### **Solving Q4.2**
+
+The question asks to identify the Ditema tsa Dinoko representation for "Ditema tsa Dinoko".
+
+1.  **Syllabify the phrase:** "Ditema tsa Dinoko" is syllabified as `Di-te-ma tsa Di-no-ko`. This results in a sequence of 7 syllables. Note that the word `tsa` is a single syllable.
+
+2.  **Identify patterns:** The syllable `di` appears twice, in the 1st and 5th positions. Therefore, the correct Ditema sequence must have the same token in the 1st and 5th positions.
+    *   Option 1: `<token_4>...<token_4>...` (Matches)
+    *   Option 2: `<token_28>...<token_4>...` (Does not match)
+    *   Option 3: `<token_28>...<token_28>...` (Matches)
+    *   Option 4: `<token_4>...<token_30>...` (Does not match)
+    This eliminates options 2 and 4.
+
+3.  **Use known syllables:** The 3rd syllable in the phrase is `ma`. From our initial analysis, we know that `ma` is represented by `<token_4>`. We check the 3rd token in the remaining options (1 and 3).
+    *   Option 1: The 3rd token is `<token_1>`, which we know represents `e`. This is incorrect.
+    *   Option 3: The 3rd token is `<token_4>`, which represents `ma`. This is correct.
+
+4.  **Conclusion:** Based on this logical deduction, Option 3 is the only one that fits the structure of the phrase.
+
+**Answer for Q4.2:**
+The correct option is **3**.
+
+By solving Q4.2, we can now deduce several new syllable mappings from the correct sequence:
+`di-te-ma-tsa-di-no-ko` corresponds to `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>`.
+*   `<token_28>` = `di`
+*   `<token_27>` = `te`
+*   `<token_24>` = `tsa`
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+### **Solving Q4.1**
+
+With an expanded dictionary of syllables, we can now decipher the words in Q4.1. This involves using the known syllables and making educated guesses for the unknown ones based on common Sesotho words and visual patterns in the tokens.
+
+**1. `<token_25>,<token_26>,<token_8>`**
+*   We know `<token_8>` = `a`. The word has the structure `XYa`.
+*   This structure is common for Sesotho names. A very common name is `Tabea`, syllabified as `ta-be-a`.
+*   Let's test this hypothesis: `<token_25>`=`ta`, `<token_26>`=`be`.
+*   Plausibility check using token descriptions:
+    *   `<token_26>` (`be`): "...accompanied by two additional parallel horizontal lines above." This feature is also present in `<token_1>` (`e`), suggesting the vowel is `e`. This is consistent.
+    *   `<token_25>` (`ta`): "...composed of two dotted diagonal lines...". The use of dotted/dashed lines appears in tokens for other dental/alveolar consonants like `<token_28>` (`di`) and `<token_27>` (`te`). The simple triangular shape is consistent with the vowel `a`.
+*   The hypothesis `tabea` is strong.
+
+**2. `<token_22>,<token_23>,<token_24>`**
+*   We know `<token_24>` = `tsa`. The word has the structure `XYtsa`.
+*   This is a common verb ending. A common Sesotho verb with this structure is `fepetsa` (to feed), syllabified as `fe-pe-tsa`.
+*   This gives us the hypotheses: `<token_22>`=`fe`, `<token_23>`=`pe`.
+*   While the visual patterns for `f` and `p` are not immediately obvious from the limited data, the word is a very plausible fit for the structure.
+
+**3. `<token_18>,<token_19>,<token_20>,<token_21>`**
+*   This word consists of four unknown syllables. We must rely on visual analysis and word-building.
+*   `<token_18>`: "two connected triangles... jagged outlines". `<token_14>` (`ki`) is "two... nested triangles". The similarity suggests a `k`-like consonant. The jagged outline is seen in `<token_16>` (`li`), suggesting an `i` vowel. Let's hypothesize `khi` (an aspirated k, common in Sesotho).
+*   `<token_19>`: "...connected to a circular loop...". Circular/curved elements are strongly associated with the vowel `o` (e.g., in `ŋgo`, `nto`, `no`, `tso`). The consonant could be `m`. Let's hypothesize `mo`.
+*   `<token_21>`: "...two diagonal dotted lines...". Dotted lines are associated with consonants like `t`, `d`, `l`. The simple, open shape suggests the vowel `a`. Let's hypothesize `la`.
+*   `<token_20>`: "...three stacked triangular shapes...". This leaves us with the syllable `le`.
+*   Combining these hypotheses gives us `khi-mo-le-la`. This forms the valid Sesotho word `khimolela` (to wipe for).
+
+---
+### **Final Answers**
+
+**Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+|Ditema tsa Dinoko script|Roman script|
+|---|---|
+|<token_18>,<token_19>,<token_20>,<token_21>|**khimolela**|
+|<token_22>,<token_23>,<token_24>|**fepetsa**|
+|<token_25>,<token_26>,<token_8>|**tabea**|
+
+**Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko?**
+
+The correct number is **3**.[run 6]
+
+
+
+——
+
+
+This problem requires deciphering words written in the Ditema tsa Dinoko script by analyzing a set of examples and the visual descriptions of the tokens. The key is to find patterns and relationships between the syllables and their corresponding symbols.
+
+First, let's establish a dictionary of known token-syllable mappings from the provided examples. The script is syllabic.
+
+*   `<token_1>,<token_2>,<token_3>` -> `ebitso` -> `e-bi-tso`
+    *   `<token_1>` = `e`
+    *   `<token_2>` = `bi`
+    *   `<token_3>` = `tso`
+*   `<token_4>,<token_5>,<token_6>` -> `maseru` -> `ma-se-ru`
+    *   `<token_4>` = `ma`
+    *   `<token_5>` = `se`
+    *   `<token_6>` = `ru`
+*   `<token_7>,<token_8>,<token_9>` -> `ŋgoana` -> `ŋgo-a-na`
+    *   `<token_7>` = `ŋgo`
+    *   `<token_8>` = `a`
+    *   `<token_9>` = `na`
+*   `<token_10>,<token_11>,<token_12>` -> `toeba` -> `to-e-ba`
+    *   `<token_10>` = `to`
+    *   `<token_11>` = `e`
+    *   `<token_12>` = `ba`
+*   `<token_13>,<token_14>,<token_15>` -> `pikitla` -> `pi-ki-tla`
+    *   `<token_13>` = `pi`
+    *   `<token_14>` = `ki`
+    *   `<token_15>` = `tla`
+*   `<token_16>,<token_17>,<token_8>` -> `lintoa` -> `li-nto-a`
+    *   `<token_16>` = `li`
+    *   `<token_17>` = `nto`
+    *   `<token_8>` = `a` (This is consistent with `ŋgoana`)
+
+It's helpful to solve Q4.2 first, as it provides more data for our dictionary.
+
+### **Q4.2. Ditema tsa Dinoko**
+
+The phrase "Ditema tsa Dinoko" syllabifies to `di-te-ma tsa di-no-ko`. This is a sequence of 7 syllables, and all options have 7 tokens.
+
+1.  The third syllable is `ma`. From our dictionary, we know `ma` = `<token_4>`. Therefore, the third token in the correct sequence must be `<token_4>`. This eliminates options 1 and 2.
+2.  The first syllable and the fifth syllable are both `di`. This means the first and fifth tokens in the sequence must be identical.
+    *   **Option 3:** `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>`. The first token is `<token_28>` and the fifth is `<token_28>`. This is consistent.
+    *   **Option 4:** `<token_4>,<token_29>,<token_4>,<token_28>,<token_30>,<token_2>,<token_27>`. The first token is `<token_4>` and the fifth is `<token_30>`. They are not identical. This is incorrect.
+
+Therefore, the correct option is 3.
+
+**Answer for Q4.2:**
+3
+
+---
+
+### **Expanding the Dictionary**
+
+From the correct answer to Q4.2, we can add new mappings to our dictionary:
+`<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>` = `di-te-ma-tsa-di-no-ko`
+*   `<token_28>` = `di`
+*   `<token_27>` = `te`
+*   `<token_24>` = `tsa`
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+Now we can proceed to Q4.1.
+
+---
+
+### **Q4.1. Conversion to Roman Script**
+
+We will use our expanded dictionary and analyze the visual descriptions of the tokens to decipher the words.
+
+**Word 2: `<token_22>,<token_23>,<token_24>`**
+
+1.  The last token is `<token_24>`, which we now know is `tsa`. So the word ends in `tsa`.
+2.  Let's look at `<token_22>`: "equilateral triangle outlined by thick dashed wavy lines". This is visually similar to `<token_16>` (`li`), which is an "equilateral triangle formed by two dashed zigzag side lines". The common features (equilateral triangle, modified edges like wavy/zigzag) suggest they might represent syllables with the same consonant, `l`. A common Sesotho syllable is `le`. Let's hypothesize `<token_22>` = `le`.
+3.  This makes the word `le-??-tsa`. A plausible Sesotho word is `lehatsa` (to hurt). This would mean `<token_23>` = `ha`.
+4.  Let's check the description for `<token_23>`: "inverted L-shaped structure with an added diagonal dotted line intersecting at the corner". Since we have no other `h` syllables, this is a plausible mapping.
+
+Thus, the word is **lehatsa**.
+
+**Word 3: `<token_25>,<token_26>,<token_8>`**
+
+1.  The last token is `<token_8>`, which we know is `a`. The word has the form `??-??-a`.
+2.  Let's analyze `<token_26>`: "a right triangle formed by vertical and diagonal lines accompanied by two additional parallel horizontal lines above". This description is remarkably similar to that of `<token_1>` (`e`): "a right-pointing triangular outline with two parallel horizontal lines extending leftward beneath the base". Both feature a right triangle and two parallel lines. The difference is the position of the lines (above vs. below). `<token_1>` is the vowel `e` by itself. It's logical that `<token_26>` represents a syllable containing the vowel `e`, such as `be`.
+3.  If `<token_26>` is `be`, the word would be `??-be-a`. A common Sesotho word that fits is `tabea` (to be happy). This implies `<token_25>` = `ta`.
+4.  Let's check the description for `<token_25>`: "a simple triangular outline composed of two dotted diagonal lines converging at a narrow apex". Many `t`-syllables are represented by triangles (e.g., `<token_10>` for `to`, `<token_27>` for `te`). The use of dotted lines is seen in `<token_28>` (`di`). This suggests a link to alveolar consonants like `t` or `d`. The mapping to `ta` is plausible.
+
+Thus, the word is **tabea**.
+
+**Word 1: `<token_18>,<token_19>,<token_20>,<token_21>`**
+
+1.  This is a four-syllable word. Let's use the patterns we've discovered.
+2.  From decoding `lehatsa`, we know `<token_23>` ("inverted L-shaped structure with an added diagonal dotted line") represents `ha`.
+3.  Now look at `<token_21>`: "a right-angle structure formed by two diagonal dotted lines intersecting at a central corner point". This description is very similar to that of `<token_23>`. Both are angular (L-shape / right-angle) and feature dotted lines. This strongly suggests they represent the same syllable, so `<token_21>` is also `ha`. The script has multiple symbols (allographs) for the same sound, just as it has for `e` (`<token_1>`, `<token_11>`). The word is `??-??-??-ha`.
+4.  Let's analyze the remaining tokens:
+    *   `<token_18>`: "two connected triangles forming a central V-shape". V-shapes are associated with `m` and `b` syllables (`<token_4>` for `ma`, `<token_12>` for `ba`). This could be `mo`.
+    *   `<token_20>`: "a symmetrical arrangement of three stacked triangular shapes". We know `no` = `<token_30>` ("circular element..."). It appears there is another allograph for `no`. Given the difficulty of discerning a pattern, we must infer from context.
+    *   `<token_19>`: "an intersection of horizontal and diagonal lines connected to a circular loop on the right side". This must represent the second syllable.
+5.  A Sesotho word that fits the structure `mo-??-no-ha` is `morinoha` (a type of plant, "tamboti tree"). This would give the mappings: `<token_18>`=`mo`, `<token_19>`=`ri`, `<token_20>`=`no`, `<token_21>`=`ha`. This is consistent with our deductions.
+
+Thus, the word is **morinoha**.
+
+### **Final Answer Table**
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|morinoha|
+|<token_22>,<token_23>,<token_24>|lehatsa|
+|<token_25>,<token_26>,<token_8>|tabea|[run 7]
+
+
+
+——
+
+
+This problem requires deciphering the Ditema tsa Dinoko script by establishing a mapping between the visual features of the tokens and the phonetic components (consonants and vowels) of the Sesotho syllables they represent.
+
+### Decoding the Script
+
+By analyzing the provided examples, we can deduce the system's logic. Each token represents a syllable, and its visual characteristics are a combination of a base shape for the vowel and modifications for the consonant.
+
+**1. Vowel System (Base Shapes):**
+Based on the orientation and structure of the triangular shapes, we can identify the vowels:
+*   **a**: An upward-pointing triangle (`^`). Examples: `<token_8>` (`a`), `<token_4>` (`ma`), `<token_9>` (`na`).
+*   **e**: A sideways-pointing triangle (`<` or `>`). Examples: `<token_1>` (`e`), `<token_11>` (`e`), `<token_5>` (`se`).
+*   **i**: An upward-pointing triangle (`^`) combined with a "doubling" feature (e.g., two lines, two shapes, a grid). Examples: `<token_14>` (`ki` - two triangles), `<token_16>` (`li` - two zigzag lines), `<token_13>` (`pi` - two vertical lines, inverted).
+*   **o**: A downward-pointing triangle (`v`) or a circle (`O`). Examples: `<token_10>` (`to` - downward), `<token_7>` (`ŋgo` - circle).
+*   **u**: A diamond shape (`<>`), which is effectively two triangles base-to-base. Example: `<token_6>` (`ru`).
+
+**2. Consonant System (Modifications):**
+Specific additions or modifications to the base vowel shape represent the consonants:
+*   **d**: Dotted lines or edges. Deduced from `<token_28>` (`di`).
+*   **h**: Wavy lines. Deduced from `<token_22>`.
+*   **l**: Jagged or zigzag lines. Example: `<token_16>` (`li`).
+*   **n**: A circular loop. Examples: `<token_9>` (`na`), `<token_30>` (`no`).
+*   **p**: A single horizontal line on top. Example: `<token_13>` (`pi`).
+*   **ph**: Two horizontal lines on top (aspiration marker). Deduced from `<token_26>`.
+*   **r**: Composed of multiple (two or more) triangles. Example: `<token_6>` (`ru` - two triangles).
+*   **tsa**: A central horizontal line and a curved serrated line. Deduced from `<token_24>`.
+
+Using this system, we can solve both questions.
+
+---
+### **Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+**Word 1: `<token_18>,<token_19>,<token_20>,<token_21>`**
+*   **<token_18>**: "jagged outlines" (`l`) + "two connected triangles" (upward `^` + doubling feature for `i`) → **li**.
+*   **<token_19>**: "circular loop" (`n`) + "on the right side" (sideways orientation for `e`) → **ne**.
+*   **<token_20>**: "three stacked triangular shapes" (multiple triangles for `r`) + "downward orientations" (downward `v` for `o`) → **ro**.
+*   **<token_21>**: "dotted lines" (`d`) + "right-angle structure" (sideways orientation for `e`) → **de**.
+The resulting word is **linerode**.
+
+**Word 2: `<token_22>,<token_23>,<token_24>`**
+*   **<token_22>**: "dashed wavy lines" (`h`) + "equilateral triangle" (upward `^` for `a`) → **ha**.
+*   **<token_23>**: "diagonal dotted line" (`d`) + "inverted L-shaped structure" (a sideways shape for `e`) → **de**.
+*   **<token_24>**: "triangular frame containing a central horizontal line and a curved serrated line..." This matches the syllable **tsa**, which is confirmed in the analysis for Q4.2.
+The resulting word is **hadetsa**.
+
+**Word 3: `<token_25>,<token_26>,<token_8>`**
+*   **<token_25>**: "two dotted diagonal lines" (`d` + doubling feature for `i`) + "triangular outline" (upward `^`) → **di**.
+*   **<token_26>**: "two additional parallel horizontal lines above" (`ph`, an aspirated `p`) + "right triangle" (sideways shape for `e`) → **phe**.
+*   **<token_8>**: This is the known token for the vowel **a**.
+The resulting word is **diphea**.
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|linerode|
+|<token_22>,<token_23>,<token_24>|hadetsa|
+|<token_25>,<token_26>,<token_8>|diphea|
+
+---
+### **Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko? Write down the number of the correct one.**
+
+The phrase "Ditema tsa Dinoko" is syllabified as: **Di-te-ma tsa Di-no-ko**.
+This is a sequence of 7 syllables. We must find the option with 7 tokens that matches this pattern.
+
+Let's analyze **Option 3**: `<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>`
+
+*   **<token_28>**: "equilateral triangle with a 2x2 internal grid and dotted outer edges." Dotted edges (`d`) + grid/doubling (`i`) → **di**.
+*   **<token_27>**: "dashed triangular outline containing a central vertical dividing line." This represents **te**.
+*   **<token_4>**: This is the known token for **ma**.
+*   **<token_24>**: "triangular frame containing a central horizontal line and a curved serrated line..." This represents **tsa**.
+*   **<token_28>**: The token for **di** repeats, which is correct.
+*   **<token_30>**: "circular element with three internal vertical bars connected to a dotted diagonal line..." The circular element (`O`) is a marker for `o`, and the loop/circle feature indicates `n` → **no**.
+*   **<token_29>**: "two intersecting zigzag diagonal lines... forming an inverted V-like structure." Intersecting lines indicate `k`, and the inverted V (`v`) indicates `o` → **ko**.
+
+The sequence of tokens in Option 3 perfectly decodes to "di-te-ma-tsa-di-no-ko".
+
+The correct option is **3**.[run 8]
+
+
+
+——
+
+
+This problem requires deciphering the Ditema tsa Dinoko script by identifying the system that maps its geometric tokens to the syllables of the Sesotho language.
+
+### **Methodology**
+
+1.  **Syllabic Mapping:** The initial examples show that the number of tokens in a word matches the number of syllables in its Roman script equivalent. This indicates that each token represents a single syllable.
+    *   `e-bi-tso` -> `<token_1>,<token_2>,<token_3>` (3 syllables, 3 tokens)
+    *   `ma-se-ru` -> `<token_4>,<token_5>,<token_6>` (3 syllables, 3 tokens)
+    *   ...and so on for all examples.
+
+2.  **Compositional System:** The token descriptions detail specific geometric features (shape, line style, internal markings). These features correspond to the phonetic components (consonants and vowels) of the syllables they represent. To solve the problem, we must first deduce the rules of this system.
+
+3.  **Solving Q4.2 First:** Question 4.2 provides a critical clue that helps establish the system's rules. By locating a known syllable within the target phrase, we can identify the correct option and deduce the meaning of several new tokens. The phrase is "Ditema tsa Dinoko", which syllabifies to `Di-te-ma-tsa-Di-no-ko`. We know from the initial examples that `<token_4>` corresponds to the syllable `ma`. The correct option must therefore have `<token_4>` as its third token.
+
+### **Q4.2. "Ditema tsa Dinoko"**
+
+Let's examine the options to find the one where `<token_4>` (`ma`) is the third token:
+
+1.  `<token_4>,<token_27>,<token_1>...` (`ma` is 1st)
+2.  `<token_28>,<token_29>,<token_30>...` (`ma` is not present in the first few tokens)
+3.  `<token_28>,<token_27>,**<token_4>**...` (`ma` is 3rd)
+4.  `<token_4>,<token_29>,<token_4>...` (`ma` is 1st and 3rd)
+
+Only **option 3** places `<token_4>` correctly as the third syllable. The repetition of `<token_28>` for the first and fifth syllables (`Di`) further confirms this choice.
+
+Therefore, the correct representation is **3**.
+
+By selecting option 3, we can establish the following new mappings:
+*   `<token_28>` = `Di`
+*   `<token_27>` = `te`
+*   `<token_4>` = `ma` (consistent)
+*   `<token_24>` = `tsa`
+*   `<token_30>` = `no`
+*   `<token_29>` = `ko`
+
+### **Decoding the Script's Rules**
+
+Using all the known mappings, we can deduce the phonetic rules based on the token descriptions:
+
+*   **Vowels:**
+    *   **a**: Indicated by a base-heavy element or a solid/filled shape (e.g., `<token_8>` `a`, `<token_4>` `ma`, `<token_24>` `tsa`).
+    *   **e**: Indicated by a directional or asymmetrical outline (e.g., `<token_1>` `e`, `<token_11>` `e`).
+    *   **i**: Indicated by a top or central internal feature (e.g., `<token_14>` `ki`, `<token_28>` `Di`, `<token_26>` `ti`).
+    *   **o**: Indicated by a circle, arc, or enclosing shape (e.g., `<token_7>` `ŋgo`, `<token_17>` `to`, `<token_30>` `no`).
+    *   **u**: Indicated by a diamond shape (e.g., `<token_6>` `ru`).
+
+*   **Consonants (by feature):**
+    *   **Dotted Lines**: Indicate voiced alveolar consonants like `d` or `n` (e.g., `<token_28>` `Di`, `<token_30>` `no`).
+    *   **Intersecting/Parallel Lines**: Indicate stop consonants like `t` or `d` (e.g., `<token_17>` `to`, `<token_21>` `di`).
+    *   **Dashed/Wavy/Zigzag Lines**: Indicate the consonant `l` (e.g., `<token_16>` `lin`, `<token_22>` `lo`).
+    *   **V-shape**: Indicates the bilabial nasal `m` (e.g., `<token_4>` `ma`, `<token_18>` `mo`).
+    *   **Multiple/Complex Shapes**: Indicate velar consonants like `k` (e.g., `<token_14>` `ki`, `<token_20>` `ka`).
+
+### **Q4.1. Roman Script Conversion**
+
+Applying these rules, we can now convert the unknown words.
+
+**Word 1: `<token_18>,<token_19>,<token_20>,<token_21>`**
+*   `<token_18>`: "central **V-shape**". The V-shape indicates the consonant **`m`**. The "two connected triangles" form an enclosing shape, suggesting the vowel **`o`**. Syllable: **`mo`**.
+*   `<token_19>`: "**intersection of ... lines**" + "**circular loop**". This combines the rule for **`t`** (intersecting lines) and **`o`** (circle). Syllable: **`to`**.
+*   `<token_20>`: "**three stacked triangular shapes**". Multiple complex shapes suggest the consonant **`k`**. The solid, base-heavy stacking implies the vowel **`a`**. Syllable: **`ka`**.
+*   `<token_21>`: "**dotted lines intersecting**" + "**central corner point**". Dotted intersecting lines indicate **`d`**. The central point is an internal feature, indicating **`i`**. Syllable: **`di`**.
+*   **Result:** `motokadi` (a word for "motorcar").
+
+**Word 2: `<token_22>,<token_23>,<token_24>`**
+*   `<token_22>`: "**dashed wavy lines**". This indicates the consonant **`l`**. The "equilateral triangle outlined" is an enclosing shape, for the vowel **`o`**. Syllable: **`lo`**.
+*   `<token_23>`: "**diagonal dotted line intersecting**". The dotted line indicates a voiced alveolar (`d` or `n`), and the intersection points to a stop, so **`d`**. The "inverted L-shaped structure" is directional, suggesting the vowel **`e`**. Syllable: **`de`**.
+*   `<token_24>`: This token was identified in Q4.2 as **`tsa`**.
+*   **Result:** `lodetsa` (from the verb "to sharpen").
+
+**Word 3: `<token_25>,<token_26>,<token_8>`**
+*   `<token_25>`: "**dotted diagonal lines**". Dotted lines suggest **`n`** (or `d`). The "simple triangular outline" is an enclosing shape, for the vowel **`o`**. Syllable: **`no`**.
+*   `<token_26>`: "right triangle...**lines above**". A right triangle appears in a token for `to`, suggesting the consonant **`t`**. The lines above are a top feature, indicating the vowel **`i`**. Syllable: **`ti`**.
+*   `<token_8>`: This token is from the initial examples and means **`a`**.
+*   **Result:** `notia` (from the verb "to make notes" or "to write").
+
+---
+### **Final Answers**
+
+**Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|`motokadi`|
+|<token_22>,<token_23>,<token_24>|`lodetsa`|
+|<token_25>,<token_26>,<token_8>|`notia`|
+
+
+**Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko? Write down the number of the correct one.**
+
+**3**[run 9]
+
+
+
+——
+
+
+This problem requires deciphering the Ditema tsa Dinoko script by analyzing the visual features of the tokens and mapping them to phonetic components (syllables) of the Sesotho language. The core method is to identify recurring visual patterns in the known examples and apply them to the unknown tokens. The script appears to be syllabic and compositional, where each token's features represent a consonant and a vowel.
+
+**Analysis of the Writing System**
+
+By comparing the tokens from the examples with their corresponding syllables, we can deduce a set of rules for how visual features map to phonetic sounds.
+
+1.  **Vowel Representation:** The base shape and texture seem to indicate the vowel.
+    *   **a**: A plain, unmodified triangular base (e.g., `<token_8>` for 'a').
+    *   **e**: Parallel lines (`<token_1>` for 'e') or specific edge textures like 'jagged' (`<token_11>` for 'e').
+    *   **i**: Dotted, dashed, or zigzag textures (`<token_16>` for 'lin') or complex internal features like a single line or nested shapes (`<token_2>`, `<token_14>`).
+    *   **o**: Connection to an external element like a circle (`<token_17>` for 'to') or a "framing" structure (`<token_10>` for 'to').
+    *   **u**: A doubled triangle, forming a diamond shape (`<token_6>` for 'ru').
+
+2.  **Consonant Representation:** Added elements or modifications to the base shape seem to represent the consonant.
+    *   **Sibilants (s, ts)**: A curved element, like a semicircle, arc, or wavy line (`<token_5>` for 'se', `<token_3>` for 'tso').
+    *   **Nasals (m, n, ŋg)**: A circle or loop is often present (`<token_4>` for 'ma', `<token_9>` for 'na', `<token_7>` for 'ŋgo').
+    *   **Bilabials (p, b, m)**: A 'V' shape or two converging vertical lines (`<token_12>` for 'ba', `<token_13>` for 'pi').
+    *   **Plosive 't'**: A right-angled triangle shape (`<token_17>` for 'to').
+    *   **Velar 'k'**: Complex internal patterns like nested or stacked triangles (`<token_14>` for 'ki').
+
+Using this system, we can now solve the questions.
+
+### **Q4.1. Convert the following Ditema tsa Dinoko words into Roman script:**
+
+**1. `<token_18>,<token_19>,<token_20>,<token_21>`**
+*   `<token_18>`: "V-shape" (bilabial `b`/`p`) + "jagged outlines" (vowel `e`, like `<token_11>`). Syllable: **be**.
+*   `<token_19>`: "circular loop" (nasal `n`) + connection to an external loop (vowel `o`). Syllable: **no**.
+*   `<token_20>`: "three stacked triangular shapes" (consonant `k`, similar to nested triangles in `<token_14>`) + basic triangle form (vowel `a`). Syllable: **ka**.
+*   `<token_21>`: "right-angle structure" (consonant `k`) + "dotted lines" (vowel `i`). Syllable: **ki**.
+The word is `be-no-ka-ki`.
+
+**2. `<token_22>,<token_23>,<token_24>`**
+*   `<token_22>`: "wavy lines" (sibilant `s`) + "dashed" texture (vowel `i`). Syllable: **si**.
+*   `<token_23>`: "inverted L-shaped structure" (consonant `l`) + "dotted line" (vowel `i`). Syllable: **li**.
+*   `<token_24>`: "curved serrated line" (sibilant `ts`) + base triangle form (vowel `a`). Syllable: **tsa**.
+The word is `si-li-tsa`.
+
+**3. `<token_25>,<token_26>,<token_8>`**
+*   `<token_25>`: "simple triangular outline" (no consonant) + "dotted diagonal lines" (vowel `i`). Syllable: **i**.
+*   `<token_26>`: "right triangle" (consonant `t`, as in `<token_17>`) + "two parallel horizontal lines" (vowel `e`, as in `<token_1>`). Syllable: **te**.
+*   `<token_8>`: This is a known token from the examples, representing the vowel **a**.
+The word is `i-te-a`.
+
+|Ditema tsa Dinoko script|Roman script|
+|------------------------|------------|
+|<token_18>,<token_19>,<token_20>,<token_21>|**benokaki**|
+|<token_22>,<token_23>,<token_24>|**silitsa**|
+|<token_25>,<token_26>,<token_8>|**itea**|
+
+### **Q4.2. Which of the following examples represents the words “Ditema tsa Dinoko" in Ditema tsa Dinoko?**
+
+The phrase "Ditema tsa Dinoko" is broken down into syllables as `Di-te-ma tsa Di-no-ko`.
+The key structural feature is that the first syllable, **`di`**, is repeated as the fifth syllable. Therefore, the correct Ditema tsa Dinoko representation must have its first token repeated as its fifth token.
+
+Let's examine the options:
+1.  `<token_4>,<token_27>,<token_1>,<token_2>,<token_4>,...` The first token (`<token_4>`) is repeated as the fifth. However, `<token_4>` is known to be `ma`, not `di`.
+2.  `<token_28>,<token_29>,<token_30>,<token_28>,...` The first token (`<token_28>`) is repeated as the fourth token, not the fifth.
+3.  **`<token_28>,<token_27>,<token_4>,<token_24>,<token_28>,<token_30>,<token_29>`** The first token (`<token_28>`) is correctly repeated as the fifth token. This matches the structure of `Di...tsa Di...`.
+4.  `<token_4>,<token_29>,<token_4>,...` The first token (`<token_4>`) is repeated as the third token.
+
+Based on the structural match, Option 3 is the only one that fits the pattern of the phrase. We can also verify some of the syllables using our rules:
+*   `ma` = `<token_4>` (known from examples). Matches.
+*   `tsa` = `<token_24>` (has a "curved...line" for `ts` and a base triangle for `a`). Matches our finding from Q4.1.
+*   `di` = `<token_28>` (has "dotted outer edges," consistent with our rule for the vowel `i`). Matches.
+
+The correct choice is **3**.

@@ -1,0 +1,296 @@
+[run 0]
+### Q 6.1  (give the number of a word)
+
+To identify these, use that Bislama often borrows directly from English/French in recognizable forms:
+
+- **(a) filosofi** → word **4**  
+- **(b) institiut** → word **10**  
+- **(c) blong** → word **11**
+
+---
+
+### Q 6.2  (give the number of a word)
+
+- **(a) village** → word **13**  
+- **(b) centre** → word **2**  
+- **(c) teach** → word **15**  
+- **(d) technology** → word **12**  
+- **(e) humanity** → word **5**
+
+---
+
+### Q 6.3  (geographical area of the Pacific mentioned)
+
+**Melanesia** is mentioned.[run 1]
+
+
+
+——
+
+
+### Q 6.1  (give a word number)
+
+To identify these, use that Bislama borrows heavily from English/French in spelling:
+
+- **(a) filosofi** ≈ “philosophy” → looks like a longer European loanword: **word 12**  
+- **(b) institiut** ≈ “institute” → also a long loanword: **word 10**  
+- **(c) blong** (very common Bislama preposition/marker “of/for/belonging to”) → likely one of the short high-frequency words: **word 11**
+
+### Q 6.2  (give a word number)
+
+- **(a) village** → **word 13**  
+- **(b) centre** → **word 8**  
+- **(c) teach** → **word 4**  
+- **(d) technology** → **word 5**  
+- **(e) humanity** → **word 15**
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 2]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+Because Bislama uses many English/French-derived words, we can often spot repeated “function words” and likely loanwords by where they appear and how often they repeat.
+
+**(a) filosofi** → **15**  
+**(b) institiut** → **10**  
+**(c) blong** → **3** (also appears as **6**, same word repeated)
+
+---
+
+### Q 6.2  (give the number of a word)
+
+**(a) village** → **13**  
+**(b) centre** → **8**  
+**(c) teach** → **4**  
+**(d) technology** → **12**  
+**(e) humanity** → **5**
+
+---
+
+### Q 6.3  Geographical area of the Pacific mentioned
+
+**Melanesia**[run 3]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+To find these, use the fact that Bislama borrows many such words almost directly from English/French spelling:
+
+- **(a) filosofi** → looks like “philosophy” → **word 10**  
+- **(b) institiut** → “institute” → **word 12**  
+- **(c) blong** (very common Bislama preposition “of/for/belonging to”) → short, frequent-looking connector word → **word 11**
+
+---
+
+### Q 6.2  (give the word number)
+
+- **(a) village** → **word 1**
+- **(b) centre** → **word 8**
+- **(c) teach** → **word 3** (also appears as word **6**, same token sequence)
+- **(d) technology** → **word 4**
+- **(e) humanity** → **word 5**
+
+---
+
+### Q 6.3
+
+The geographical area of the Pacific mentioned is **Melanesia**.[run 4]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+To answer this, we look for likely Bislama borrowings:
+
+- **blong** (“of / belonging to”) is one of the most common Bislama function words, so it will likely be a **short, frequent** word appearing in the sign. The only exact repeated word on the sign is **word 3 = word 6**, so that is very likely **blong**.
+
+- **institiut** and **filosofi** are longer “academic” loanwords, so they are likely among the longer items that appear once.
+
+Answers (one possible set):
+- (a) **filosofi** → **15**
+- (b) **institiut** → **12**
+- (c) **blong** → **3** (also **6**, since word 6 is identical)
+
+---
+
+### Q 6.2  (give the number of a word)
+
+Using the same logic (longer technical terms tend to be longer words; common concrete nouns and verbs tend to be medium length):
+
+- (a) **village** → **13**
+- (b) **centre** → **8**
+- (c) **teach** → **7**
+- (d) **technology** → **10**
+- (e) **humanity** → **5**
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia** is mentioned.[run 5]
+
+
+
+——
+
+
+### Q 6.1  (give a word number)
+
+To match these, look for Bislama words that are clear loans:
+
+- **(a) filosofi** → word **15**  
+- **(b) institiut** → word **4**  
+- **(c) blong** → word **13**
+
+---
+
+### Q 6.2  (give a word number)
+
+- **(a) village** → word **1**  
+- **(b) centre** → word **8**  
+- **(c) teach** → word **10**  
+- **(d) technology** → word **12**  
+- **(e) humanity** → word **5**
+
+---
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 6]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+To answer these, match obvious Bislama function words and common loanwords:
+
+- **(a) filosofi** → **word 4**  
+- **(b) institiut** → **word 10**  
+- **(c) blong** (“of / belonging to”) → **word 11**
+
+---
+
+### Q 6.2  (give the numbers of a word)
+
+- **(a) village** → **word 1**  
+- **(b) centre** → **word 8**  
+- **(c) teach** → **word 3** (also appears as **word 6**, same spelling)  
+- **(d) technology** → **word 12**  
+- **(e) humanity** → **word 15**
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia**[run 7]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+
+A key clue is that **word 3 and word 6 are identical**, and in Bislama a very common repeated word on signs is **blong** (“of / belonging to”). So:
+
+- **(c) blong** → **3** (also **6**)
+
+Now look for likely loanwords from English/French:
+
+- **institiut** (≈ “institute”) is long and “Latin/English-looking”; the best match among the remaining long, formal-looking words on an institutional sign is **word 4**.
+- **filosofi** (≈ “philosophy”) is also a formal subject word; the best match is **word 5**.
+
+So:
+- **(a) filosofi** → **5**  
+- **(b) institiut** → **4**  
+- **(c) blong** → **3** (or **6**)
+
+---
+
+### Q 6.2  (give the word number)
+
+Using the remaining words and typical phrasing for a college sign (things like “village”, “centre”, “technology”, “humanity”, “teach”):
+
+- **village** → **1**
+- **centre** → **8**
+- **teach** → **13**
+- **technology** → **10**
+- **humanity** → **15**
+
+---
+
+### Q 6.3
+
+The geographical area mentioned is **Melanesia**.[run 8]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+To answer these, note that Bislama function words often repeat, and that many content words are recognizable loans from English/French (e.g., *institut* ~ “institute”, *filosofi* ~ “philosophy”).
+
+- **(a) filosofi** → **word 15**  
+- **(b) institiut** → **word 10**  
+- **(c) blong** (“of / belonging to”) → **word 11**
+
+---
+
+### Q 6.2  (give the number of a word meaning …)
+
+- **(a) village** → **word 13**  
+- **(b) centre** → **word 8**  
+- **(c) teach** → **word 12**  
+- **(d) technology** → **word 9**  
+- **(e) humanity** → **word 14**
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia** is mentioned.[run 9]
+
+
+
+——
+
+
+### Q 6.1  (give the *number* of a word)
+
+To spot these, use the fact that Bislama borrows many “school/academic” words directly from English/French.
+
+- **(a) filosofi** → **15**  
+- **(b) institiut** → **12**  
+- **(c) blong** → **8**
+
+---
+
+### Q 6.2  (give the *number(s)* of a word)
+
+- **(a) village** → **13**  
+- **(b) centre** → **14**  
+- **(c) teach** → **10**  
+- **(d) technology** → **9**  
+- **(e) humanity** → **11**
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia**

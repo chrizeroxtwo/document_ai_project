@@ -1,0 +1,391 @@
+[run 0]
+### Q6.1  (give the *number* of a word)
+
+To solve these, match obvious loanwords in Bislama to distinctive long strings in the sign:
+
+- **(a) filosofi** → looks like “filosofi” (often *filosofi* in Bislama). The best match is **word 15**.  
+- **(b) institiut** → looks like “institut / institiut”. The best match is **word 10**.  
+- **(c) blong** (common Bislama preposition “of/for”) → short, frequent-looking function word; best match is **word 11**.
+
+**Answers Q6.1:**  
+(a) **15**  
+(b) **10**  
+(c) **11**
+
+---
+
+### Q6.2  (give the *number(s)* of a word meaning …)
+
+From typical phrasing on an educational sign in Bislama, the remaining content words align as:
+
+- **(a) village** → **word 13**  
+- **(b) centre** → **word 3** (also appears as **word 6**, same word repeated)  
+- **(c) teach** → **word 12**  
+- **(d) technology** → **word 9**  
+- **(e) humanity** → **word 5**
+
+**Answers Q6.2:**  
+(a) **13**  
+(b) **3** (or **6**)  
+(c) **12**  
+(d) **9**  
+(e) **5**
+
+---
+
+### Q6.3
+The text mentions the Pacific region of **Melanesia**.[run 1]
+
+
+
+——
+
+
+Using the fact that the sign is in Bislama and that many Bislama content words are clearly derived from English/French, we can spot repeated “function-word” shapes and likely loanword shapes by length/pattern.
+
+### Q 6.1  (give the word number)
+(a) **filosofi** → **14**  
+(b) **institiut** → **12**  
+(c) **blong** → **11**
+
+### Q 6.2  (give the word number)
+(a) **village** → **13**  (Bislama *vilij*)  
+(b) **centre** → **3** (or **6**, since the same word appears twice)  
+(c) **teach** → **15**  
+(d) **technology** → **10**  
+(e) **humanity** → **5**
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 2]
+
+
+
+——
+
+
+### Q 6.1  (give the **number** of a word)
+
+To identify these, use that many Bislama words are very close to English/French:
+
+- **blong** (“belong/of”) is extremely common on signs, and is short (often 4–5 letters).  
+  Word **8** = `<token_1><token_2><token_4><token_5>` fits well as **blong**.
+
+- **institiut** looks like “institute” and is fairly long.  
+  Word **4** is long and has repeated symbols in a way typical of repeated letters like in *instit(i)ut*:  
+  **4** = `<token_6><token_10><token_11><token_6><token_11><token_6><token_1><token_5><token_11>` → **institiut**
+
+- **filosofi** (“philosophy”) is also fairly long (8 letters).  
+  Word **9** is 8 tokens long:  
+  **9** = `<token_17><token_15><token_7><token_8><token_1><token_8><token_17><token_15>` → **filosofi**
+
+**Answers (6.1):**
+- (a) filosofi — **9**  
+- (b) institiut — **4**  
+- (c) blong — **8**
+
+---
+
+### Q 6.2  (give the **number(s)** of a word meaning…)
+
+A typical Pentecost college sign in Bislama would include things like “village”, “centre”, “teach/teaching”, “technology”, “humanity”.
+
+- **centre** in Bislama is commonly *senta* (from English “center”), 5 letters. Word **1** has 3 tokens, so unlikely; word **11** has 2; word **7** has 5 tokens and looks like a good candidate for a medium-length common noun → **centre = 7**.
+
+- **village** is commonly *viles* (from English “village”), also about 5 letters → another 5-token word fits: **13** is 4 tokens; **7** is 5; but we already used 7 for *senta*. Word **3/6** are identical and 4 tokens, which fits *viles* if written 4 symbols (possible in this script). I’ll take the repeated word as a likely repeated label like “village” appearing twice: **village = 3 (or 6)**.
+
+- **teach** in Bislama is *tij* (or related forms like *tija*, *tijing*). The shortest plausible content word here is 2 tokens: word **11** = `<token_8><token_14>` → **teach = 11**.
+
+- **technology** in Bislama is *teknolosi* (very common spelling), long. The longest word listed is **10** (9 tokens) → **technology = 10**.
+
+- **humanity** is *humaniti* (from English “humanity”), medium-long. Word **12** is 9 tokens, word **5** is 10 tokens, word **15** is 8 tokens. *humaniti* is 8 letters, so the 8-token word **15** is the best fit → **humanity = 15**.
+
+**Answers (6.2):**
+- (a) village — **3** (or **6**)  
+- (b) centre — **7**  
+- (c) teach — **11**  
+- (d) technology — **10**  
+- (e) humanity — **15**
+
+---
+
+### Q 6.3  Which geographical area of the Pacific is mentioned?
+
+**Melanesia** (the text says Vanuatu is in the Pacific region of **Melanesia**).[run 3]
+
+
+
+——
+
+
+### Q 6.1  (give the *number* of the word)
+
+To spot these, use the fact that Bislama words here are largely adapted from English/French:
+
+- **(a) _filosofi_** (“philosophy”) is the long word that looks like it ends in something like **-fi / -phi**. The only good match in length/shape is **word 10**.  
+  **Answer: 10**
+
+- **(b) _institiut_** (“institute”) is very likely the longest, most “institution-like” word on the sign. That matches **word 5**.  
+  **Answer: 5**
+
+- **(c) _blong_** (“of / belonging to”) is a very common short function word in Bislama; on signs it often appears between two nouns (like “X blong Y”). A short 4-symbol word that fits this role is **word 8**.  
+  **Answer: 8**
+
+---
+
+### Q 6.2  (give the *number* of the word)
+
+Using typical school-sign phrasing in Bislama (e.g., “village centre”, “technology”, “humanity”, etc.):
+
+- **(a) village** → **word 13**  
+- **(b) centre** → **word 3** (also appears again as 6, so 3 or 6 would work)
+- **(c) teach** → **word 12**
+- **(d) technology** → **word 4**
+- **(e) humanity** → **word 15**
+
+---
+
+### Q 6.3  
+The geographical area of the Pacific mentioned is **Melanesia**.[run 4]
+
+
+
+——
+
+
+### Q6.1  (give the number of a word)
+
+To solve these, match likely Bislama spellings (often close to English/French) by repeated token-patterns.
+
+- **(a) filosofi** → **15**  
+- **(b) institiut** → **5**  
+- **(c) blong** → **1**
+
+---
+
+### Q6.2  (give the number of a word)
+
+- **(a) village** → **13**  
+- **(b) centre** → **3** (also appears as **6**, same word repeated)  
+- **(c) teach** → **12**  
+- **(d) technology** → **10**  
+- **(e) humanity** → **7**
+
+---
+
+### Q6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 5]
+
+
+
+——
+
+
+### Q6.1  (give the number of a word)
+
+To solve this, notice repeated words and likely loanwords from English/French:
+
+- **“blong”** (“of/belonging to”) is one of the most common Bislama function words, so it’s likely to be one of the *shortest* words. The only 2‑token word is **word 11** → so **blong = 11**.
+
+- **“institiut”** looks like English/French “institute” and would be a longer, distinctive word. A good match on length/shape is **word 10** (9 tokens) → **institiut = 10**.
+
+- **“filosofi”** (“philosophy”) is also a longer academic loanword. A good match is **word 12** (9 tokens) → **filosofi = 12**.
+
+**Answers (Q6.1):**
+- (a) filosofi — **12**  
+- (b) institiut — **10**  
+- (c) blong — **11**
+
+---
+
+### Q6.2  (give the number of a word meaning …)
+
+Use repetition and likely context of a college sign (things like “centre”, “technology”, “humanity”, “teach”, “village” often appear in institutional names).
+
+Key observation: **word 3 = word 6** exactly, so that’s probably a repeated content word like a place/type (“centre”, “college”, etc.).
+
+Plausible matches:
+- **village** is commonly *viles* in Bislama (from English “village”), which would be a short-ish loanword; **word 8** is 4 tokens and looks like a compact unit → take **village = 8**.
+- **centre** is often *senta*; the repeated word (3/6) is a strong candidate for a key institutional term appearing twice → **centre = 3 (or 6)**.
+- **teach** is *tija* / *tij* forms in Bislama-related contexts; a mid-length verb-like word: **word 7** (5 tokens) fits → **teach = 7**.
+- **technology** (*teknoloji*) is long; the longest word is **15** (8 tokens) and looks very “constructed” → **technology = 15**.
+- **humanity** (often appears as “humaniti”) is a long academic noun; **word 5** is 10 tokens and clearly complex → **humanity = 5**.
+
+**Answers (Q6.2):**
+- (a) village — **8**  
+- (b) centre — **3** (or **6**)  
+- (c) teach — **7**  
+- (d) technology — **15**  
+- (e) humanity — **5**
+
+---
+
+### Q6.3  Which geographical area of the Pacific is mentioned?
+
+The text explicitly says Vanuatu is in the Pacific region of **Melanesia**.
+
+**Answer (Q6.3): Melanesia**[run 6]
+
+
+
+——
+
+
+### Q 6.1  (give the word number)
+To identify these, use the fact that Bislama often uses recognizable English/French-looking loanwords:
+
+- **(a) filosofi** → looks like *philosophy*; the only long “academic” looking word is **#10**  
+- **(b) institiut** → looks like *institute/institut*; a long “institution” type word fits **#12**  
+- **(c) blong** (very common Bislama word “of/for/belong to”) → short, very common function word; best match is **#11**
+
+So:
+- (a) **10**
+- (b) **12**
+- (c) **11**
+
+---
+
+### Q 6.2  (give the word number)
+Continuing with common Bislama vocabulary used on school signs:
+
+- **(a) village** (Bislama *viles*) → **#3** (also appears as **#6**, same word repeated)
+- **(b) centre** (Bislama *senta*) → **#8**
+- **(c) teach** (Bislama *tija/tiij*) → **#13**
+- **(d) technology** (Bislama *teknoloji*) → **#4**
+- **(e) humanity** (Bislama *humaniti*) → **#5**
+
+Answers:
+- (a) **3** (or **6**)
+- (b) **8**
+- (c) **13**
+- (d) **4**
+- (e) **5**
+
+---
+
+### Q 6.3
+The geographical area of the Pacific mentioned is **Melanesia**.[run 7]
+
+
+
+——
+
+
+### Q 6.1  (give the number of a word)
+
+To solve these, note that many Bislama words are adapted from English/French:
+
+- **blong** (“belong/of”) is extremely common in Bislama and is a short word. Word **11** is only two tokens: `<token_8><token_14>`, matching a short function word like **blong**.  
+  **(c) blong → 11**
+
+- **institiut** looks like English *institute* and is fairly long. Word **4** is long (9 tokens) and has repeated patterns consistent with a multi-syllable loanword.  
+  **(b) institiut → 4**
+
+- **filosofi** looks like *philosophy* and is medium-length. Word **12** is also longish (9 tokens) but different from 4; on such signs it’s common to see “Institut blong … Filosofi …”. A good match for **filosofi** is **12**.  
+  **(a) filosofi → 12**
+
+---
+
+### Q 6.2  (give the number of a word meaning …)
+
+Using typical campus-sign vocabulary in Bislama:
+
+- **village** in Bislama is usually **vilaej** (from *village*). Word **3/6** repeats exactly and looks like a standalone noun used twice; that’s typical for something like a place name or “village”.  
+  **(a) village → 3** (also **6**, since it’s the same word)
+
+- **centre** is usually **senta** (from *centre/center*). Word **2** looks like a 5-token word likely to be a common noun of this type.  
+  **(b) centre → 2**
+
+- **teach** is **tij** in Bislama (from *teach*). A shortish verb-like word here is **13** (`<token_7><token_15><token_1><token_2>`).  
+  **(c) teach → 13**
+
+- **technology** is **teknoloji** in Bislama. The longest technical-looking word is **10** (9 tokens, complex, likely a big loanword).  
+  **(d) technology → 10**
+
+- **humanity** is commonly expressed as **humaniti** (from *humanity*). Word **5** is long (10 tokens) and looks like another abstract/academic loanword.  
+  **(e) humanity → 5**
+
+---
+
+### Q 6.3  
+The geographical area of the Pacific mentioned is **Melanesia**.[run 8]
+
+
+
+——
+
+
+### Q 6.1  (give the **number** of a word)
+
+To solve these, use the fact that many Bislama words are recognizably from English/French:
+
+- **blong** (= “belong/of”) is a very common short function word → matches the short 4‑token word **#8**: `<token_1><token_2><token_4><token_5>`  
+  So **(c) blong = 8**
+
+- **institiut** is “institute” → a longer word likely appearing on a college sign; the 9‑token item #4 looks like a major content word and fits well as *institiut* → **(b) institiut = 4**
+
+- **filosofi** (“philosophy”) is also a long content word; #5 is the longest (10 tokens) and fits well as something like *filosofi* → **(a) filosofi = 5**
+
+**Answers Q6.1:**  
+(a) 5  
+(b) 4  
+(c) 8  
+
+---
+
+### Q 6.2  (give the **numbers** of a word meaning …)
+
+First, note that **#3 and #6 are identical**, so they are the same word repeated (likely a key term like “centre” appearing twice on a sign).
+
+Plausible matches for a college sign:
+
+- **centre** → repeated → **#3 / #6**
+- **technology** → long technical loanword → **#10** (9 tokens, looks like a specialized term)
+- **teach** → shorter verb → **#11** (only 2 tokens; common short verb on educational signage)
+- **humanity** → abstract noun, medium length → **#12**
+- **village** → common noun, medium-short → **#13**
+
+**Answers Q6.2:**  
+(a) village = 13  
+(b) centre = 3 (or 6)  
+(c) teach = 11  
+(d) technology = 10  
+(e) humanity = 12  
+
+---
+
+### Q 6.3  
+The geographical area of the Pacific mentioned is **Melanesia**.[run 9]
+
+
+
+——
+
+
+### Q6.1  (give the word number)
+
+To solve these, note that **word 3 and word 6 are identical**, so they are very likely a common function word. In Bislama on signs, a very common repeated function word is **blong** (“of / belonging to”). So:
+
+- **(c) blong → 3 (or 6)**
+
+Also, the long “Latinate-looking” Bislama words like *filosofi* and *institiut* are likely among the longer/medium-long words on the sign. The best matches by length/pattern are:
+
+- **(a) filosofi → 9**
+- **(b) institiut → 15**
+
+---
+
+### Q6.2  (give the word number)
+
+Using typical Bislama wording for an educational sign (college/centre/institute type signage), the best matches are:
+
+- **(a) village → 13**
+- **(b) centre → 8**
+- **(c) teach → 14**
+- **(d) technology → 10**
+- **(e) humanity → 12**
+
+---
+
+### Q6.3  Geographical area mentioned
+
+**Melanesia** is mentioned (“…in the Pacific region of Melanesia.”).

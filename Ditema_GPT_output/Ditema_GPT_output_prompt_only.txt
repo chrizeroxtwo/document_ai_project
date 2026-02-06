@@ -1,0 +1,323 @@
+[run 0]
+I can’t uniquely solve Q4.1 or Q4.2 from the information given, because the table does not provide a decipherment key mapping each individual `<token_N>` to a specific Roman letter/syllable (or to a consonant+vowel structure), and the unseen tokens in the questions (`<token_18>`…`<token_30>`) never appear with known Roman equivalents.
+
+To see why this blocks the solution:
+
+- From the examples you gave, we can only infer mappings for tokens that **repeat across known words**.  
+  The only token that repeats is `<token_8>`, appearing in:
+  - `<token_7>,<token_8>,<token_9>` = **ŋgoana**
+  - `<token_16>,<token_17>,<token_8>` = **lintoa**
+  
+  But even here, without knowing how Ditema segments letters (one token per letter? per syllable? per consonant-vowel unit?), `<token_8>` cannot be uniquely pinned down to a specific Roman chunk.
+
+- In Q4.1, two of the three items contain **only new tokens** (18–26), so there is no overlap with the “training” words. That makes conversion impossible without an external legend.
+
+- In Q4.2, the options use tokens 27–30, which likewise never appear in the labeled examples, so there is no way to determine which sequence corresponds to “Ditema tsa Dinoko”.
+
+### What I need to answer
+Please provide either:
+1) A token-to-Roman mapping (even partial), **or**
+2) More labeled word pairs that include the tokens used in Q4.1/Q4.2 (especially tokens 18–30), **or**
+3) The rule for how a word is tokenized (e.g., one token = one consonant symbol, another token = vowel symbol, etc.) plus enough examples to infer the mappings.
+
+If you paste the full question page (or include additional word examples that contain tokens 18–30), I can then decode Q4.1 and pick the correct option for Q4.2.[run 1]
+
+
+
+——
+
+
+To convert the new words, we’d need the *character-by-character* mapping from each Ditema token to its Roman equivalent. From the examples you gave, we can only reliably identify one token:
+
+- From **maseru** = `<token_4>,<token_5>,<token_6>` and **lintoa** = `<token_16>,<token_17>,<token_8>`, we see that both words end in **a** and only **lintoa** ends with `<token_8>`, so:
+  - `<token_8>` = **a**
+
+But the rest of the tokens (`<token_18>…<token_30>`) don’t appear in the training pairs in a way that lets us deduce their Roman letters/sounds uniquely.
+
+### Q4.1
+We can only fill in the last character for the third word:
+
+- `<token_25>,<token_26>,<token_8>` = `__ __ a` (ends in **a**)
+
+The other two items cannot be converted uniquely from the information provided.
+
+### Q4.2
+Likewise, we cannot determine which option spells **“Ditema tsa Dinoko”** without knowing what tokens correspond to the Roman letters/syllables in *ditema*, *tsa*, and *dinoko* (or seeing at least those words somewhere in the given examples).
+
+---
+
+If you provide either:
+1) the Ditema-token spellings for **ditema**, **tsa**, and/or **dinoko**, *or*  
+2) a few more paired examples that include some of the tokens 18–30,  
+
+then I can infer the mapping and answer both Q4.1 and Q4.2 completely.[run 2]
+
+
+
+——
+
+
+I can’t uniquely solve Q4.1 or Q4.2 from the information given, because the table doesn’t provide a key that maps each individual `<token_N>` to a specific Roman letter/syllable (or to Ditema consonant/vowel components). With only 6 example words (and no explicit breakdown into characters), there are many different consistent token→sound assignments that would fit the examples, so the conversion and the identification of “Ditema tsa Dinoko” are underdetermined.
+
+### What’s missing / what you’d need
+To convert new token sequences, we need at least one of the following:
+
+- A **token-by-token legend** (e.g., `<token_1>=e`, `<token_2>=bi`, …), or  
+- Enough paired examples where the **segmentation is unambiguous** (showing exactly which token corresponds to which Roman unit), or  
+- Confirmation that each `<token_N>` corresponds to exactly **one Roman letter** (not a syllable/phoneme), plus enough examples to deduce all needed letters.
+
+### Why it’s underdetermined (briefly)
+Example: `ebitso` has 6 Roman letters but is shown with only 3 tokens (`<token_1>,<token_2>,<token_3>`). That means each token must encode **more than one Roman letter** (e.g., syllables like *e* + *bi* + *tso*, or something similar). But we’re not told the encoding rule, so we can’t reliably decode new strings.
+
+### If you provide one extra piece of info, I can finish it
+If you tell me either:
+1) how each example word splits across the tokens (e.g., `ebitso = e | bi | tso`), **or**  
+2) the token→Roman mapping for even a few tokens,
+
+then I can decode Q4.1 and determine which option in Q4.2 matches “Ditema tsa Dinoko”.
+
+If you want, paste the same table again but annotate each word with boundaries like:
+- `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+and similarly for the other given words.[run 3]
+
+
+
+——
+
+
+From the given examples we can read off the sound values of several tokens:
+
+- **ebitso** = `<token_1>,<token_2>,<token_3>` ⇒ `<token_1>=e`, `<token_2>=bi`, `<token_3>=tso`
+- **maseru** = `<token_4>,<token_5>,<token_6>` ⇒ `<token_4>=ma`, `<token_5>=se`, `<token_6>=ru`
+- **ŋgoana** = `<token_7>,<token_8>,<token_9>` ⇒ `<token_7>=ŋgo`, `<token_8>=a`, `<token_9>=na`
+- **toeba** = `<token_10>,<token_11>,<token_12>` ⇒ `<token_10>=to`, `<token_11>=e`, `<token_12>=ba`
+- **pikitla** = `<token_13>,<token_14>,<token_15>` ⇒ `<token_13>=pi`, `<token_14>=ki`, `<token_15>=tla`
+- **lintoa** = `<token_16>,<token_17>,<token_8>` ⇒ `<token_16>=li`, `<token_17>=nto`, and confirms `<token_8>=a`
+
+### Q4.1
+For the three new words, the tokens `<token_18>`…`<token_26>` have **no provided mappings** in the table, so there isn’t enough information to convert them into Roman script. (Only `<token_8>` is known = **a**.)
+
+So the only partial conversion we can do is:
+
+- `<token_25>,<token_26>,<token_8>` = **??a** (ends in **a**)
+
+The other two cannot be converted with the information given.
+
+### Q4.2
+Likewise, to identify “Ditema tsa Dinoko” in the options, we would need to know the Roman values of `<token_27>`, `<token_28>`, `<token_29>`, `<token_30>`, and also how word boundaries are represented. None of those are given, so the correct option cannot be uniquely determined from the supplied mappings.
+
+If you can provide **one more example** that includes any of tokens 18–30 (paired with its Roman script), I can complete Q4.1 and Q4.2 unambiguously.[run 4]
+
+
+
+——
+
+
+I can’t determine the Roman-script forms (Q4.1) or pick the correct option (Q4.2) from the information given, because the dataset does not provide a **token → sound/letter** key (or enough repeated overlap) to uniquely decode the new tokens.
+
+From the examples we only know whole-word token sequences:
+
+- ebitso = <token_1>,<token_2>,<token_3>  
+- maseru = <token_4>,<token_5>,<token_6>  
+- ŋgoana = <token_7>,<token_8>,<token_9>  
+- toeba = <token_10>,<token_11>,<token_12>  
+- pikitla = <token_13>,<token_14>,<token_15>  
+- lintoa = <token_16>,<token_17>,<token_8>
+
+Only one token repeats across different known words: **<token_8>**, appearing in both ŋgoana and lintoa. That tells us only that those two words share *something* (a character/diacritic/segment), but not which Roman letter(s) it corresponds to. All the tokens appearing in Q4.1 and Q4.2 (e.g., <token_18>…<token_30>) are otherwise **unanchored**, so multiple Roman-script readings are possible.
+
+### What’s needed to solve it
+To answer Q4.1 and Q4.2 unambiguously, I’d need at least one of:
+1. A mapping table like: `<token_18> = di`, `<token_19> = te`, etc., **or**
+2. More training pairs where the **same tokens recur** in different words so we can infer consistent token-to-sound correspondences.
+
+If you provide either a token-key or a few more word pairs that reuse <token_18>–<token_30>, I can decode Q4.1 and identify the correct Q4.2 option.[run 5]
+
+
+
+——
+
+
+To convert the new Ditema tsa Dinoko sequences, we need a key that maps each `<token_N>` to a Roman-letter value (or syllable/segment). From your table we can only infer mappings for tokens 1–17, and even then only indirectly (because we don’t know how many Roman letters each token corresponds to—e.g., whether a token is a full syllable, a consonant+vowel block, etc.).
+
+### What we can infer from the given examples (partial, and not enough to solve)
+From **lintoa** = `<token_16>,<token_17>,<token_8>` and **ŋgoana** = `<token_7>,<token_8>,<token_9>`, we can at least see that:
+
+- `<token_8>` is a repeated “middle” unit shared by **ŋgoana** and **lintoa**.
+- But we still cannot uniquely determine whether `<token_8>` is “oa”, “o”, “to”, etc., because the script is not segmented for us.
+
+Also, Q4.1 uses tokens **18–26**, which never appear in the training table, so there is **no information at all** to map them to Roman script.
+
+---
+
+## Q4.1
+**Cannot be determined from the provided data.**  
+All three words contain tokens (18–26) that never appear in the given token↔word examples, so there is no basis to convert them.
+
+---
+
+## Q4.2
+**Cannot be determined from the provided data.**  
+To choose which option spells **“Ditema tsa Dinoko”**, we would need to know how “Ditema”, “tsa”, and “Dinoko” are encoded into tokens. The options include tokens (27–30) that also never appear in the training table, so we cannot identify the correct sequence.
+
+---
+
+### What you’d need to make these solvable
+Provide either:
+1) more example word pairs that include tokens 18–30, **or**  
+2) an explicit mapping of each token to its Roman value (letter/syllable), **or**  
+3) the Ditema tsa Dinoko images/characters these tokens stand for (so we can apply the script rules).
+
+If you share even a small additional set including tokens 18–30, I can solve both Q4.1 and Q4.2.[run 6]
+
+
+
+——
+
+
+I can’t uniquely solve Q4.1–Q4.2 from the information provided, because there’s no “key” that maps each `<token_N>` to a specific Sesotho sound/syllable/letter (or to Ditema tsa Dinoko glyph components). The table gives only **6 words**, and each word is written as **3 tokens**, but it does not tell us:
+
+- whether each token is a **letter**, a **syllable**, or a **whole CV unit**,
+- how word boundaries work beyond the commas,
+- or any systematic reuse that would let us infer the values of **new tokens** like `<token_18>…<token_30>`.
+
+### Why Q4.1 can’t be determined
+To convert:
+
+- `<token_18>,<token_19>,<token_20>,<token_21>`
+- `<token_22>,<token_23>,<token_24>`
+- `<token_25>,<token_26>,<token_8>`
+
+we would need mappings for tokens 18–26 and 24. None of those tokens appear in the given “training” examples, except `<token_8>`.
+
+Even `<token_8>` is not uniquely identifiable as a Roman unit: it appears in:
+
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana**
+- `<token_16>,<token_17>,<token_8>` = **lintoa**
+
+So `<token_8>` could correspond to **“a”**, or **a syllable**, or a **final vowel marker**, etc.—there isn’t enough structure to pin it down.
+
+### Why Q4.2 can’t be determined
+To choose which option spells **“Ditema tsa Dinoko”**, we’d need to know how tokens correspond to the Roman string:
+
+- Ditema / tsa / Dinoko
+
+But the answer choices use tokens `<token_27>…<token_30>` which never appear in the examples, and we’re not told anything about how spaces between words are encoded (if at all). So multiple options could fit under different token-to-sound assignments.
+
+---
+
+## What would make it solvable
+If you provide **either** of the following, I can solve both parts:
+
+1. A mapping like: `<token_1> = e`, `<token_2> = bi`, etc. (or however the units work), **or**
+2. More labeled examples that reuse tokens across different words (so we can infer token values), **or**
+3. The actual Ditema glyphs (images) instead of abstract tokens, plus the rules of the script (e.g., how consonants/vowels are composed).
+
+If you can paste a few more word examples (especially ones containing tokens 18–30), I’ll infer the mapping and then produce the Roman-script answers and pick the correct option for Q4.2.[run 7]
+
+
+
+——
+
+
+I can’t uniquely solve Q4.1 or Q4.2 from the information given, because there’s no key that maps each individual `<token_N>` to a specific Sesotho sound/letter (or syllable), and the examples provided don’t contain enough overlap to infer a complete mapping.
+
+### Why it’s underdetermined (briefly)
+From the training pairs we only get a few partial constraints, e.g.
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso**
+- `<token_4>,<token_5>,<token_6>` = **maseru**
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana**
+- `<token_10>,<token_11>,<token_12>` = **toeba**
+- `<token_13>,<token_14>,<token_15>` = **pikitla**
+- `<token_16>,<token_17>,<token_8>` = **lintoa**
+
+We can infer one useful fact:
+- Since `<token_8>` is the 2nd token in **ŋgoana** and the 3rd token in **lintoa**, it must be something that appears in both words. The only shared letter sequence is **“oa”** at the end of ŋgoana and lintoa.  
+  So `<token_8>` likely corresponds to **“oa”** (or a vowel nucleus like that), but that alone doesn’t let us decode the new words.
+
+For Q4.1, the tokens `<token_18>...<token_26>` never appear in the given “dictionary”, so there’s no basis to convert them.
+
+For Q4.2, the candidate strings use tokens like `<token_27>..<token_30>` that also never appear in the training pairs, and we also aren’t told how Ditema tsa Dinoko encodes spaces/word boundaries for “Ditema tsa Dinoko” (3 words), so we can’t identify which sequence corresponds to it.
+
+---
+
+## What I need to answer
+To make Q4.1 and Q4.2 solvable, please provide **either**:
+
+1) A **token-to-Roman mapping** (even partial), or  
+2) More example word pairs that include the tokens `{18–30}`, or  
+3) The actual Ditema characters/images for the tokens so I can use the script rules (if the task expects knowledge of the orthography).
+
+If you paste a few more training rows that contain `<token_18>` … `<token_30>`, I can infer the mapping and then give the Roman-script answers and pick the correct option for “Ditema tsa Dinoko”.[run 8]
+
+
+
+——
+
+
+I can’t uniquely solve Q4.1 or Q4.2 from the information given, because there isn’t a defined mapping from each individual token to a Roman-script unit (sound/letter/syllable), nor any examples showing how multi-word phrases (like “Ditema tsa Dinoko”) are segmented in this token notation.
+
+What we *do* have are only 6 whole-word examples:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso**
+- `<token_4>,<token_5>,<token_6>` = **maseru**
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana**
+- `<token_10>,<token_11>,<token_12>` = **toeba**
+- `<token_13>,<token_14>,<token_15>` = **pikitla**
+- `<token_16>,<token_17>,<token_8>` = **lintoa**
+
+From these, the only token-level inference we can safely make is:
+
+- `<token_8>` corresponds to the final part of **ŋgoana** and also the final part of **lintoa**. That suggests it might encode a vowel like **a**, but we can’t prove it because we don’t know the script’s encoding unit (it might be syllables, consonant-vowel blocks, etc.). Nothing else repeats in a way that pins down a mapping.
+
+Because Q4.1 asks for new words using mostly *new tokens* (`18–26`), and Q4.2 uses tokens (`27–30`) that never appear in the training table, there’s no way to determine the Roman outputs or the correct option without additional data.
+
+### What you’d need to provide to make this solvable
+Any one of the following would be enough:
+
+1. A key/table mapping each `<token_N>` to a Roman symbol (letter/phoneme/syllable), **or**
+2. A few more paired examples where some of `<token_18>…<token_30>` appear with known Roman-script words, **or**
+3. The Ditema script images themselves (so the underlying writing-system rules can be applied), instead of opaque tokens.
+
+If you share 3–5 more example pairs involving tokens 18–30 (even just short words), I can then infer the mapping and answer Q4.1 and Q4.2.[run 9]
+
+
+
+——
+
+
+I can’t uniquely solve Q4.1 or Q4.2 from the information given, because the table doesn’t provide enough token-to-sound (or token-to-syllable) mappings to decode new sequences.
+
+### Why it’s underdetermined
+From your examples we only know these whole-word correspondences:
+
+- `<token_1>,<token_2>,<token_3>` = **ebitso**
+- `<token_4>,<token_5>,<token_6>` = **maseru**
+- `<token_7>,<token_8>,<token_9>` = **ŋgoana**
+- `<token_10>,<token_11>,<token_12>` = **toeba**
+- `<token_13>,<token_14>,<token_15>` = **pikitla**
+- `<token_16>,<token_17>,<token_8>` = **lintoa**
+
+But we are **not told** whether each `<token_n>` stands for:
+- a single *letter*,
+- a *syllable* (more likely in Ditema tsa Dinoko),
+- or some other unit (like onset+vowel, etc.).
+
+Even if we assume “one token = one syllable”, there still isn’t enough overlap to identify what each token means. For example, the only repeated token is `<token_8>`, which occurs in **ŋgoana** and **lintoa**, but those two words share no obvious identical syllable string in common that would let us pin down `<token_8>` reliably without additional rules.
+
+### What would be needed to answer
+To convert new token strings (Q4.1) and identify “Ditema tsa Dinoko” (Q4.2), we’d need at least one of the following:
+
+1. A key that maps each `<token_n>` to a Roman value (letter/syllable), **or**
+2. More example words that reuse tokens in clearly-alignable positions, **or**
+3. The Ditema tsa Dinoko encoding rules (how consonants/vowels/tones are represented), **plus** a way to read each `<token_n>` as a specific symbol feature.
+
+### If you can provide one extra piece of info
+If you share either:
+- the Roman form for **one** of the unknown items in Q4.1, or
+- an explicit mapping for a few tokens (e.g., what `<token_4>` or `<token_28>` corresponds to),
+
+then I can infer the rest and answer both Q4.1 and Q4.2.
+
+If you want, paste the original problem image (the actual Ditema symbols), because then the decoding can be done from the script’s structure rather than from token placeholders.
